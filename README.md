@@ -33,6 +33,18 @@ node tools/smoke-campaign.mjs
 Projekt nie ma zależności npm do instalacji. Testy korzystają z wbudowanego
 runnera Node. W zarządzanym środowisku Sites podgląd obsługuje `sites-preview`.
 
+## GitHub Pages
+
+Gra: https://rtcoder.github.io/zwierzaki-atakuja-web-port/
+
+Workflow `.github/workflows/pages.yml` publikuje katalog `dist` po każdym pushu
+do `main`. Najpierw muszą przejść `npm test` i `npm run check`. Publikację można
+też uruchomić ręcznie w zakładce Actions, wybierając gałąź `main`.
+
+W ustawieniach repozytorium **Pages → Build and deployment → Source** musi być
+wybrane **GitHub Actions**. Workflow używa wbudowanego `GITHUB_TOKEN` i OIDC;
+nie wymaga dodatkowych sekretów ani gałęzi `gh-pages`.
+
 ## Sterowanie
 
 | Działanie | Sterowanie |
