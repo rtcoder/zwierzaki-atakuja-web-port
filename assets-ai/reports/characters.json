@@ -1,0 +1,889 @@
+[
+  {
+    "key": "char_squirrel1",
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/char_squirrel1.png",
+    "upscaled_reference": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/dist/assets/char_squirrel1.png",
+    "logical_size": [
+      54,
+      54
+    ],
+    "has_transparency": true,
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/char_squirrel1.png",
+    "prompt": "Use case: precise-object-edit. Asset type: isolated 2D cartoon game sprite char_squirrel1. Image 1 is the edit target. Recreate the SAME right-facing orange squirrel as a crisp high resolution clean cartoon illustration. Preserve exact pose, upright curled tail on left, right-facing head, open round eyes, orange body and brown lower belly/feet, cream muzzle, black nose, facial expression and all original relative silhouette placement and transparent margins (small character centered in square canvas with spacious margins). Repair tiny source pixel stair-steps, blurred eye details and ragged dark outline. Smooth coherent sharp hand-drawn outlines, simple flat colors and restrained original shading. No new objects or additional details, no redesign, no photorealism, no text, no checkerboard. Actual transparent background. Preserve source composition and proportions. Critical correction: faithfully trace the REFERENCE image, including TWO visible eyes (one round eye on left side of face and one smaller eye near upper right of face), short pointed snout, short paws and angular original upright tail. Keep exact squirrel bounding box, x=7..43 and y=10..38 within original 54x54 square: 13% left, 20% right, 19% top, 28% bottom clear margins. No large single Disney eye or smooth generic squirrel redesign. Both original eyes must be visible.",
+    "initial_prompt": "Use case: precise-object-edit. Asset type: isolated 2D cartoon game sprite char_squirrel1. Image 1 is the edit target. Recreate the SAME right-facing orange squirrel as a crisp high resolution clean cartoon illustration. Preserve exact pose, upright curled tail on left, right-facing head, open round eyes, orange body and brown lower belly/feet, cream muzzle, black nose, facial expression and all original relative silhouette placement and transparent margins (small character centered in square canvas with spacious margins). Repair tiny source pixel stair-steps, blurred eye details and ragged dark outline. Smooth coherent sharp hand-drawn outlines, simple flat colors and restrained original shading. No new objects or additional details, no redesign, no photorealism, no text, no checkerboard. Actual transparent background. Preserve source composition and proportions.",
+    "source_artifacts": "54px: schodkowane kontury ogona, rozmyte oczy i pyszczek; upscaled reference ma poszarpane obwódki.",
+    "qa": "Poprawiony wynik ma dwoje oczu i czyste kontury. Zachowuje kierunek, kolory i zasadniczą pozę. Ograniczenie: model zmienił dokładne proporcje nosa i marginesy; nie jest zamiennikiem pixel-perfect.",
+    "attempts": 2,
+    "generated_source": "/Users/rtcoder/.codex/generated_images/01a17440-1983-7e81-a53e-e86ddebcaa5a/exec-d9e18ccf-7ea5-4421-b987-84e980a43d9b.png",
+    "rejected_source": "/Users/rtcoder/.codex/generated_images/01a17440-1983-7e81-a53e-e86ddebcaa5a/exec-68693629-27cc-4537-8d7e-66ab3efc4a59.png",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "status": "generated_with_limitations",
+    "raw_alpha_extrema": [
+      0,
+      255
+    ],
+    "alpha_qa": "Obejrzano prawidłowy kompozyt na #355447; nie stwierdzono widocznych dziur wewnątrz sylwetki ani dużych obcych plam. Ocena kompozytu nie oznacza zgodności geometrii ze źródłem.",
+    "alpha_preview": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/qa-characters/char_squirrel1-alpha.png"
+  },
+  {
+    "key": "char_hedgehog1",
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/char_hedgehog1.png",
+    "upscaled_reference": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/dist/assets/char_hedgehog1.png",
+    "logical_size": [
+      54,
+      54
+    ],
+    "has_transparency": true,
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/char_hedgehog1.png",
+    "prompt": "Use case: precise-object-edit. Asset type: 2D cartoon game sprite. Input image is edit target. Recreate this exact sprite as a high resolution sharp clean cartoon drawing. Preserve species, pose, expression, damage/animation state, exact relative silhouette size and position on canvas, colors, body proportions, all visible features and transparent margins. Smooth coherent sharp outlines and simple original colored shading; repair pixel stair steps, fuzzy details and ragged outlines. No redesign, new props, added limbs, text, photorealism, scenery or checkerboard. Actual transparent background. Specific reference features: Right-facing brown hedgehog walking, small beige feet below, fan of long brown spines around upper and left body, beige face and belly, TWO visible eyes looking right, round dark brown nose at right. Subject spans roughly 65% width and 55% height centered slightly right.",
+    "source_artifacts": "Schodkowane kolce i rozmyte dwie gałki oczne; obwódki w powiększeniu.",
+    "generated_source": "/Users/rtcoder/.codex/generated_images/01a17440-1983-7e81-a53e-e86ddebcaa5a/exec-ca0830a4-9cda-42cb-bac7-7e1a17add4a6.png",
+    "attempts": 1,
+    "qa": "Czyste krawędzie i czytelne dwoje oczu; zachowany kierunek i kolczasta postać. Model nieznacznie powiększył nos, łapy i udział sylwetki w kadrze.",
+    "status": "generated_with_limitations",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "raw_alpha_extrema": [
+      0,
+      255
+    ],
+    "alpha_qa": "Obejrzano prawidłowy kompozyt na #355447; nie stwierdzono widocznych dziur wewnątrz sylwetki ani dużych obcych plam. Ocena kompozytu nie oznacza zgodności geometrii ze źródłem.",
+    "alpha_preview": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/qa-characters/char_hedgehog1-alpha.png"
+  },
+  {
+    "key": "char_hedgehog2",
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/char_hedgehog2.png",
+    "upscaled_reference": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/dist/assets/char_hedgehog2.png",
+    "logical_size": [
+      54,
+      54
+    ],
+    "has_transparency": true,
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/char_hedgehog2.png",
+    "prompt": "Use case: precise-object-edit. Asset type: 2D cartoon game sprite. Input image is edit target. Recreate this exact sprite as a high resolution sharp clean cartoon drawing. Preserve species, pose, expression, damage/animation state, exact relative silhouette size and position on canvas, colors, body proportions, all visible features and transparent margins. Smooth coherent sharp outlines and simple original colored shading; repair pixel stair steps, fuzzy details and ragged outlines. No redesign, new props, added limbs, text, photorealism, scenery or checkerboard. Actual transparent background. Specific reference features: Right-facing brown hedgehog starting to curl up, rounded brown spiny silhouette, beige muzzle with TWO visible eyes near right and rounded brown nose projecting right. No visible feet. Preserve distinct animation from standing hedgehog.",
+    "source_artifacts": "Zlane oczy, pikselowe zakończenia kolców; rozmyty nos.",
+    "generated_source": "/Users/rtcoder/.codex/generated_images/01a17440-1983-7e81-a53e-e86ddebcaa5a/exec-10d06dca-b80a-4627-b171-070f76676f4b.png",
+    "attempts": 1,
+    "qa": "Ostra sylwetka zwiniętego jeża bez łap, oba oczy zachowane. Różnice: większy udział sylwetki w kadrze i gładsze, dłuższe kolce.",
+    "status": "generated_with_limitations",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "raw_alpha_extrema": [
+      0,
+      255
+    ],
+    "alpha_qa": "Obejrzano prawidłowy kompozyt na #355447; nie stwierdzono widocznych dziur wewnątrz sylwetki ani dużych obcych plam. Ocena kompozytu nie oznacza zgodności geometrii ze źródłem.",
+    "alpha_preview": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/qa-characters/char_hedgehog2-alpha.png"
+  },
+  {
+    "key": "char_hedgehog3",
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/char_hedgehog3.png",
+    "upscaled_reference": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/dist/assets/char_hedgehog3.png",
+    "logical_size": [
+      54,
+      54
+    ],
+    "has_transparency": true,
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/char_hedgehog3.png",
+    "prompt": "Use case: precise-object-edit. Asset type: 2D cartoon game sprite. Input image is edit target. Recreate this exact sprite as a high resolution sharp clean cartoon drawing. Preserve species, pose, expression, damage/animation state, exact relative silhouette size and position on canvas, colors, body proportions, all visible features and transparent margins. Smooth coherent sharp outlines and simple original colored shading; repair pixel stair steps, fuzzy details and ragged outlines. No redesign, new props, added limbs, text, photorealism, scenery or checkerboard. Actual transparent background. Specific reference features: Curled round ball hedgehog, circular brown body bordered by short brown spines, TWO round eyes looking right in upper-right portion of ball, darker brown nose flush near right edge. No limbs, no ears added, no beige muzzle.",
+    "source_artifacts": "Słabo czytelne oczy i nos, poszarpana obwódka kulistego tułowia.",
+    "generated_source": "/Users/rtcoder/.codex/generated_images/01a17440-1983-7e81-a53e-e86ddebcaa5a/exec-6afa89e9-6db3-4735-8e41-df37253b708e.png",
+    "attempts": 1,
+    "qa": "Zachowany kulisty stan animacji, brak łap i beżowego pyszczka, dwoje oczu. Kontury ostre. Ograniczenie: bardziej regularne kolce, nieznacznie inny nos.",
+    "status": "generated_with_limitations",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "raw_alpha_extrema": [
+      0,
+      255
+    ],
+    "alpha_qa": "Obejrzano prawidłowy kompozyt na #355447; nie stwierdzono widocznych dziur wewnątrz sylwetki ani dużych obcych plam. Ocena kompozytu nie oznacza zgodności geometrii ze źródłem.",
+    "alpha_preview": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/qa-characters/char_hedgehog3-alpha.png"
+  },
+  {
+    "key": "char_hedgehog4",
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/char_hedgehog4.png",
+    "upscaled_reference": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/dist/assets/char_hedgehog4.png",
+    "logical_size": [
+      54,
+      54
+    ],
+    "has_transparency": true,
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/char_hedgehog4.png",
+    "prompt": "Use case: precise-object-edit. Asset type: 2D cartoon game sprite. Input image is edit target. Recreate this exact sprite as a high resolution sharp clean cartoon drawing. Preserve species, pose, expression, damage/animation state, exact relative silhouette size and position on canvas, colors, body proportions, all visible features and transparent margins. Smooth coherent sharp outlines and simple original colored shading; repair pixel stair steps, fuzzy details and ragged outlines. No redesign, new props, added limbs, text, photorealism, scenery or checkerboard. Actual transparent background. Specific reference features: Small nearly round beige tan hedgehog ball with smooth short stubby outline, TWO pale eyes looking right in upper-right area; tiny beige protrusion at right. This animation has NO BROWN SPINES. Preserve small ball size about one third of square canvas centered. Correction: keep the beige body SURFACE PLAIN and softly shaded, without spots, pores, polka dots, scales or any pattern; the tiny source grain is a low-resolution artifact, not decorative dots.",
+    "source_artifacts": "Rozmyte jasne oczy i krawędzie małej beżowej bryły.",
+    "generated_source": "/Users/rtcoder/.codex/generated_images/01a17440-1983-7e81-a53e-e86ddebcaa5a/exec-a46f3191-3db1-4bef-982a-5aeed91fad4d.png",
+    "attempts": 2,
+    "rejected_source": "/Users/rtcoder/.codex/generated_images/01a17440-1983-7e81-a53e-e86ddebcaa5a/exec-b056b5ba-5a63-4f7b-b6e1-b0bb9f2e7e8d.png",
+    "initial_prompt": "Use case: precise-object-edit. Asset type: 2D cartoon game sprite. Input image is edit target. Recreate this exact sprite as a high resolution sharp clean cartoon drawing. Preserve species, pose, expression, damage/animation state, exact relative silhouette size and position on canvas, colors, body proportions, all visible features and transparent margins. Smooth coherent sharp outlines and simple original colored shading; repair pixel stair steps, fuzzy details and ragged outlines. No redesign, new props, added limbs, text, photorealism, scenery or checkerboard. Actual transparent background. Specific reference features: Small nearly round beige tan hedgehog ball with smooth short stubby outline, TWO pale eyes looking right in upper-right area; tiny beige protrusion at right. This animation has NO BROWN SPINES. Preserve small ball size about one third of square canvas centered.",
+    "qa": "Korekta usunęła halucynowane kropki. Czysta beżowa kula z parą oczu, brak kolców zgodnie z oryginałem. Nieznacznie zmieniony kształt oczu i refleks na bryle.",
+    "status": "generated_with_limitations",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "raw_alpha_extrema": [
+      0,
+      255
+    ],
+    "alpha_qa": "Obejrzano prawidłowy kompozyt na #355447; nie stwierdzono widocznych dziur wewnątrz sylwetki ani dużych obcych plam. Ocena kompozytu nie oznacza zgodności geometrii ze źródłem.",
+    "alpha_preview": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/qa-characters/char_hedgehog4-alpha.png"
+  },
+  {
+    "key": "char_rabbit1",
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/char_rabbit1.png",
+    "upscaled_reference": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/dist/assets/char_rabbit1.png",
+    "logical_size": [
+      54,
+      54
+    ],
+    "has_transparency": true,
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/char_rabbit1.png",
+    "prompt": "Use case: precise-object-edit. Asset type: 2D cartoon game sprite. Input image is edit target. Recreate this exact sprite as a high resolution sharp clean cartoon drawing. Preserve species, pose, expression, damage/animation state, exact relative silhouette size and position on canvas, colors, body proportions, all visible features and transparent margins. Smooth coherent sharp outlines and simple original colored shading; repair pixel stair steps, fuzzy details and ragged outlines. No redesign, new props, added limbs, text, photorealism, scenery or checkerboard. Actual transparent background. Specific reference features: Pale blue-grey rabbit in long horizontal crouching/leaping pose facing right, rounded hindquarters on left, hind leg pale oval, small tail far left, tiny white cheek and pink nose facing right, dark grey forepaws under right. TWO long ears extend upward to near top edge, pink interiors, right ear curved right. Body low in frame.",
+    "source_artifacts": "Postrzępione brzegi uszu, rozmyty pysk i oko, zlane przednie łapki.",
+    "generated_source": "/Users/rtcoder/.codex/generated_images/01a17440-1983-7e81-a53e-e86ddebcaa5a/exec-8cccc482-e24a-4305-89ba-efaa607c2236.png",
+    "attempts": 1,
+    "qa": "Ostre uszy i czytelny pysk. Zachowana pozycja nisko i kierunek w prawo. Różnice: większe policzki, bardziej wyraźna mimika i grubszy kontur.",
+    "status": "generated_with_limitations",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "raw_alpha_extrema": [
+      0,
+      255
+    ],
+    "alpha_qa": "Obejrzano prawidłowy kompozyt na #355447; nie stwierdzono widocznych dziur wewnątrz sylwetki ani dużych obcych plam. Ocena kompozytu nie oznacza zgodności geometrii ze źródłem.",
+    "alpha_preview": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/qa-characters/char_rabbit1-alpha.png"
+  },
+  {
+    "key": "char_rabbit2",
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/char_rabbit2.png",
+    "upscaled_reference": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/dist/assets/char_rabbit2.png",
+    "logical_size": [
+      54,
+      54
+    ],
+    "has_transparency": true,
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/char_rabbit2.png",
+    "prompt": "Use case: precise-object-edit. Asset type: 2D cartoon game sprite. Input image is edit target. Recreate this exact sprite as a high resolution sharp clean cartoon drawing. Preserve species, pose, expression, damage/animation state, exact relative silhouette size and position on canvas, colors, body proportions, all visible features and transparent margins. Smooth coherent sharp outlines and simple original colored shading; repair pixel stair steps, fuzzy details and ragged outlines. No redesign, new props, added limbs, text, photorealism, scenery or checkerboard. Actual transparent background. Specific reference features: Pale blue-grey rabbit in shorter horizontal crouching pose facing right. Rounded body left, small white fluffy tail far left, round hind leg low left, small face and grey forepaws at right. TWO upright ears with pink interiors, taller left ear and shorter bent right ear. Body lower half of canvas. Keep this pose shorter/rounder than rabbit1. Image 2 is identity/style guide ONLY; image 1 determines pose, size, framing and animation state.",
+    "source_artifacts": "Zlane oczy i przednie łapy, schodkowane brzegi uszu i ogona.",
+    "generated_source": "/Users/rtcoder/.codex/generated_images/01a17440-1983-7e81-a53e-e86ddebcaa5a/exec-e7b3c7a4-5bc6-43b5-b258-a2b718d142ee.png",
+    "attempts": 1,
+    "qa": "Styl spójny z rabbit1, krótsze prawe ucho i nieco bardziej zwarta poza; kontury ostre. Proporcje mordki i zajęta część kadru odbiegają od źródła.",
+    "status": "generated_with_limitations",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "raw_alpha_extrema": [
+      0,
+      255
+    ],
+    "alpha_qa": "Obejrzano prawidłowy kompozyt na #355447; nie stwierdzono widocznych dziur wewnątrz sylwetki ani dużych obcych plam. Ocena kompozytu nie oznacza zgodności geometrii ze źródłem.",
+    "alpha_preview": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/qa-characters/char_rabbit2-alpha.png"
+  },
+  {
+    "key": "char_rabbit3",
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/char_rabbit3.png",
+    "upscaled_reference": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/dist/assets/char_rabbit3.png",
+    "logical_size": [
+      54,
+      54
+    ],
+    "has_transparency": true,
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/char_rabbit3.png",
+    "prompt": "Use case: precise-object-edit. Asset type: 2D cartoon game sprite. Input image is edit target. Recreate this exact sprite as a high resolution sharp clean cartoon drawing. Preserve species, pose, expression, damage/animation state, exact relative silhouette size and position on canvas, colors, body proportions, all visible features and transparent margins. Smooth coherent sharp outlines and simple original colored shading; repair pixel stair steps, fuzzy details and ragged outlines. No redesign, new props, added limbs, text, photorealism, scenery or checkerboard. Actual transparent background. Specific reference features: Pale blue-grey rabbit in compact near-upright huddled pose facing right. Small rounded body center, white fluffy tail left, small front paws right bottom. TWO short upright ears with pink interiors, short snout right, white cheek, tiny eye. Keep original small compact silhouette centered; about half canvas width and two-thirds height. Image 2 is identity/style guide ONLY; image 1 determines compact pose, much smaller silhouette, framing and animation state. Do not reproduce crouching long-body pose of image 2.",
+    "source_artifacts": "Mała twarz nieczytelna, nierówna obwódka tułowia i uszu.",
+    "generated_source": "/Users/rtcoder/.codex/generated_images/01a17440-1983-7e81-a53e-e86ddebcaa5a/exec-29d40378-67cd-47a5-aaed-cc67681b187b.png",
+    "attempts": 1,
+    "qa": "Zachowana mała zwarta sylwetka i krótsze uszy. Styl spójny z pozostałymi królikami. Ograniczenie: powiększone policzki i oczy.",
+    "status": "generated_with_limitations",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "raw_alpha_extrema": [
+      0,
+      255
+    ],
+    "alpha_qa": "Obejrzano prawidłowy kompozyt na #355447; nie stwierdzono widocznych dziur wewnątrz sylwetki ani dużych obcych plam. Ocena kompozytu nie oznacza zgodności geometrii ze źródłem.",
+    "alpha_preview": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/qa-characters/char_rabbit3-alpha.png"
+  },
+  {
+    "key": "char_skunk1",
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/char_skunk1.png",
+    "upscaled_reference": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/dist/assets/char_skunk1.png",
+    "logical_size": [
+      54,
+      54
+    ],
+    "has_transparency": true,
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/char_skunk1.png",
+    "prompt": "Use case: precise-object-edit. Asset type: 2D cartoon game sprite. Input image is edit target. Recreate this exact sprite as a high resolution sharp clean cartoon drawing. Preserve species, pose, expression, damage/animation state, exact relative silhouette size and position on canvas, colors, body proportions, all visible features and transparent margins. Smooth coherent sharp outlines and simple original colored shading; repair pixel stair steps, fuzzy details and ragged outlines. No redesign, new props, added limbs, text, photorealism, scenery or checkerboard. Actual transparent background. Specific reference features: Black skunk standing in right-facing side profile, FOUR short legs suggested beneath long horizontal body, very large raised curled fluffy tail on left, bright WHITE STRIPE arcs along upper tail and extends onto back. Two tiny triangular ears, TWO round white eyes, white forehead tuft and white muzzle/nose at right. Preserve wide low silhouette centered, spanning about 85% width and 45% height. Critical correction: output must have SQUARE 1:1 CANVAS, like the input. Keep skunk inside middle horizontal band, with approximately 30% empty transparent margin above and 30% below. Do not output a landscape canvas. Keep all original features.",
+    "source_artifacts": "Postrzępiona jasna pręga i uszy, rozmyte oczy, zlane czarne łapy.",
+    "generated_source": "/Users/rtcoder/.codex/generated_images/01a17440-1983-7e81-a53e-e86ddebcaa5a/exec-72d30625-4ff7-4e2f-b476-e7600217862d.png",
+    "attempts": 2,
+    "rejected_source": "/Users/rtcoder/.codex/generated_images/01a17440-1983-7e81-a53e-e86ddebcaa5a/exec-546ac815-1a8d-47db-8968-87477cee1e91.png",
+    "initial_prompt": "Use case: precise-object-edit. Asset type: 2D cartoon game sprite. Input image is edit target. Recreate this exact sprite as a high resolution sharp clean cartoon drawing. Preserve species, pose, expression, damage/animation state, exact relative silhouette size and position on canvas, colors, body proportions, all visible features and transparent margins. Smooth coherent sharp outlines and simple original colored shading; repair pixel stair steps, fuzzy details and ragged outlines. No redesign, new props, added limbs, text, photorealism, scenery or checkerboard. Actual transparent background. Specific reference features: Black skunk standing in right-facing side profile, FOUR short legs suggested beneath long horizontal body, very large raised curled fluffy tail on left, bright WHITE STRIPE arcs along upper tail and extends onto back. Two tiny triangular ears, TWO round white eyes, white forehead tuft and white muzzle/nose at right. Preserve wide low silhouette centered, spanning about 85% width and 45% height.",
+    "qa": "Korekta przywróciła kwadratowe płótno i duże marginesy pionowe. Czytelna biała pręga, dwoje białych oczu, kierunek w prawo. Sylwetka gładsza i bardziej zaokrąglona.",
+    "status": "generated_with_limitations",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "raw_alpha_extrema": [
+      0,
+      255
+    ],
+    "alpha_qa": "Obejrzano prawidłowy kompozyt na #355447; nie stwierdzono widocznych dziur wewnątrz sylwetki ani dużych obcych plam. Ocena kompozytu nie oznacza zgodności geometrii ze źródłem.",
+    "alpha_preview": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/qa-characters/char_skunk1-alpha.png"
+  },
+  {
+    "key": "char_skunk2",
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/char_skunk2.png",
+    "upscaled_reference": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/dist/assets/char_skunk2.png",
+    "logical_size": [
+      54,
+      54
+    ],
+    "has_transparency": true,
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/char_skunk2.png",
+    "prompt": "Use case: precise-object-edit. Asset type: 2D cartoon game sprite. Input image is edit target. Recreate this exact sprite as a high resolution sharp clean cartoon drawing. Preserve species, pose, expression, damage/animation state, exact relative silhouette size and position on canvas, colors, body proportions, all visible features and transparent margins. Smooth coherent sharp outlines and simple original colored shading; repair pixel stair steps, fuzzy details and ragged outlines. No redesign, new props, added limbs, text, photorealism, scenery or checkerboard. Actual transparent background. Specific reference features:  Output SQUARE 1:1 canvas for square source; preserve original transparent margins. Black skunk compact running/bounding frame, facing RIGHT, curled raised tail on left with bright WHITE stripe, compact torso with tucked short legs below, head right with white forehead tuft, TWO white eyes and white muzzle. Smaller sprite than first frame, occupying central 60% width and 45% height. Image 2 is identity/style guide ONLY; image 1 determines pose, smaller size, framing and animation state.",
+    "source_artifacts": "Rozmyte białe oczy/pysk, zlane podwinięte łapy i pręga.",
+    "generated_source": "/Users/rtcoder/.codex/generated_images/01a17440-1983-7e81-a53e-e86ddebcaa5a/exec-3df382b9-f548-4325-a906-f7b8c166f8f7.png",
+    "attempts": 1,
+    "qa": "Mniejsza sylwetka, podwinięte łapy i kierunek zachowane. Spójny styl skunk1. Różnica: model wydłużył tułów i powiększył uszy.",
+    "status": "generated_with_limitations",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "raw_alpha_extrema": [
+      0,
+      255
+    ],
+    "alpha_qa": "Obejrzano prawidłowy kompozyt na #355447; nie stwierdzono widocznych dziur wewnątrz sylwetki ani dużych obcych plam. Ocena kompozytu nie oznacza zgodności geometrii ze źródłem.",
+    "alpha_preview": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/qa-characters/char_skunk2-alpha.png"
+  },
+  {
+    "key": "char_skunk3",
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/char_skunk3.png",
+    "upscaled_reference": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/dist/assets/char_skunk3.png",
+    "logical_size": [
+      54,
+      54
+    ],
+    "has_transparency": true,
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/char_skunk3.png",
+    "prompt": "Use case: precise-object-edit. Asset type: 2D cartoon game sprite. Input image is edit target. Recreate this exact sprite as a high resolution sharp clean cartoon drawing. Preserve species, pose, expression, damage/animation state, exact relative silhouette size and position on canvas, colors, body proportions, all visible features and transparent margins. Smooth coherent sharp outlines and simple original colored shading; repair pixel stair steps, fuzzy details and ragged outlines. No redesign, new props, added limbs, text, photorealism, scenery or checkerboard. Actual transparent background. Specific reference features:  Output SQUARE 1:1 canvas for square source; preserve original transparent margins. Black skunk compressed horizontal leaping frame, facing RIGHT. Arched curled tail left with white stripe, low compact black body and head at right, white forehead tuft, TWO white eyes, white muzzle. NO VISIBLE dangling legs, body forms elongated horizontal silhouette. Sprite occupies center 65% width and 35% height. Image 2 is identity/style guide ONLY; image 1 determines compact flattened pose, size, framing and animation state; do not copy standing legs of image 2. Correction: preserve a ROUND plump compact black torso behind head, not a flattened pancake. The absence of dangling legs does NOT mean torso is flat. Tail should arc almost horizontally at similar height to head rather than tower above it. Strict image 1 pose. Silhouette only 65 percent canvas width.",
+    "source_artifacts": "Zlane łapy z tułowiem, postrzępiona pręga i rozmyte oczy.",
+    "generated_source": "/Users/rtcoder/.codex/generated_images/01a17440-1983-7e81-a53e-e86ddebcaa5a/exec-aafb38ea-7136-4cae-a86a-e1f061479b12.png",
+    "attempts": 2,
+    "rejected_source": "/Users/rtcoder/.codex/generated_images/01a17440-1983-7e81-a53e-e86ddebcaa5a/exec-ae9ca752-6e2d-450b-bd7f-bd1519096caf.png",
+    "initial_prompt": "Use case: precise-object-edit. Asset type: 2D cartoon game sprite. Input image is edit target. Recreate this exact sprite as a high resolution sharp clean cartoon drawing. Preserve species, pose, expression, damage/animation state, exact relative silhouette size and position on canvas, colors, body proportions, all visible features and transparent margins. Smooth coherent sharp outlines and simple original colored shading; repair pixel stair steps, fuzzy details and ragged outlines. No redesign, new props, added limbs, text, photorealism, scenery or checkerboard. Actual transparent background. Specific reference features:  Output SQUARE 1:1 canvas for square source; preserve original transparent margins. Black skunk compressed horizontal leaping frame, facing RIGHT. Arched curled tail left with white stripe, low compact black body and head at right, white forehead tuft, TWO white eyes, white muzzle. NO VISIBLE dangling legs, body forms elongated horizontal silhouette. Sprite occupies center 65% width and 35% height. Image 2 is identity/style guide ONLY; image 1 determines compact flattened pose, size, framing and animation state; do not copy standing legs of image 2.",
+    "qa": "Ostry kontur, spójna czarno-biała stylistyka. Po korekcie nadal zbyt płaski tułów i zbyt duży ogon względem źródła; klatka wymaga dalszego dopasowania przed integracją.",
+    "status": "generated_with_limitations",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "raw_alpha_extrema": [
+      0,
+      255
+    ],
+    "alpha_qa": "Obejrzano prawidłowy kompozyt na #355447; nie stwierdzono widocznych dziur wewnątrz sylwetki ani dużych obcych plam. Ocena kompozytu nie oznacza zgodności geometrii ze źródłem.",
+    "alpha_preview": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/qa-characters/char_skunk3-alpha.png"
+  },
+  {
+    "key": "char_squirrel2",
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/char_squirrel2.png",
+    "upscaled_reference": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/dist/assets/char_squirrel2.png",
+    "logical_size": [
+      54,
+      54
+    ],
+    "has_transparency": true,
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/char_squirrel2.png",
+    "prompt": "Use case: precise-object-edit. Asset type: 2D cartoon game sprite. Input image is edit target. Recreate this exact sprite as a high resolution sharp clean cartoon drawing. Preserve species, pose, expression, damage/animation state, exact relative silhouette size and position on canvas, colors, body proportions, all visible features and transparent margins. Smooth coherent sharp outlines and simple original colored shading; repair pixel stair steps, fuzzy details and ragged outlines. No redesign, new props, added limbs, text, photorealism, scenery or checkerboard. Actual transparent background. Specific reference features:  Output SQUARE 1:1 canvas for square source; preserve original transparent margins. Orange squirrel compact second animation pose looking right. Curled orange tail left is shorter and lower than head top, rounded body and head share near-round compact silhouette, dark brown oval leg/body patch lower left, TWO eyes, dark brown nose at right, pale muzzle. Much more compact than standing first pose. Canvas square.  Correction: reference is the only pose target. Compact round body/head with head top noticeably ABOVE tail tip. No tall seated upright squirrel. Body just about 40% canvas height. Tail is small curled C at left, nose right. Preserve original silhouette strictly.",
+    "source_artifacts": "Zlane oczy, postrzępiony łuk ogona, rozmyty pysk.",
+    "generated_source": "/Users/rtcoder/.codex/generated_images/01a17440-1983-7e81-a53e-e86ddebcaa5a/exec-252bb643-1b4b-4ecc-9552-d2f6e6014e67.png",
+    "attempts": 2,
+    "rejected_source": "/Users/rtcoder/.codex/generated_images/01a17440-1983-7e81-a53e-e86ddebcaa5a/exec-1a416dda-9791-414d-a775-d7451e37d677.png",
+    "initial_prompt": "Use case: precise-object-edit. Asset type: 2D cartoon game sprite. Input image is edit target. Recreate this exact sprite as a high resolution sharp clean cartoon drawing. Preserve species, pose, expression, damage/animation state, exact relative silhouette size and position on canvas, colors, body proportions, all visible features and transparent margins. Smooth coherent sharp outlines and simple original colored shading; repair pixel stair steps, fuzzy details and ragged outlines. No redesign, new props, added limbs, text, photorealism, scenery or checkerboard. Actual transparent background. Specific reference features:  Output SQUARE 1:1 canvas for square source; preserve original transparent margins. Orange squirrel compact second animation pose looking right. Curled orange tail left is shorter and lower than head top, rounded body and head share near-round compact silhouette, dark brown oval leg/body patch lower left, TWO eyes, dark brown nose at right, pale muzzle. Much more compact than standing first pose. Canvas square. Image2 is style identity only, image1 sets compact pose.",
+    "qa": "Korekta odzyskała zwarte ciało i ogon poniżej szczytu głowy. Ostry pysk, dwoje oczu. Styl oczu odbiega od squirrel1; kontynuacja nie jest pixel-perfect.",
+    "status": "generated_with_limitations",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "raw_alpha_extrema": [
+      0,
+      255
+    ],
+    "alpha_qa": "Obejrzano prawidłowy kompozyt na #355447; nie stwierdzono widocznych dziur wewnątrz sylwetki ani dużych obcych plam. Ocena kompozytu nie oznacza zgodności geometrii ze źródłem.",
+    "alpha_preview": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/qa-characters/char_squirrel2-alpha.png"
+  },
+  {
+    "key": "char_squirrel3",
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/char_squirrel3.png",
+    "upscaled_reference": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/dist/assets/char_squirrel3.png",
+    "logical_size": [
+      54,
+      54
+    ],
+    "has_transparency": true,
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/char_squirrel3.png",
+    "prompt": "Use case: precise-object-edit. Asset type: 2D cartoon game sprite. Input image is edit target. Recreate this exact sprite as a high resolution sharp clean cartoon drawing. Preserve species, pose, expression, damage/animation state, exact relative silhouette size and position on canvas, colors, body proportions, all visible features and transparent margins. Smooth coherent sharp outlines and simple original colored shading; repair pixel stair steps, fuzzy details and ragged outlines. No redesign, new props, added limbs, text, photorealism, scenery or checkerboard. Actual transparent background. Specific reference features:  Output SQUARE 1:1 canvas for square source; preserve original transparent margins. Orange squirrel third compact rolling/leaping animation pose. Flattened oval head-body facing right, curled short orange tail left, dark brown lower area, TWO round eyes, dark brown nose far right, pale muzzle. No upright torso or standing legs; compact oval silhouette centered. ",
+    "source_artifacts": "Niewyraźna granica łap/tułowia, rozmyte oczy i obwódka ogona.",
+    "generated_source": "/Users/rtcoder/.codex/generated_images/01a17440-1983-7e81-a53e-e86ddebcaa5a/exec-37685457-dfb9-4e2a-86c3-89ea09880f43.png",
+    "attempts": 1,
+    "qa": "Zachowana owalna zwarta klatka bez wyprostowanego tułowia, ogon po lewej i dwoje oczu. Czyste krawędzie. Nos/oczy większe i jaśniejsze niż źródło.",
+    "status": "generated_with_limitations",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "raw_alpha_extrema": [
+      0,
+      255
+    ],
+    "alpha_qa": "Obejrzano prawidłowy kompozyt na #355447; nie stwierdzono widocznych dziur wewnątrz sylwetki ani dużych obcych plam. Ocena kompozytu nie oznacza zgodności geometrii ze źródłem.",
+    "alpha_preview": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/qa-characters/char_squirrel3-alpha.png"
+  },
+  {
+    "key": "char_squirrel_cone",
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/char_squirrel_cone.png",
+    "upscaled_reference": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/dist/assets/char_squirrel_cone.png",
+    "logical_size": [
+      17,
+      16
+    ],
+    "has_transparency": true,
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/char_squirrel_cone.png",
+    "prompt": "Use case: precise-object-edit. Asset type: 2D cartoon game sprite. Input image is edit target. Recreate this exact sprite as a high resolution sharp clean cartoon drawing. Preserve species, pose, expression, damage/animation state, exact relative silhouette size and position on canvas, colors, body proportions, all visible features and transparent margins. Smooth coherent sharp outlines and simple original colored shading; repair pixel stair steps, fuzzy details and ragged outlines. No redesign, new props, added limbs, text, photorealism, scenery or checkerboard. Actual transparent background. Specific reference features:  Output SQUARE 1:1 canvas for square source; preserve original transparent margins. Single small brown pinecone, diagonal oval shape tilted from lower left to upper right, overlapping diamond brown scales with cream tan outlines, short stem at upper-right. Fill canvas similarly to original, square-ish 17:16 canvas. No squirrel, no extra cones, no background or shadow. Draw simple crisp cartoon scale pattern matching reference.",
+    "source_artifacts": "Skrajnie mała rozdzielczość 17x16: schodkowane łuski, zlane brązowe wnętrza.",
+    "generated_source": "/Users/rtcoder/.codex/generated_images/01a17440-1983-7e81-a53e-e86ddebcaa5a/exec-8264a618-9917-42c1-8395-95632341c1b0.png",
+    "attempts": 1,
+    "qa": "Wyraźne łuski, brązowa paleta i skos jak w źródle; model odtworzył dużo więcej detali łusek niż można potwierdzić przy 17x16. Sylwetka dochodzi do krawędzi podobnie jak oryginał.",
+    "status": "generated_with_limitations",
+    "dimensions": [
+      1293,
+      1217
+    ],
+    "raw_alpha_extrema": [
+      0,
+      255
+    ],
+    "alpha_qa": "Obejrzano prawidłowy kompozyt na #355447; nie stwierdzono widocznych dziur wewnątrz sylwetki ani dużych obcych plam. Ocena kompozytu nie oznacza zgodności geometrii ze źródłem.",
+    "alpha_preview": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/qa-characters/char_squirrel_cone-alpha.png"
+  },
+  {
+    "key": "char_turtle1",
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/char_turtle1.png",
+    "upscaled_reference": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/dist/assets/char_turtle1.png",
+    "logical_size": [
+      54,
+      54
+    ],
+    "has_transparency": true,
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/char_turtle1.png",
+    "prompt": "Use case: precise-object-edit. Asset type: 2D cartoon game sprite. Input image is edit target. Recreate this exact sprite as a high resolution sharp clean cartoon drawing. Preserve species, pose, expression, damage/animation state, exact relative silhouette size and position on canvas, colors, body proportions, all visible features and transparent margins. Smooth coherent sharp outlines and simple original colored shading; repair pixel stair steps, fuzzy details and ragged outlines. No redesign, new props, added limbs, text, photorealism, scenery or checkerboard. Actual transparent background. Specific reference features:  Output SQUARE 1:1 canvas for square source; preserve original transparent margins. Yellow olive-green turtle walking right with long extended neck and head at far right, TWO white eyes on top of head, short tail left, four squat olive legs below large domed brown shell. Shell has ochre irregular polygon pattern. Wide horizontal pose in center lower half; source reaches right edge.",
+    "source_artifacts": "Schodkowane obrzeże skorupy, rozmyty wzór płytek i oczy, zlane łapy.",
+    "generated_source": "/Users/rtcoder/.codex/generated_images/01a17440-1983-7e81-a53e-e86ddebcaa5a/exec-95e93126-c7fa-4ee1-960c-b1205bddd08a.png",
+    "attempts": 1,
+    "qa": "Czytelne oczy, wzór skorupy i cztery łapy; zachowany wyciągnięty kark oraz paleta. Model dodał wyraźniejsze pazurki/usta i powiększył twarz.",
+    "status": "generated_with_limitations",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "raw_alpha_extrema": [
+      0,
+      255
+    ],
+    "alpha_qa": "Obejrzano prawidłowy kompozyt na #355447; nie stwierdzono widocznych dziur wewnątrz sylwetki ani dużych obcych plam. Ocena kompozytu nie oznacza zgodności geometrii ze źródłem.",
+    "alpha_preview": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/qa-characters/char_turtle1-alpha.png"
+  },
+  {
+    "key": "char_turtle2",
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/char_turtle2.png",
+    "upscaled_reference": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/dist/assets/char_turtle2.png",
+    "logical_size": [
+      54,
+      54
+    ],
+    "has_transparency": true,
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/char_turtle2.png",
+    "prompt": "Use case: precise-object-edit. Asset type: 2D cartoon game sprite. Input image is edit target. Recreate this exact sprite as a high resolution sharp clean cartoon drawing. Preserve species, pose, expression, damage/animation state, exact relative silhouette size and position on canvas, colors, body proportions, all visible features and transparent margins. Smooth coherent sharp outlines and simple original colored shading; repair pixel stair steps, fuzzy details and ragged outlines. No redesign, new props, added limbs, text, photorealism, scenery or checkerboard. Actual transparent background. Specific reference features:  Output SQUARE 1:1 canvas for square source; preserve original transparent margins. Yellow olive-green turtle second animation in compact crouched stance facing right, shorter tucked neck, TWO white eyes at right, four squat feet beneath round domed brown shell with ochre polygon pattern, short tail left. Smaller compact silhouette than extended neck frame, centered lower half.",
+    "source_artifacts": "Rozmyty wzór skorupy, niewyraźne oczy i schodkowane łapy.",
+    "generated_source": "/Users/rtcoder/.codex/generated_images/01a17440-1983-7e81-a53e-e86ddebcaa5a/exec-8e8e02b2-fb7a-410b-8953-4a346547dbc4.png",
+    "attempts": 1,
+    "qa": "Zachowany skrócony kark i zwarta poza, czytelna skorupa. Model dał bardziej żółtą skórę i większe oczy/łapy niż źródło.",
+    "status": "generated_with_limitations",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "raw_alpha_extrema": [
+      0,
+      255
+    ],
+    "alpha_qa": "Obejrzano prawidłowy kompozyt na #355447; nie stwierdzono widocznych dziur wewnątrz sylwetki ani dużych obcych plam. Ocena kompozytu nie oznacza zgodności geometrii ze źródłem.",
+    "alpha_preview": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/qa-characters/char_turtle2-alpha.png"
+  },
+  {
+    "key": "char_turtle3",
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/char_turtle3.png",
+    "upscaled_reference": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/dist/assets/char_turtle3.png",
+    "logical_size": [
+      54,
+      54
+    ],
+    "has_transparency": true,
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/char_turtle3.png",
+    "prompt": "Use case: precise-object-edit. Asset type: 2D cartoon game sprite. Input image is edit target. Recreate this exact sprite as a high resolution sharp clean cartoon drawing. Preserve species, pose, expression, damage/animation state, exact relative silhouette size and position on canvas, colors, body proportions, all visible features and transparent margins. Smooth coherent sharp outlines and simple original colored shading; repair pixel stair steps, fuzzy details and ragged outlines. No redesign, new props, added limbs, text, photorealism, scenery or checkerboard. Actual transparent background. Specific reference features:  Output SQUARE 1:1 canvas for square source; preserve original transparent margins. Turtle third animation almost entirely withdrawn: compact round brown shell with ochre irregular polygon pattern, TWO white eyes peeking from lower-right edge, tiny olive tail extending left. No protruding head, neck or legs. Round shell centered, occupying about 40% canvas.",
+    "source_artifacts": "Oczy zlane ze skorupą, rozmyty wzór płytek, poszarpany obrys kuli.",
+    "generated_source": "/Users/rtcoder/.codex/generated_images/01a17440-1983-7e81-a53e-e86ddebcaa5a/exec-28fbc115-46ff-4e8b-ac22-a5b1b2d1f5f4.png",
+    "attempts": 1,
+    "qa": "Zachowana chowana klatka: skorupa, para oczu i ogonek bez kończyn. Wzór ostry. Oczy powiększone względem oryginału.",
+    "status": "generated_with_limitations",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "raw_alpha_extrema": [
+      0,
+      255
+    ],
+    "alpha_qa": "Obejrzano prawidłowy kompozyt na #355447; nie stwierdzono widocznych dziur wewnątrz sylwetki ani dużych obcych plam. Ocena kompozytu nie oznacza zgodności geometrii ze źródłem.",
+    "alpha_preview": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/qa-characters/char_turtle3-alpha.png"
+  },
+  {
+    "key": "targetBIG_dmg0",
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/targetBIG_dmg0.png",
+    "upscaled_reference": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/dist/assets/targetBIG_dmg0.png",
+    "logical_size": [
+      40,
+      40
+    ],
+    "has_transparency": true,
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/targetBIG_dmg0.png",
+    "prompt": "Use case: precise-object-edit. Asset type: 2D cartoon game sprite. Input image is edit target. Recreate this exact sprite as a high resolution sharp clean cartoon drawing. Preserve species, pose, expression, damage/animation state, exact relative silhouette size and position on canvas, colors, body proportions, all visible features and transparent margins. Smooth coherent sharp outlines and simple original colored shading; repair pixel stair steps, fuzzy details and ragged outlines. No redesign, new props, added limbs, text, photorealism, scenery or checkerboard. Actual transparent background. Specific reference features:  Output SQUARE 1:1 canvas for square source; preserve original transparent margins. Front-facing orange-brown bear head only with round ears at top corners, thick darker V-shaped angry brow, TWO small narrowed white eyes looking forward, oval black nose centered, large wide open black grinning mouth with white sharp teeth including two long lower side fangs and pink tongue at bottom. Dark outline. Head fills nearly entire square transparent canvas. Undamaged orange face, no purple bruises.",
+    "source_artifacts": "Poszarpane uszy i kontur głowy, rozmyte oczy i pojedyncze zęby.",
+    "generated_source": "/Users/rtcoder/.codex/generated_images/01a17440-1983-7e81-a53e-e86ddebcaa5a/exec-114b8600-7a3c-4a7d-9e6c-a151fd3bf571.png",
+    "attempts": 1,
+    "qa": "Wyraźna groźna mimika, pomarańczowa paleta i otwarta paszcza. Ostre zęby i oczy. Zmienione proporcje głowy, rozkład/rozmiar kłów i dodatkowe ząbki futra.",
+    "status": "generated_with_limitations",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "raw_alpha_extrema": [
+      0,
+      255
+    ],
+    "alpha_qa": "Obejrzano prawidłowy kompozyt na #355447; nie stwierdzono widocznych dziur wewnątrz sylwetki ani dużych obcych plam. Ocena kompozytu nie oznacza zgodności geometrii ze źródłem.",
+    "alpha_preview": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/qa-characters/targetBIG_dmg0-alpha.png"
+  },
+  {
+    "key": "targetBIG_dmg1",
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/targetBIG_dmg1.png",
+    "upscaled_reference": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/dist/assets/targetBIG_dmg1.png",
+    "logical_size": [
+      40,
+      40
+    ],
+    "has_transparency": true,
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/targetBIG_dmg1.png",
+    "prompt": "Use case: precise-object-edit. Asset type: 2D cartoon game sprite. Input image is edit target. Recreate this exact sprite as a high resolution sharp clean cartoon drawing. Preserve species, pose, expression, damage/animation state, exact relative silhouette size and position on canvas, colors, body proportions, all visible features and transparent margins. Smooth coherent sharp outlines and simple original colored shading; repair pixel stair steps, fuzzy details and ragged outlines. No redesign, new props, added limbs, text, photorealism, scenery or checkerboard. Actual transparent background. Specific reference features:  Output SQUARE 1:1 canvas for square source; preserve original transparent margins. Front-facing orange-brown bear head only, same round ears and wide black mouth with sharp white teeth and pink tongue. DAMAGE STATE 1: symmetrical purple bruises around BOTH eyes; eyelids drooping partly closed over narrow white eyes. Outer ears, forehead and cheeks remain orange-brown. Center black oval nose. Fill square canvas. No blood. Image2 provides cleaned bear style only; image1 determines damage coloration and drooping eyelids.",
+    "source_artifacts": "Zlane fioletowe powieki, schodkowane krawędzie zębów i uszu.",
+    "generated_source": "/Users/rtcoder/.codex/generated_images/01a17440-1983-7e81-a53e-e86ddebcaa5a/exec-b8aa384a-98c1-4b9d-8b36-ea2ad34d5f27.png",
+    "attempts": 1,
+    "qa": "Poprawne dwa fioletowe podbicia, przymknięte oczy i spójna głowa z dmg0. Detale kłów i futra inne od małego oryginału.",
+    "status": "generated_with_limitations",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "raw_alpha_extrema": [
+      0,
+      255
+    ],
+    "alpha_qa": "Obejrzano prawidłowy kompozyt na #355447; nie stwierdzono widocznych dziur wewnątrz sylwetki ani dużych obcych plam. Ocena kompozytu nie oznacza zgodności geometrii ze źródłem.",
+    "alpha_preview": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/qa-characters/targetBIG_dmg1-alpha.png"
+  },
+  {
+    "key": "targetBIG_dmg2",
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/targetBIG_dmg2.png",
+    "upscaled_reference": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/dist/assets/targetBIG_dmg2.png",
+    "logical_size": [
+      40,
+      40
+    ],
+    "has_transparency": true,
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/targetBIG_dmg2.png",
+    "prompt": "Use case: precise-object-edit. Asset type: 2D cartoon game sprite. Input image is edit target. Recreate this exact sprite as a high resolution sharp clean cartoon drawing. Preserve species, pose, expression, damage/animation state, exact relative silhouette size and position on canvas, colors, body proportions, all visible features and transparent margins. Smooth coherent sharp outlines and simple original colored shading; repair pixel stair steps, fuzzy details and ragged outlines. No redesign, new props, added limbs, text, photorealism, scenery or checkerboard. Actual transparent background. Specific reference features:  Output SQUARE 1:1 canvas for square source; preserve original transparent margins. Front-facing bear head only DAMAGE STATE 2: almost whole face lavender purple, left upper ear purple, right ear still brown-orange, head tilted slightly clockwise. Left eye partly open white slit under drooping lid; right eye fully swollen shut dark purple. Oval dark purple nose. Very wide black open mouth with sharp white lower side fangs, pink tongue. Outer head thick dark outline. Fill square canvas. No blood. Image2 provides cleaned bear style only; image1 determines damage coloration, tilted head and asymmetric eyelids.",
+    "source_artifacts": "Zlane obrażenia wokół oczu, rozmyte zęby i postrzępiona krawędź głowy.",
+    "generated_source": "/Users/rtcoder/.codex/generated_images/01a17440-1983-7e81-a53e-e86ddebcaa5a/exec-894f02d6-34e4-4205-afed-bb76abc78ee4.png",
+    "attempts": 1,
+    "qa": "Zachowane asymetryczne podbicie, prawe zamknięte oko i lekki przechył. Styl głowy zgodny z pozostałymi. Więcej pomarańczowej obwódki niż w źródle, większe kły.",
+    "status": "generated_with_limitations",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "raw_alpha_extrema": [
+      0,
+      255
+    ],
+    "alpha_qa": "Obejrzano prawidłowy kompozyt na #355447; nie stwierdzono widocznych dziur wewnątrz sylwetki ani dużych obcych plam. Ocena kompozytu nie oznacza zgodności geometrii ze źródłem.",
+    "alpha_preview": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/qa-characters/targetBIG_dmg2-alpha.png"
+  },
+  {
+    "key": "targetBIG_dmg0_eyes",
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/targetBIG_dmg0_eyes.png",
+    "upscaled_reference": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/dist/assets/targetBIG_dmg0_eyes.png",
+    "logical_size": [
+      20,
+      8
+    ],
+    "has_transparency": false,
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/targetBIG_dmg0_eyes.png",
+    "prompt": "Use case: precise-object-edit. Asset type: OPAQUE rectangular game facial animation overlay. Input is edit target. Redraw exactly the cropped patch shown, high resolution clean 2D cartoon, smooth sharp edges, repair tiny source blur and pixel stairs. Keep background colors across full rectangle and original eye positions and expression. Do NOT make a whole face, no nose, no mouth, no ears, no white margin, no transparent background. Preserve original aspect ratio. Specific content: 2.5:1 wide rectangle of orange-brown fur with TWO CLOSED black horizontal eyelid slits, softly shaded brown raised lids above each and orange bridge in center. Eyes are CLOSED, no white eyeballs, no pupils. Dark brown shading along bottom left/right.",
+    "source_artifacts": "Rozmyte krawędzie zamkniętych powiek na małej łatce 20x8.",
+    "generated_source": "/Users/rtcoder/.codex/generated_images/01a17440-1983-7e81-a53e-e86ddebcaa5a/exec-1646244d-20a6-4a57-afbb-68a75193f94f.png",
+    "attempts": 1,
+    "qa": "Dwie zamknięte powieki na pełnym pomarańczowo-brązowym tle, proporcja 2.5:1 zachowana. Model dodał ząbki futra i większe przejścia barw; nakładka wymaga dopasowania do nowej głowy.",
+    "status": "generated_with_limitations",
+    "dimensions": [
+      1983,
+      793
+    ],
+    "raw_alpha_extrema": [
+      255,
+      255
+    ]
+  },
+  {
+    "key": "targetBIG_dmg1_eyes",
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/targetBIG_dmg1_eyes.png",
+    "upscaled_reference": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/dist/assets/targetBIG_dmg1_eyes.png",
+    "logical_size": [
+      20,
+      8
+    ],
+    "has_transparency": false,
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/targetBIG_dmg1_eyes.png",
+    "prompt": "Use case: precise-object-edit. Asset type: OPAQUE rectangular game facial animation overlay. Input is edit target. Redraw exactly the cropped patch shown, high resolution clean 2D cartoon, smooth sharp edges, repair tiny source blur and pixel stairs. Keep background colors across full rectangle and original eye positions and expression. Do NOT make a whole face, no nose, no mouth, no ears, no white margin, no transparent background. Preserve original aspect ratio. Specific content: 2.5:1 wide rectangle: orange tan fur at outer/top edges, PURPLE bruised areas around TWO CLOSED black horizontal eyelid slits. Lavender raised swollen eyelids, orange central bridge. No eyeballs or pupils.",
+    "source_artifacts": "Zlane czarne szczeliny i fioletowe powieki w nakładce 20x8.",
+    "generated_source": "/Users/rtcoder/.codex/generated_images/01a17440-1983-7e81-a53e-e86ddebcaa5a/exec-02f0534d-d5ca-44a4-b5f9-92e910f0d703.png",
+    "attempts": 1,
+    "qa": "Zamknięte powieki i symetryczne fioletowe podbicia właściwe. Pełne nieprzezroczyste tło i proporcje zachowane. Dodatkowe szczegóły futra/cieniowania.",
+    "status": "generated_with_limitations",
+    "dimensions": [
+      1983,
+      793
+    ],
+    "raw_alpha_extrema": [
+      255,
+      255
+    ]
+  },
+  {
+    "key": "targetBIG_dmg2_eyes",
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/targetBIG_dmg2_eyes.png",
+    "upscaled_reference": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/dist/assets/targetBIG_dmg2_eyes.png",
+    "logical_size": [
+      20,
+      8
+    ],
+    "has_transparency": false,
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/targetBIG_dmg2_eyes.png",
+    "prompt": "Use case: precise-object-edit. Asset type: OPAQUE rectangular game facial animation overlay. Input is edit target. Redraw exactly the cropped patch shown, high resolution clean 2D cartoon, smooth sharp edges, repair tiny source blur and pixel stairs. Keep background colors across full rectangle and original eye positions and expression. Do NOT make a whole face, no nose, no mouth, no ears, no white margin, no transparent background. Preserve original aspect ratio. Specific content: 2.5:1 wide rectangle entirely lavender purple facial patch, TWO CLOSED dark-purple/black eyelid slits within rounded swollen purple sockets. Left eyelid slightly lower than right? Match source. Pink-lavender central bridge. No eyeballs or pupils.",
+    "source_artifacts": "Rozmyte granice fioletowych powiek, niski kontrast tła nakładki.",
+    "generated_source": "/Users/rtcoder/.codex/generated_images/01a17440-1983-7e81-a53e-e86ddebcaa5a/exec-b6e28568-9bb0-4481-9c12-06ec75affed9.png",
+    "attempts": 1,
+    "qa": "Czyste dwie zamknięte powieki na fioletowym tle. Proporcja nakładki zachowana, położenie/rozmiar powiek wymaga dopasowania podczas integracji.",
+    "status": "generated_with_limitations",
+    "dimensions": [
+      1983,
+      793
+    ],
+    "raw_alpha_extrema": [
+      255,
+      255
+    ]
+  },
+  {
+    "key": "targetSMALL_dmg0",
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/targetSMALL_dmg0.png",
+    "upscaled_reference": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/dist/assets/targetSMALL_dmg0.png",
+    "logical_size": [
+      26,
+      26
+    ],
+    "has_transparency": true,
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/targetSMALL_dmg0.png",
+    "prompt": "Use case: precise-object-edit. Asset type: 2D cartoon game sprite. Input image is edit target. Recreate this exact sprite as a high resolution sharp clean cartoon drawing. Preserve species, pose, expression, damage/animation state, exact relative silhouette size and position on canvas, colors, body proportions, all visible features and transparent margins. Smooth coherent sharp outlines and simple original colored shading; repair pixel stair steps, fuzzy details and ragged outlines. No redesign, new props, added limbs, text, photorealism, scenery or checkerboard. Actual transparent background. Specific reference features:  Output SQUARE 1:1 canvas for square source; preserve original transparent margins. Front-facing orange-brown bear head only with round ears at top corners, thick darker V-shaped angry brow, TWO small narrowed white eyes looking forward, oval black nose centered, large wide open black grinning mouth with white sharp teeth including two long lower side fangs and pink tongue at bottom. Dark outline. Head fills nearly entire square transparent canvas. Undamaged orange face, no purple bruises. This is distinct SMALL target asset, preserve its input face layout; use image2 for clean series style only.",
+    "source_artifacts": "26x26: oczy i kły zlewają się, kontur uszu jest schodkowany.",
+    "generated_source": "/Users/rtcoder/.codex/generated_images/01a17440-1983-7e81-a53e-e86ddebcaa5a/exec-f81c8643-1c30-4b34-93e0-e4feac723756.png",
+    "attempts": 1,
+    "qa": "Osobna generacja małego celu, czysta i zgodna stylistycznie z dużym. Gniewna mimika zachowana. Proporcje zębów i futra zmienione wobec źródła.",
+    "status": "generated_with_limitations",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "raw_alpha_extrema": [
+      0,
+      255
+    ],
+    "alpha_qa": "Obejrzano prawidłowy kompozyt na #355447; nie stwierdzono widocznych dziur wewnątrz sylwetki ani dużych obcych plam. Ocena kompozytu nie oznacza zgodności geometrii ze źródłem.",
+    "alpha_preview": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/qa-characters/targetSMALL_dmg0-alpha.png"
+  },
+  {
+    "key": "targetSMALL_dmg1",
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/targetSMALL_dmg1.png",
+    "upscaled_reference": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/dist/assets/targetSMALL_dmg1.png",
+    "logical_size": [
+      26,
+      26
+    ],
+    "has_transparency": true,
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/targetSMALL_dmg1.png",
+    "prompt": "Use case: precise-object-edit. Asset type: 2D cartoon game sprite. Input image is edit target. Recreate this exact sprite as a high resolution sharp clean cartoon drawing. Preserve species, pose, expression, damage/animation state, exact relative silhouette size and position on canvas, colors, body proportions, all visible features and transparent margins. Smooth coherent sharp outlines and simple original colored shading; repair pixel stair steps, fuzzy details and ragged outlines. No redesign, new props, added limbs, text, photorealism, scenery or checkerboard. Actual transparent background. Specific reference features:  Output SQUARE 1:1 canvas for square source; preserve original transparent margins. Front-facing orange-brown bear head only, same round ears and wide black mouth with sharp white teeth and pink tongue. DAMAGE STATE 1: symmetrical purple bruises around BOTH eyes; eyelids drooping partly closed over narrow white eyes. Outer ears, forehead and cheeks remain orange-brown. Center black oval nose. Fill square canvas. No blood. Image2 provides cleaned bear style only; image1 determines damage coloration and drooping eyelids. This is distinct SMALL target asset; image2 now depicts matching damaged style, retain image1 facial arrangement.",
+    "source_artifacts": "26x26: fioletowe powieki i białka oczu zlewają się, kły nieczytelne.",
+    "generated_source": "/Users/rtcoder/.codex/generated_images/01a17440-1983-7e81-a53e-e86ddebcaa5a/exec-4fd9e5b6-109c-4725-aba1-89a86728cd12.png",
+    "attempts": 1,
+    "qa": "Dwa fioletowe podbicia i przymknięte oczy zachowane. Osobna generacja, spójna z BIG dmg1. Różnice proporcji zębów i twarzy wobec źródła 26px.",
+    "status": "generated_with_limitations",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "raw_alpha_extrema": [
+      0,
+      255
+    ],
+    "alpha_qa": "Obejrzano prawidłowy kompozyt na #355447; nie stwierdzono widocznych dziur wewnątrz sylwetki ani dużych obcych plam. Ocena kompozytu nie oznacza zgodności geometrii ze źródłem.",
+    "alpha_preview": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/qa-characters/targetSMALL_dmg1-alpha.png"
+  },
+  {
+    "key": "targetSMALL_dmg2",
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/targetSMALL_dmg2.png",
+    "upscaled_reference": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/dist/assets/targetSMALL_dmg2.png",
+    "logical_size": [
+      26,
+      26
+    ],
+    "has_transparency": true,
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/targetSMALL_dmg2.png",
+    "prompt": "Use case: precise-object-edit. Asset type: 2D cartoon game sprite. Input image is edit target. Recreate this exact sprite as a high resolution sharp clean cartoon drawing. Preserve species, pose, expression, damage/animation state, exact relative silhouette size and position on canvas, colors, body proportions, all visible features and transparent margins. Smooth coherent sharp outlines and simple original colored shading; repair pixel stair steps, fuzzy details and ragged outlines. No redesign, new props, added limbs, text, photorealism, scenery or checkerboard. Actual transparent background. Specific reference features:  Output SQUARE 1:1 canvas for square source; preserve original transparent margins. Front-facing bear head only DAMAGE STATE 2: almost whole face lavender purple, left upper ear purple, right ear still brown-orange, head tilted slightly clockwise. Left eye partly open white slit under drooping lid; right eye fully swollen shut dark purple. Oval dark purple nose. Very wide black open mouth with sharp white lower side fangs, pink tongue. Outer head thick dark outline. Fill square canvas. No blood. Image2 provides cleaned bear style only; image1 determines damage coloration, tilted head and asymmetric eyelids. This is distinct SMALL target asset; image2 now depicts matching damaged style, retain image1 facial arrangement.",
+    "source_artifacts": "26x26: ciemne fioletowe oczodoły zlewają się, schodkowane uszy i kontur.",
+    "generated_source": "/Users/rtcoder/.codex/generated_images/01a17440-1983-7e81-a53e-e86ddebcaa5a/exec-7d488cf7-d990-4e88-ac43-6fff4269e262.png",
+    "attempts": 1,
+    "qa": "Asymetryczna fioletowa twarz, przechył i zamknięte prawe oko poprawne; spójność z BIG dmg2. Pozostaje zbyt duża pomarańczowa obwódka względem źródła.",
+    "status": "generated_with_limitations",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "raw_alpha_extrema": [
+      0,
+      255
+    ],
+    "alpha_qa": "Obejrzano prawidłowy kompozyt na #355447; nie stwierdzono widocznych dziur wewnątrz sylwetki ani dużych obcych plam. Ocena kompozytu nie oznacza zgodności geometrii ze źródłem.",
+    "alpha_preview": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/qa-characters/targetSMALL_dmg2-alpha.png"
+  },
+  {
+    "key": "targetSMALL_dmg0_eyes",
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/targetSMALL_dmg0_eyes.png",
+    "upscaled_reference": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/dist/assets/targetSMALL_dmg0_eyes.png",
+    "logical_size": [
+      14,
+      6
+    ],
+    "has_transparency": false,
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/targetSMALL_dmg0_eyes.png",
+    "prompt": "Use case: precise-object-edit. Asset type: OPAQUE rectangular game facial animation overlay. Input is edit target. Redraw exactly the cropped patch shown, high resolution clean 2D cartoon, smooth sharp edges, repair tiny source blur and pixel stairs. Keep background colors across full rectangle and original eye positions and expression. Do NOT make a whole face, no nose, no mouth, no ears, no white margin, no transparent background. Preserve original aspect ratio. Specific content: 2.333:1 wide rectangle of orange-brown fur with TWO CLOSED black horizontal eyelid slits, softly shaded brown raised lids above each and orange bridge in center. Eyes are CLOSED, no white eyeballs, no pupils. Dark brown shading along bottom left/right. Source is SMALL target facial patch; exactly 14:6 canvas ratio.",
+    "source_artifacts": "14x6: zamknięte powieki mają zaledwie kilka pikseli, brązowe cienie rozlane.",
+    "generated_source": "/Users/rtcoder/.codex/generated_images/01a17440-1983-7e81-a53e-e86ddebcaa5a/exec-63f093fb-62c7-4092-ab6f-1644c44868e5.png",
+    "attempts": 1,
+    "qa": "Poprawne zamknięte oczy, paleta i pełne tło nakładki. Różnice: wyraźne detale futra i inny dokładny kształt powiek.",
+    "status": "generated_with_limitations",
+    "dimensions": [
+      1915,
+      821
+    ],
+    "raw_alpha_extrema": [
+      255,
+      255
+    ]
+  },
+  {
+    "key": "targetSMALL_dmg1_eyes",
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/targetSMALL_dmg1_eyes.png",
+    "upscaled_reference": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/dist/assets/targetSMALL_dmg1_eyes.png",
+    "logical_size": [
+      14,
+      6
+    ],
+    "has_transparency": false,
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/targetSMALL_dmg1_eyes.png",
+    "prompt": "Use case: precise-object-edit. Asset type: OPAQUE rectangular game facial animation overlay. Input is edit target. Redraw exactly the cropped patch shown, high resolution clean 2D cartoon, smooth sharp edges, repair tiny source blur and pixel stairs. Keep background colors across full rectangle and original eye positions and expression. Do NOT make a whole face, no nose, no mouth, no ears, no white margin, no transparent background. Preserve original aspect ratio. Specific content: 2.333:1 wide rectangle: orange tan fur at outer/top edges, PURPLE bruised areas around TWO CLOSED black horizontal eyelid slits. Lavender raised swollen eyelids, orange central bridge. No eyeballs or pupils. Source is SMALL target facial patch; exactly 14:6 canvas ratio.",
+    "source_artifacts": "14x6: zlane fioletowe obwódki, schodkowane zamknięte powieki.",
+    "generated_source": "/Users/rtcoder/.codex/generated_images/01a17440-1983-7e81-a53e-e86ddebcaa5a/exec-eb1b6ced-1527-41d0-b7fb-960f9a458a9d.png",
+    "attempts": 1,
+    "qa": "Właściwe fioletowe podbicia i zamknięte powieki. Czysta linia, pełne tło. Dodana szczegółowość futra i odbić.",
+    "status": "generated_with_limitations",
+    "dimensions": [
+      1916,
+      821
+    ],
+    "raw_alpha_extrema": [
+      255,
+      255
+    ]
+  },
+  {
+    "key": "targetSMALL_dmg2_eyes",
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/targetSMALL_dmg2_eyes.png",
+    "upscaled_reference": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/dist/assets/targetSMALL_dmg2_eyes.png",
+    "logical_size": [
+      14,
+      6
+    ],
+    "has_transparency": false,
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/targetSMALL_dmg2_eyes.png",
+    "prompt": "Use case: precise-object-edit. Asset type: OPAQUE rectangular game facial animation overlay. Input is edit target. Redraw exactly the cropped patch shown, high resolution clean 2D cartoon, smooth sharp edges, repair tiny source blur and pixel stairs. Keep background colors across full rectangle and original eye positions and expression. Do NOT make a whole face, no nose, no mouth, no ears, no white margin, no transparent background. Preserve original aspect ratio. Specific content: 2.333:1 wide rectangle entirely lavender purple facial patch, TWO CLOSED dark-purple/black eyelid slits within rounded swollen purple sockets. Left eyelid slightly lower than right? Match source. Pink-lavender central bridge. No eyeballs or pupils. Source is SMALL target facial patch; exactly 14:6 canvas ratio.",
+    "source_artifacts": "14x6: niemal jednolite fioletowe oczodoły, niewyraźne czarne szczeliny.",
+    "generated_source": "/Users/rtcoder/.codex/generated_images/01a17440-1983-7e81-a53e-e86ddebcaa5a/exec-6d603bff-aac0-4d67-acb5-24dfd71c0e2c.png",
+    "attempts": 1,
+    "qa": "Dwie zamknięte ciemne powieki i fioletowe tło poprawne. Kształt powiek bardziej zakrzywiony niż źródłowy; do dopasowania do głowy.",
+    "status": "generated_with_limitations",
+    "dimensions": [
+      1916,
+      821
+    ],
+    "raw_alpha_extrema": [
+      255,
+      255
+    ]
+  },
+  {
+    "key": "tutor",
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/tutor.png",
+    "upscaled_reference": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/dist/assets/tutor.png",
+    "logical_size": [
+      205,
+      240
+    ],
+    "has_transparency": true,
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/tutor.png",
+    "prompt": "Use case: precise-object-edit. Asset type: 2D cartoon tutorial panel. Input is edit target. Faithfully redraw this exact composition as clean sharp high-resolution cartoon illustration. Portrait canvas ratio 205:240. Large blank brown wooden sign board occupies x=27%..99%, y=38%..98%, with subtle warm brown top to dark brown bottom shading, softly irregular edges, NO TEXT and no wood planks. At top, smiling orange squirrel leaning from behind board, tilted head facing lower-left, TWO round white googly eyes, round dark brown nose lower-left, curved simple black smile, two short ears; large curved orange bushy tail rising behind on right. Dense green leafy foliage surrounds board mostly left edge, top and tiny bottom/right edges. Preserve all exact relative placement, colors, silhouette and transparent outside areas. Repair pixel stair steps, fuzzy outline and blotchy foliage. Crisp simple leaf shapes, original cartoon style, no photorealism, no redesign, no added props or text. Genuine transparent background outside foliage/panel/squirrel. Preserve large blank board area.",
+    "source_artifacts": "Rozmyte liście i poszarpane wycięcie tła, szum na brązowej tablicy, schodkowany nos i oczy.",
+    "generated_source": "/Users/rtcoder/.codex/generated_images/01a17440-1983-7e81-a53e-e86ddebcaa5a/exec-b91ab6e8-660b-4d77-92a9-1cf0f07e3bd9.png",
+    "attempts": 1,
+    "qa": "Kompozycja panelu, pusta tablica i lewostronny uśmiech wiewiórki zachowane. Ostre liście i twarz. Drobne różnice układu liści, marginesów i obrysu tablicy.",
+    "status": "generated_with_limitations",
+    "dimensions": [
+      1159,
+      1357
+    ],
+    "raw_alpha_extrema": [
+      0,
+      255
+    ],
+    "alpha_qa": "Obejrzano prawidłowy kompozyt na #355447; nie stwierdzono widocznych dziur wewnątrz sylwetki ani dużych obcych plam. Ocena kompozytu nie oznacza zgodności geometrii ze źródłem.",
+    "alpha_preview": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/qa-characters/tutor-alpha.png"
+  },
+  {
+    "key": "tutorEye",
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/tutorEye.png",
+    "upscaled_reference": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/dist/assets/tutorEye.png",
+    "logical_size": [
+      21,
+      20
+    ],
+    "has_transparency": false,
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/tutorEye.png",
+    "prompt": "Use case: precise-object-edit. Asset type: OPAQUE rectangular game facial animation overlay. Input is edit target. Redraw exactly the cropped patch shown, high resolution clean 2D cartoon, smooth sharp edges, repair tiny source blur and pixel stairs. Keep background colors across full rectangle and original feature positions and expression. Do NOT make a whole face, no unrequested nose, mouth or ears, no white margin, no transparent background. Preserve original aspect ratio. Specific content: Near-square 21:20 crop of ONE open round white cartoon eye on full opaque orange-yellow squirrel fur background, small black round pupil centered slightly right and below middle, subtle pale grey rim and soft shading. Eye fills most of patch. No lashes, no second eye, no eyebrows.",
+    "source_artifacts": "Postrzępiony brzeg białka i rozmyta czarna źrenica.",
+    "generated_source": "/Users/rtcoder/.codex/generated_images/01a17440-1983-7e81-a53e-e86ddebcaa5a/exec-1d8325e7-a9a3-4eb1-be21-6a0fd304ca55.png",
+    "attempts": 1,
+    "qa": "Jedno oko na pomarańczowym pełnym tle, ostre obrysy i źrenica. Model nadał bardziej kuliste cieniowanie niż reszta ilustracji; nakładka wymaga dopasowania tonalnego.",
+    "status": "generated_with_limitations",
+    "dimensions": [
+      1285,
+      1224
+    ],
+    "raw_alpha_extrema": [
+      255,
+      255
+    ]
+  },
+  {
+    "key": "tutorMouth0",
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/tutorMouth0.png",
+    "upscaled_reference": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/dist/assets/tutorMouth0.png",
+    "logical_size": [
+      24,
+      16
+    ],
+    "has_transparency": false,
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/tutorMouth0.png",
+    "status": "generation_blocked",
+    "source_artifacts": "Krzywa uśmiechu ma schodkowane piksele; kolorowe tło rozmyte.",
+    "prompt": "Use case: precise-object-edit. Asset type: OPAQUE rectangular game facial animation overlay. Input is edit target. Redraw exactly the cropped patch shown, high resolution clean 2D cartoon, smooth sharp edges, repair tiny source blur and pixel stairs. Keep background colors across full rectangle and original feature positions and expression. Do NOT make a whole face, no unrequested face elements, no white margin, no transparent background. Preserve original aspect ratio. Specific content: Wide 3:2 orange-yellow squirrel cheek crop. Thin BLACK curved closed smile stroke rises from lower center toward right-middle. Top-left tiny black rounded sliver belongs to cropped nose; retain it. Entire background orange-yellow with warm shading, no white teeth, no tongue, no open mouth, no whole face.",
+    "attempts": 1,
+    "qa": "Brak wygenerowanego wyniku: HTTP400 moderation_blocked na etapie output, kategoria other; request e7be808c-cc29-44d9-a53a-e13e9a0d5c24. Nie wykonywano obejścia blokady.",
+    "error": {
+      "http_status": 400,
+      "type": "image_generation_user_error",
+      "code": "moderation_blocked",
+      "message": "Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID e7be808c-cc29-44d9-a53a-e13e9a0d5c24.",
+      "moderation_details": {
+        "moderation_stage": "output",
+        "categories": [
+          "other"
+        ]
+      },
+      "request_id": "e7be808c-cc29-44d9-a53a-e13e9a0d5c24"
+    }
+  },
+  {
+    "key": "tutorMouth1",
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/tutorMouth1.png",
+    "upscaled_reference": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/dist/assets/tutorMouth1.png",
+    "logical_size": [
+      24,
+      16
+    ],
+    "has_transparency": false,
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/tutorMouth1.png",
+    "prompt": "Use case: precise-object-edit. Asset type: OPAQUE rectangular game facial animation overlay. Input is edit target. Redraw exactly the cropped patch shown, high resolution clean 2D cartoon, smooth sharp edges, repair tiny source blur and pixel stairs. Keep background colors across full rectangle and original feature positions and expression. Do NOT make a whole face, no unrequested face elements, no white margin, no transparent background. Preserve original aspect ratio. Specific content: Wide 3:2 orange-yellow squirrel cheek crop. Small BLACK open oval mouth near lower-middle-right, angled slightly clockwise; tiny black rounded sliver at upper-left belongs to cropped nose. Full orange-yellow background with warm shading. No teeth, no tongue, no whole face. Preserve opening and location.",
+    "source_artifacts": "Rozmyty brzeg czarnego otwarcia ust, nieczytelny mały owal.",
+    "generated_source": "/Users/rtcoder/.codex/generated_images/01a17440-1983-7e81-a53e-e86ddebcaa5a/exec-2313cc95-2b03-4438-9999-38520f618e91.png",
+    "attempts": 1,
+    "qa": "Czarne owalne otwarcie i pomarańczowe tło z fragmentem nosa zachowane. Bardziej regularny owal oraz inne dokładne położenie/rozmiar niż 24x16.",
+    "status": "generated_with_limitations",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "raw_alpha_extrema": [
+      255,
+      255
+    ]
+  }
+]

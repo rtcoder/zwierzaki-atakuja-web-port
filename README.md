@@ -6,7 +6,8 @@ Nie wymaga Javy, emulatora, frameworka, bundlera ani usług zewnętrznych w czas
 ## Zawartość
 
 - 50 układów plansz odzyskanych z fabryk poziomów w oryginalnym MIDlecie 1.5.
-- 105 oryginalnych obrazów skopiowanych bez zmiany bajtów.
+- 105 odświeżonych grafik w pakiecie runtime 4×: rysunki AI, poprawione fonty i wierna nakładka ust z oryginału.
+- Niezmienione oryginały z manifestem i hashami w `assets-original/`.
 - Pięć typów zwierzaków, ich strzały i zdolności, konstrukcje z materiałami,
   niedźwiadki, punktacja, bonusy i starcia z armatą.
 - Sterowanie myszą, wskaźnikiem dotykowym i klawiaturą, widok całej planszy,
@@ -44,6 +45,33 @@ też uruchomić ręcznie w zakładce Actions, wybierając gałąź `main`.
 W ustawieniach repozytorium **Pages → Build and deployment → Source** musi być
 wybrane **GitHub Actions**. Workflow używa wbudowanego `GITHUB_TOKEN` i OIDC;
 nie wymaga dodatkowych sekretów ani gałęzi `gh-pages`.
+
+## Odświeżone grafiki
+
+Gra używa nowego zestawu przygotowanego w `assets-ai/images/`. Większość grafik
+odtworzono przez AI, a fonty zbudowano deterministycznie z prawidłowych glifów.
+`tutorMouth0` jest wiernym upscale oryginału. Pełne wersje robocze, surowe wyniki,
+kopie przed poprawkami i raporty pozostają w `assets-ai/`.
+
+`dist/assets/` zawiera zoptymalizowane bezstratne PNG: oryginalny rozmiar logiczny
+pomnożony przez 4. Rozmiary kolizji i punkty obrotu są niezmienione. Generator
+normalizuje marginesy sprite’ów do oryginalnych granic, zachowuje układ poprawionych
+atlasów i osobno skaluje glify oraz klatki, aby nie mieszać sąsiednich elementów.
+
+Oryginały w `assets-original/` zachowują dokładne bajty i sumy SHA-256. Pages
+publikuje wyłącznie `dist`, bez archiwów i roboczych obrazów AI. Ponowne zbudowanie
+pakietu z już przygotowanych grafik wymaga lokalnie Pythona i Pillow:
+
+```sh
+python3 -m venv .venv-assets
+.venv-assets/bin/pip install -r tools/requirements-assets.txt
+.venv-assets/bin/python tools/build-ai-assets.py
+npm run check
+```
+
+Przeglądarka i workflow używają gotowych PNG; nie uruchamiają generowania AI ani
+nie wymagają fontów systemowych. `check` sprawdza hashe oryginałów, wybranych
+kandydatów i runtime oraz fizyczne i logiczne wymiary. Szczegóły: `docs/ASSETS.md`.
 
 ## Sterowanie
 
@@ -106,6 +134,7 @@ weryfikację.
 - `dist/js/renderer.js`, `main.js` — Canvas, DOM i sterowanie.
 - `dist/js/storage.js` — wersjonowany zapis w localStorage.
 - `tools/extract-assets.py`, `extract-levels.py` — odtwarzalne ekstraktory.
+- `tools/build-ai-assets.py` — pakowanie nowych grafik do runtime; `tools/enhance-assets.py` zachowuje wcześniejszy proces filtrowanego upscale.
 - `docs/ASSETS.md`, `RULES.md`, `physics.md`, `level-extraction.md` — dowody
   źródłowe, poprawki dekompilacji i szczegóły zgodności.
 

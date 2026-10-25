@@ -1,0 +1,106 @@
+[
+  {
+    "key": "buttonEdge",
+    "source": "assets-original/buttonEdge.png",
+    "artifact_analysis": "12x24 rounded pink endcap has visibly stepped curve and coarse dark-to-pink bevel.",
+    "prompt": "Use case: precise-object-edit. Input image is the edit target. Clean high-resolution reconstruction of this SAME 2D cartoon game illustration. Preserve EXACT layout, original silhouettes, object positions, proportions, palette and soft original shading. Remove grain, JPEG blocks/speckles, low-resolution blur and stair-stepped edges. Clean crisp continuous contours and smooth fills. No new objects, no extra details or texture, no redesign, no realism, no border or watermark. Transparent left end-cap UI sprite, original12:24 exact1:2 portrait. Reproduce a pink half-capsule: straight vertical cut edge at RIGHT canvas boundary from top to bottom, curved semicircular LEFT edge bulging to left middle. Pink center with dark magenta inner shading along curved left edge and highlight toward upper center. Canvas tightly matches shape bounds, exterior only corners on left transparent. Do not make a full oval or button; this is only LEFT HALF of round end cap, cut flat on right, fully opaque inside, no text or icon.",
+    "output": "assets-ai/images/buttonEdge.png",
+    "qa": "Raw output inspected. Correct left semicircular cap and flat right cut, smooth pink bevel. Composite QA follows. Proper dark-green alpha composite inspected: clean edges and opaque interior, no visible detached fragments.",
+    "status": "complete",
+    "dimensions": [
+      887,
+      1774
+    ]
+  },
+  {
+    "key": "buttonStripe",
+    "source": "assets-original/buttonStripe.png",
+    "artifact_analysis": "10x24 opaque pink repeatable center strip shows low-resolution stepped vertical gradient shading.",
+    "prompt": "Use case: precise-object-edit. Input image is the edit target. Clean high-resolution reconstruction of this SAME 2D cartoon game illustration. Preserve EXACT layout, original silhouettes, object positions, proportions, palette and soft original shading. Remove grain, JPEG blocks/speckles, low-resolution blur and stair-stepped edges. Clean crisp continuous contours and smooth fills. No new objects, no extra details or texture, no redesign, no realism, no border or watermark. Opaque UI button center-strip, source10:24 portrait. Canvas completely filled by identical smooth pink shading, horizontally uniform at every row. Dark magenta narrow top edge, softer bright rose-pink central band, dark magenta bottom edge. Preserve exact vertical shading distribution from source, no side borders, no rounded corners, no texture, no objects or text. This is repeatable middle fill strip, not complete button. High-resolution clean gradient, full bleed opaque.",
+    "output": "assets-ai/images/buttonStripe.png",
+    "qa": "Inspected opaque output. Smooth magenta/pink center gradient with dark top/bottom retained. Slight horizontal illumination variance means exact seamless repeat not guaranteed. Proper dark-green alpha composite inspected: clean edges and opaque interior, no visible detached fragments.",
+    "status": "complete_with_tiling_limitation",
+    "dimensions": [
+      809,
+      1942
+    ]
+  },
+  {
+    "key": "framecorner",
+    "source": "assets-original/framecorner.png",
+    "artifact_analysis": "6x6 UI corner contains only a few stepped pixels, crude gold/brown gradient and indistinct curved bevel.",
+    "prompt": "Use case: precise-object-edit. Input image is the edit target. Clean high-resolution reconstruction of this SAME 2D cartoon game illustration. Preserve EXACT layout, original silhouettes, object positions, proportions, palette and soft original shading. Remove grain, JPEG blocks/speckles, low-resolution blur and stair-stepped edges. Clean crisp continuous contours and smooth fills. No new objects, no extra details or texture, no redesign, no realism, no border or watermark. Transparent square UI frame corner sprite, source6x6. Reproduce ONLY a rounded LOWER-LEFT corner of warm amber/brown beveled rectangular panel. Top and right cuts run to canvas edges. Brown panel interior occupies upper-right area, curved thick orange-gold bevel arcs down left side around lower-left corner then right along bottom. Outside lower-left rounded corner transparent. Deep brown inner shading, bright warm golden highlight along bevel. No full frame, no icon, no text, no added grain. Same square crop and rounded corner geometry, smooth high-resolution analogous image.",
+    "output": "assets-ai/images/framecorner.png",
+    "qa": "Raw output inspected. Correct lower-left golden/brown rounded frame corner. Smooth bevel; exact tiny original pixel proportions necessarily interpreted. Composite QA follows. Proper dark-green alpha composite inspected: clean edges and opaque interior, no visible detached fragments.",
+    "status": "complete",
+    "dimensions": [
+      1254,
+      1254
+    ]
+  },
+  {
+    "key": "menuButton",
+    "source": "assets-original/menuButton.png",
+    "artifact_analysis": "84x29 gray menu button has low-res rough wood bands, grainy silver fill and stepped corners.",
+    "prompt": "Use case: precise-object-edit. Input image is the edit target. Clean high-resolution reconstruction of this SAME 2D cartoon game illustration. Preserve EXACT layout, original silhouettes, object positions, proportions, palette and soft original shading. Remove grain, JPEG blocks/speckles, low-resolution blur and stair-stepped edges. Clean crisp continuous contours and smooth fills. No new objects, no extra details or texture, no redesign, no realism, no border or watermark. Transparent empty game menu button source84:29 wide horizontal about2.9:1. Exact gray-silver rounded rectangular panel with soft curved glossy white highlight across upper-middle and darker gray bottom, two orange-brown narrow wood vertical straps at left and right, thin dark outline, slightly visible brown panel edge behind. Preserve tight framing, proportions and simple vintage 2D game style. Blank center, absolutely no text/icons. Clean smooth shading; keep only minimal source wood lines, no new grain or realistic texture. Opaque button interior, exterior transparent.",
+    "output": "assets-ai/images/menuButton.png",
+    "qa": "Raw output inspected. Gray silver panel and two orange straps preserved; smoother and slightly stronger bevel. Composite QA follows. Proper dark-green alpha composite inspected: clean edges and opaque interior, no visible detached fragments.",
+    "status": "complete",
+    "dimensions": [
+      2134,
+      737
+    ]
+  },
+  {
+    "key": "menuButtonSelected",
+    "source": "assets-original/menuButtonSelected.png",
+    "artifact_analysis": "84x29 selected pink button has coarse wood strip pixels, granular pink glossy fill and jagged corners.",
+    "prompt": "Use case: precise-object-edit. Input image is the edit target. Clean high-resolution reconstruction of this SAME 2D cartoon game illustration. Preserve EXACT layout, original silhouettes, object positions, proportions, palette and soft original shading. Remove grain, JPEG blocks/speckles, low-resolution blur and stair-stepped edges. Clean crisp continuous contours and smooth fills. No new objects, no extra details or texture, no redesign, no realism, no border or watermark. Transparent empty SELECTED menu button source84:29 wide2.9:1. Reproduce exact pink glossy rounded rectangle panel, pale pink curved reflection across upper-middle, deeper rose bottom, two orange-brown wood vertical bands at left and right with thin dark borders. Preserve original proportions, corner shapes, strap positions. No text/icons, no added ornament or realistic texture. Smooth vintage2D shading and minimal original wood lines. Interior opaque, outside transparent.",
+    "output": "assets-ai/images/menuButtonSelected.png",
+    "qa": "Raw output inspected. Glossy pink center and orange bands retained, no text. Straps simplified compared with original wood grain. Composite QA follows. Proper dark-green alpha composite inspected: clean edges and opaque interior, no visible detached fragments.",
+    "status": "complete",
+    "dimensions": [
+      2134,
+      737
+    ]
+  },
+  {
+    "key": "miniboxik",
+    "source": "assets-original/miniboxik.png",
+    "artifact_analysis": "34x16 amber score box has coarse edge pixels, noisy orange fill and muddy beveled lip.",
+    "prompt": "Use case: precise-object-edit. Input image is the edit target. Clean high-resolution reconstruction of this SAME 2D cartoon game illustration. Preserve EXACT layout, original silhouettes, object positions, proportions, palette and soft original shading. Remove grain, JPEG blocks/speckles, low-resolution blur and stair-stepped edges. Clean crisp continuous contours and smooth fills. No new objects, no extra details or texture, no redesign, no realism, no border or watermark. Transparent small empty score box, source34:16 wide about2.125:1. Exact low rectangular amber/orange wooden panel with slightly rounded corners, narrow bright golden raised top lip, warm orange central face, deep brown lower edge/shadow bevel. Preserve slight source stepped side notches and short proportions; blank face no text or icon. Smooth simple2D cartoon shading, no new realistic wood grain. Opaque panel inside, exterior transparent.",
+    "output": "assets-ai/images/miniboxik.png",
+    "qa": "Raw output inspected. Amber panel with golden lip, beveled edge and blank center analogous; slight side tabs more distinct than original. Composite QA follows. Proper dark-green alpha composite inspected: clean edges and opaque interior, no visible detached fragments.",
+    "status": "complete",
+    "dimensions": [
+      1828,
+      860
+    ]
+  },
+  {
+    "key": "pbarEmpty",
+    "source": "assets-original/pbarEmpty.png",
+    "artifact_analysis": "168x15 progress bar has coarse small stopwatch face, stepped pale-green edge and low-res offwhite fill.",
+    "prompt": "Use case: precise-object-edit. Input image is the edit target. Clean high-resolution reconstruction of this SAME 2D cartoon game illustration. Preserve EXACT layout, original silhouettes, object positions, proportions, palette and soft original shading. Remove grain, JPEG blocks/speckles, low-resolution blur and stair-stepped edges. Clean crisp continuous contours and smooth fills. No new objects, no extra details or texture, no redesign, no realism, no border or watermark. Transparent very long thin EMPTY progress bar source168:15 aspect11.2:1. EXACT same layout: small pink circular stopwatch icon at far left, white face with tiny pink hand and pink ring/top button, overlaps long horizontal off-white empty capsule extending almost full width to right. Thin light yellow-green rim around capsule with slight soft highlight. Whole asset shallow, icon height equals canvas height, bar about half icon height centered vertically. Preserve extreme horizontal aspect and relative icon/bar proportions. Opaque interior, transparent outside. No text, numbers, percentage, filled progress or added icons. High-res clean2D UI.",
+    "output": "assets-ai/images/pbarEmpty.png",
+    "qa": "Raw output inspected. Correct long empty offwhite bar and pink stopwatch, sharp. Native canvas includes large vertical transparent padding unlike shallow source; must use alpha bounds when integrating. Composite QA follows. Proper dark-green alpha composite inspected: clean edges and opaque interior, no visible detached fragments.",
+    "status": "complete_with_padding_limitation",
+    "dimensions": [
+      1869,
+      842
+    ]
+  },
+  {
+    "key": "pbarFull",
+    "source": "assets-original/pbarFull.png",
+    "artifact_analysis": "168x15 full progress bar has coarse stopwatch pixels, stepped rounded edge and banded pink-to-yellow-green gradient.",
+    "prompt": "Use case: precise-object-edit. Input image is the edit target. Clean high-resolution reconstruction of this SAME 2D cartoon game illustration. Preserve EXACT layout, original silhouettes, object positions, proportions, palette and soft original shading. Remove grain, JPEG blocks/speckles, low-resolution blur and stair-stepped edges. Clean crisp continuous contours and smooth fills. No new objects, no extra details or texture, no redesign, no realism, no border or watermark. Transparent FULL progress bar source168:15 extreme11.2:1 horizontal. Exactly replicate long thin rounded capsule with pink stopwatch at far left overlapping end. White stopwatch dial, pink ring and tiny top button. Bar FULL throughout: soft horizontal gradient from pink/red at left through peach/orange center to pale lime yellow-green at right. Subtle light upper sheen, thin pale green rim. Original relative scale: stopwatch full asset height, bar about half icon height, long bar almost entire width. No numbers/text/percent, no extra ticks, opaque interiors and transparent outside. Tight shallow frame if possible.",
+    "output": "assets-ai/images/pbarFull.png",
+    "qa": "Raw output inspected. Correct pink-to-lime full bar and stopwatch. Native canvas has extensive transparent vertical padding; alpha bounds required for integration. Composite QA follows. Proper dark-green alpha composite inspected: clean edges and opaque interior, no visible detached fragments.",
+    "status": "complete_with_padding_limitation",
+    "dimensions": [
+      1327,
+      1185
+    ]
+  }
+]

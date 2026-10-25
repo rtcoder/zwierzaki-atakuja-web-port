@@ -1,0 +1,35 @@
+{
+  "source_assets": 105,
+  "available_pngs": 105,
+  "source_checksums_verified": 105,
+  "protected_original_runtime_raw_files_unchanged": 329,
+  "changed_or_added_assets": 18,
+  "current_origins": {
+    "ai": 87,
+    "ai_repaired": 1,
+    "original_upscale": 1,
+    "deterministic_font": 3,
+    "ai_normalized": 13
+  },
+  "font_glyph_counts": {
+    "FONT": 52,
+    "fS": 112,
+    "fontNum": 10
+  },
+  "font_rectangles": "original manifest multiplied by 8",
+  "effect_frame_counts": {
+    "explosion": 6,
+    "fire": 6,
+    "sparkles": 5,
+    "mark": 3
+  },
+  "browser_preview": "7/7 atlases loaded; text and effects inspected using original manifest rectangles",
+  "horizontal_buttonStripe_seam": "exact equality across all columns",
+  "unresolved_content_rejections": [],
+  "remaining_limitations": [
+    "char_skunk3 tail remains larger than original",
+    "tutorMouth0 is faithful original 4x fallback, not AI redraw",
+    "face overlays and assembled launchers still require in-game alignment review"
+  ],
+  "integration": "not integrated into runtime; separate candidates only"
+}

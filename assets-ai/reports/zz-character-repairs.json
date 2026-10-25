@@ -1,0 +1,66 @@
+[
+  {
+    "key": "char_skunk3",
+    "source": "assets-original/char_skunk3.png",
+    "edit_references": [
+      "dist/assets/char_skunk3.png",
+      "assets-ai/before-repair/char_skunk3.png"
+    ],
+    "prompt": "Use case: precise-object-edit. Redraw Image 1 as a crisp clean high-resolution cartoon skunk sprite. Image 1 is the authoritative pose and layout reference; Image 2 is only line/color style, and contains an INCORRECT flattened body that must be repaired. Black and white skunk in compact running-tucked animation, facing right. Main correction: torso is a SHORT PLUMP ROUND BLACK OVAL behind head, as tall as the head and joined naturally to it, with tiny feet tucked into lower silhouette. The whole animal is compact, NOT long or stretched. Tail is a small curled black plume at left with a white stripe along its arc, held at roughly head height. Head at right has two simple round white eyes, triangular ears, white forehead stripe and white muzzle with small black nose. Keep sharp smooth outlines and restrained flat cartoon shading. Exact layout: SQUARE canvas. All visible pixels inside x=9% to 65%, y=33% to 65% of canvas, matching original 54x54 sprite bounding box (5,18)-(35,35). This means LARGE transparent right margin of 35%, top margin 33%, bottom margin 35%. Leave these margins empty. The animal is slightly LEFT of center. Torso round and compact, tail no taller than head, no elongated middle disk, no lying on ground. No backdrop, ground shadow, text, objects or extra limbs. Actual transparent background. One sprite only.",
+    "method": "built-in image_gen edit; alpha connected components >64 px at alpha>8; 7x7 dilated mask multiplied with original alpha; proportional contain in original bbox at scale16",
+    "generated_source": "/Users/rtcoder/.codex/generated_images/01a17440-1983-7e81-a53e-e86ddebcaa5a/exec-d9587ee6-3c34-4e81-ae3d-5777b853408e.png",
+    "output": "assets-ai/images/char_skunk3.png",
+    "backup": "assets-ai/before-repair/char_skunk3.png",
+    "dimensions": [
+      864,
+      864
+    ],
+    "status": "repaired_with_limitations",
+    "qa": "Zaokrąglony tułów i zwarta poza. Izolowane drobne składniki alfa usunięte; zachowano oryginalny antyalias przez rozszerzoną maskę mnożoną z alfa. Sylwetka dopasowana proporcjonalnie wewnątrz bbox oryginału na płótnie 864x864. Ograniczenie: ogon nadal większy i wyższy niż w źródle; contain nie zmienia wewnętrznych proporcji postaci. Kompozyt porównawczy obejrzany: brak dziur w tułowiu, biała pręga i oczy pełne, kontury bez widocznych obcych plam.",
+    "alpha_preview": "assets-ai/qa-characters/char_skunk3-geometry-comparison.png",
+    "alpha_bbox_gt0": [
+      80,
+      302,
+      560,
+      546
+    ],
+    "alpha_bbox_gt127": [
+      82,
+      304,
+      558,
+      544
+    ],
+    "origin": "ai_repaired",
+    "repair_raw": "assets-ai/repair-raw/char_skunk3.png",
+    "source_bbox": [
+      125,
+      487,
+      867,
+      864
+    ],
+    "original_bbox": [
+      5,
+      18,
+      35,
+      35
+    ],
+    "target_bbox": [
+      80,
+      288,
+      560,
+      560
+    ],
+    "placed_bbox": [
+      80,
+      302,
+      560,
+      546
+    ],
+    "removed_components": 1,
+    "removed_support_pixels": 1,
+    "support_component_sizes": [
+      159334,
+      1
+    ]
+  }
+]

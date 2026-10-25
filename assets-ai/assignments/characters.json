@@ -1,0 +1,365 @@
+[
+  {
+    "key": "char_hedgehog1",
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/char_hedgehog1.png",
+    "upscaled_reference": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/dist/assets/char_hedgehog1.png",
+    "logical_size": [
+      54,
+      54
+    ],
+    "has_transparency": true,
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/char_hedgehog1.png"
+  },
+  {
+    "key": "char_hedgehog2",
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/char_hedgehog2.png",
+    "upscaled_reference": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/dist/assets/char_hedgehog2.png",
+    "logical_size": [
+      54,
+      54
+    ],
+    "has_transparency": true,
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/char_hedgehog2.png"
+  },
+  {
+    "key": "char_hedgehog3",
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/char_hedgehog3.png",
+    "upscaled_reference": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/dist/assets/char_hedgehog3.png",
+    "logical_size": [
+      54,
+      54
+    ],
+    "has_transparency": true,
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/char_hedgehog3.png"
+  },
+  {
+    "key": "char_hedgehog4",
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/char_hedgehog4.png",
+    "upscaled_reference": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/dist/assets/char_hedgehog4.png",
+    "logical_size": [
+      54,
+      54
+    ],
+    "has_transparency": true,
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/char_hedgehog4.png"
+  },
+  {
+    "key": "char_rabbit1",
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/char_rabbit1.png",
+    "upscaled_reference": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/dist/assets/char_rabbit1.png",
+    "logical_size": [
+      54,
+      54
+    ],
+    "has_transparency": true,
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/char_rabbit1.png"
+  },
+  {
+    "key": "char_rabbit2",
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/char_rabbit2.png",
+    "upscaled_reference": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/dist/assets/char_rabbit2.png",
+    "logical_size": [
+      54,
+      54
+    ],
+    "has_transparency": true,
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/char_rabbit2.png"
+  },
+  {
+    "key": "char_rabbit3",
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/char_rabbit3.png",
+    "upscaled_reference": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/dist/assets/char_rabbit3.png",
+    "logical_size": [
+      54,
+      54
+    ],
+    "has_transparency": true,
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/char_rabbit3.png"
+  },
+  {
+    "key": "char_skunk1",
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/char_skunk1.png",
+    "upscaled_reference": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/dist/assets/char_skunk1.png",
+    "logical_size": [
+      54,
+      54
+    ],
+    "has_transparency": true,
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/char_skunk1.png"
+  },
+  {
+    "key": "char_skunk2",
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/char_skunk2.png",
+    "upscaled_reference": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/dist/assets/char_skunk2.png",
+    "logical_size": [
+      54,
+      54
+    ],
+    "has_transparency": true,
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/char_skunk2.png"
+  },
+  {
+    "key": "char_skunk3",
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/char_skunk3.png",
+    "upscaled_reference": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/dist/assets/char_skunk3.png",
+    "logical_size": [
+      54,
+      54
+    ],
+    "has_transparency": true,
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/char_skunk3.png"
+  },
+  {
+    "key": "char_squirrel1",
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/char_squirrel1.png",
+    "upscaled_reference": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/dist/assets/char_squirrel1.png",
+    "logical_size": [
+      54,
+      54
+    ],
+    "has_transparency": true,
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/char_squirrel1.png"
+  },
+  {
+    "key": "char_squirrel2",
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/char_squirrel2.png",
+    "upscaled_reference": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/dist/assets/char_squirrel2.png",
+    "logical_size": [
+      54,
+      54
+    ],
+    "has_transparency": true,
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/char_squirrel2.png"
+  },
+  {
+    "key": "char_squirrel3",
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/char_squirrel3.png",
+    "upscaled_reference": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/dist/assets/char_squirrel3.png",
+    "logical_size": [
+      54,
+      54
+    ],
+    "has_transparency": true,
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/char_squirrel3.png"
+  },
+  {
+    "key": "char_squirrel_cone",
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/char_squirrel_cone.png",
+    "upscaled_reference": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/dist/assets/char_squirrel_cone.png",
+    "logical_size": [
+      17,
+      16
+    ],
+    "has_transparency": true,
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/char_squirrel_cone.png"
+  },
+  {
+    "key": "char_turtle1",
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/char_turtle1.png",
+    "upscaled_reference": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/dist/assets/char_turtle1.png",
+    "logical_size": [
+      54,
+      54
+    ],
+    "has_transparency": true,
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/char_turtle1.png"
+  },
+  {
+    "key": "char_turtle2",
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/char_turtle2.png",
+    "upscaled_reference": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/dist/assets/char_turtle2.png",
+    "logical_size": [
+      54,
+      54
+    ],
+    "has_transparency": true,
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/char_turtle2.png"
+  },
+  {
+    "key": "char_turtle3",
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/char_turtle3.png",
+    "upscaled_reference": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/dist/assets/char_turtle3.png",
+    "logical_size": [
+      54,
+      54
+    ],
+    "has_transparency": true,
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/char_turtle3.png"
+  },
+  {
+    "key": "targetBIG_dmg0",
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/targetBIG_dmg0.png",
+    "upscaled_reference": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/dist/assets/targetBIG_dmg0.png",
+    "logical_size": [
+      40,
+      40
+    ],
+    "has_transparency": true,
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/targetBIG_dmg0.png"
+  },
+  {
+    "key": "targetBIG_dmg0_eyes",
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/targetBIG_dmg0_eyes.png",
+    "upscaled_reference": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/dist/assets/targetBIG_dmg0_eyes.png",
+    "logical_size": [
+      20,
+      8
+    ],
+    "has_transparency": false,
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/targetBIG_dmg0_eyes.png"
+  },
+  {
+    "key": "targetBIG_dmg1",
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/targetBIG_dmg1.png",
+    "upscaled_reference": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/dist/assets/targetBIG_dmg1.png",
+    "logical_size": [
+      40,
+      40
+    ],
+    "has_transparency": true,
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/targetBIG_dmg1.png"
+  },
+  {
+    "key": "targetBIG_dmg1_eyes",
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/targetBIG_dmg1_eyes.png",
+    "upscaled_reference": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/dist/assets/targetBIG_dmg1_eyes.png",
+    "logical_size": [
+      20,
+      8
+    ],
+    "has_transparency": false,
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/targetBIG_dmg1_eyes.png"
+  },
+  {
+    "key": "targetBIG_dmg2",
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/targetBIG_dmg2.png",
+    "upscaled_reference": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/dist/assets/targetBIG_dmg2.png",
+    "logical_size": [
+      40,
+      40
+    ],
+    "has_transparency": true,
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/targetBIG_dmg2.png"
+  },
+  {
+    "key": "targetBIG_dmg2_eyes",
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/targetBIG_dmg2_eyes.png",
+    "upscaled_reference": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/dist/assets/targetBIG_dmg2_eyes.png",
+    "logical_size": [
+      20,
+      8
+    ],
+    "has_transparency": false,
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/targetBIG_dmg2_eyes.png"
+  },
+  {
+    "key": "targetSMALL_dmg0",
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/targetSMALL_dmg0.png",
+    "upscaled_reference": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/dist/assets/targetSMALL_dmg0.png",
+    "logical_size": [
+      26,
+      26
+    ],
+    "has_transparency": true,
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/targetSMALL_dmg0.png"
+  },
+  {
+    "key": "targetSMALL_dmg0_eyes",
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/targetSMALL_dmg0_eyes.png",
+    "upscaled_reference": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/dist/assets/targetSMALL_dmg0_eyes.png",
+    "logical_size": [
+      14,
+      6
+    ],
+    "has_transparency": false,
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/targetSMALL_dmg0_eyes.png"
+  },
+  {
+    "key": "targetSMALL_dmg1",
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/targetSMALL_dmg1.png",
+    "upscaled_reference": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/dist/assets/targetSMALL_dmg1.png",
+    "logical_size": [
+      26,
+      26
+    ],
+    "has_transparency": true,
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/targetSMALL_dmg1.png"
+  },
+  {
+    "key": "targetSMALL_dmg1_eyes",
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/targetSMALL_dmg1_eyes.png",
+    "upscaled_reference": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/dist/assets/targetSMALL_dmg1_eyes.png",
+    "logical_size": [
+      14,
+      6
+    ],
+    "has_transparency": false,
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/targetSMALL_dmg1_eyes.png"
+  },
+  {
+    "key": "targetSMALL_dmg2",
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/targetSMALL_dmg2.png",
+    "upscaled_reference": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/dist/assets/targetSMALL_dmg2.png",
+    "logical_size": [
+      26,
+      26
+    ],
+    "has_transparency": true,
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/targetSMALL_dmg2.png"
+  },
+  {
+    "key": "targetSMALL_dmg2_eyes",
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/targetSMALL_dmg2_eyes.png",
+    "upscaled_reference": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/dist/assets/targetSMALL_dmg2_eyes.png",
+    "logical_size": [
+      14,
+      6
+    ],
+    "has_transparency": false,
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/targetSMALL_dmg2_eyes.png"
+  },
+  {
+    "key": "tutor",
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/tutor.png",
+    "upscaled_reference": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/dist/assets/tutor.png",
+    "logical_size": [
+      205,
+      240
+    ],
+    "has_transparency": true,
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/tutor.png"
+  },
+  {
+    "key": "tutorEye",
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/tutorEye.png",
+    "upscaled_reference": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/dist/assets/tutorEye.png",
+    "logical_size": [
+      21,
+      20
+    ],
+    "has_transparency": false,
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/tutorEye.png"
+  },
+  {
+    "key": "tutorMouth0",
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/tutorMouth0.png",
+    "upscaled_reference": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/dist/assets/tutorMouth0.png",
+    "logical_size": [
+      24,
+      16
+    ],
+    "has_transparency": false,
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/tutorMouth0.png"
+  },
+  {
+    "key": "tutorMouth1",
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/tutorMouth1.png",
+    "upscaled_reference": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/dist/assets/tutorMouth1.png",
+    "logical_size": [
+      24,
+      16
+    ],
+    "has_transparency": false,
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/tutorMouth1.png"
+  }
+]

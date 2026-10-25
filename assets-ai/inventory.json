@@ -1,0 +1,3393 @@
+[
+  {
+    "key": "char_hedgehog1",
+    "available": true,
+    "origin": "ai",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/char_hedgehog1.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/char_hedgehog1.png",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "content_bounds": [
+      41,
+      109,
+      1218,
+      1198
+    ],
+    "sha256": "8f6f1e4db90056a307790f86d377399924e05bbad002b292ca666a1af372e133",
+    "qa": "Czyste krawędzie i czytelne dwoje oczu; zachowany kierunek i kolczasta postać. Model nieznacznie powiększył nos, łapy i udział sylwetki w kadrze.",
+    "status": "generated_with_limitations",
+    "method": "image_gen.imagegen",
+    "logical_size": [
+      54,
+      54
+    ],
+    "aspect_ratio_relative_error": 0.0
+  },
+  {
+    "key": "char_hedgehog2",
+    "available": true,
+    "origin": "ai",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/char_hedgehog2.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/char_hedgehog2.png",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "content_bounds": [
+      146,
+      103,
+      1119,
+      1206
+    ],
+    "sha256": "32a6a392a45122041e207b5e2a3ffcdefe7d68d47e9837133d7a4dd34cb91869",
+    "qa": "Ostra sylwetka zwiniętego jeża bez łap, oba oczy zachowane. Różnice: większy udział sylwetki w kadrze i gładsze, dłuższe kolce.",
+    "status": "generated_with_limitations",
+    "method": "image_gen.imagegen",
+    "logical_size": [
+      54,
+      54
+    ],
+    "aspect_ratio_relative_error": 0.0
+  },
+  {
+    "key": "char_hedgehog3",
+    "available": true,
+    "origin": "ai",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/char_hedgehog3.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/char_hedgehog3.png",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "content_bounds": [
+      296,
+      353,
+      1216,
+      1196
+    ],
+    "sha256": "73a51b966d68aa2ce53cc16e40364f343bf4ea629d2142793745f5b9d0f47526",
+    "qa": "Zachowany kulisty stan animacji, brak łap i beżowego pyszczka, dwoje oczu. Kontury ostre. Ograniczenie: bardziej regularne kolce, nieznacznie inny nos.",
+    "status": "generated_with_limitations",
+    "method": "image_gen.imagegen",
+    "logical_size": [
+      54,
+      54
+    ],
+    "aspect_ratio_relative_error": 0.0
+  },
+  {
+    "key": "char_hedgehog4",
+    "available": true,
+    "origin": "ai",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/char_hedgehog4.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/char_hedgehog4.png",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "content_bounds": [
+      0,
+      79,
+      1144,
+      1117
+    ],
+    "sha256": "07b458a4932fe2461d2fd209c41a6db7948b8bd9353aed744b60bb182be9fdd0",
+    "qa": "Korekta usunęła halucynowane kropki. Czysta beżowa kula z parą oczu, brak kolców zgodnie z oryginałem. Nieznacznie zmieniony kształt oczu i refleks na bryle.",
+    "status": "generated_with_limitations",
+    "method": "image_gen.imagegen",
+    "logical_size": [
+      54,
+      54
+    ],
+    "aspect_ratio_relative_error": 0.0
+  },
+  {
+    "key": "char_rabbit1",
+    "available": true,
+    "origin": "ai",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/char_rabbit1.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/char_rabbit1.png",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "content_bounds": [
+      33,
+      17,
+      1236,
+      1254
+    ],
+    "sha256": "a5adb5b121f03325bbd2d466bcbb11178107194e7f879733f7a366a3290cea0b",
+    "qa": "Ostre uszy i czytelny pysk. Zachowana pozycja nisko i kierunek w prawo. Różnice: większe policzki, bardziej wyraźna mimika i grubszy kontur.",
+    "status": "generated_with_limitations",
+    "method": "image_gen.imagegen",
+    "logical_size": [
+      54,
+      54
+    ],
+    "aspect_ratio_relative_error": 0.0
+  },
+  {
+    "key": "char_rabbit2",
+    "available": true,
+    "origin": "ai",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/char_rabbit2.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/char_rabbit2.png",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "content_bounds": [
+      0,
+      22,
+      1232,
+      1254
+    ],
+    "sha256": "db7083727090fc61be3985a3d01a15248405a9a7e8d5012b6f92a7f87f12086e",
+    "qa": "Styl spójny z rabbit1, krótsze prawe ucho i nieco bardziej zwarta poza; kontury ostre. Proporcje mordki i zajęta część kadru odbiegają od źródła.",
+    "status": "generated_with_limitations",
+    "method": "image_gen.imagegen",
+    "logical_size": [
+      54,
+      54
+    ],
+    "aspect_ratio_relative_error": 0.0
+  },
+  {
+    "key": "char_rabbit3",
+    "available": true,
+    "origin": "ai",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/char_rabbit3.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/char_rabbit3.png",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "content_bounds": [
+      0,
+      39,
+      1240,
+      1230
+    ],
+    "sha256": "c5fbdca80b900049f2a22eb2716edf505f658d22b7cfbc9eb92783cc51038aa8",
+    "qa": "Zachowana mała zwarta sylwetka i krótsze uszy. Styl spójny z pozostałymi królikami. Ograniczenie: powiększone policzki i oczy.",
+    "status": "generated_with_limitations",
+    "method": "image_gen.imagegen",
+    "logical_size": [
+      54,
+      54
+    ],
+    "aspect_ratio_relative_error": 0.0
+  },
+  {
+    "key": "char_skunk1",
+    "available": true,
+    "origin": "ai",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/char_skunk1.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/char_skunk1.png",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "content_bounds": [
+      45,
+      340,
+      1209,
+      898
+    ],
+    "sha256": "24995130015d63ea50c838cdcc144609aca77cd4eacda7913e65382534b0c567",
+    "qa": "Korekta przywróciła kwadratowe płótno i duże marginesy pionowe. Czytelna biała pręga, dwoje białych oczu, kierunek w prawo. Sylwetka gładsza i bardziej zaokrąglona.",
+    "status": "generated_with_limitations",
+    "method": "image_gen.imagegen",
+    "logical_size": [
+      54,
+      54
+    ],
+    "aspect_ratio_relative_error": 0.0
+  },
+  {
+    "key": "char_skunk2",
+    "available": true,
+    "origin": "ai",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/char_skunk2.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/char_skunk2.png",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "content_bounds": [
+      49,
+      84,
+      1113,
+      1182
+    ],
+    "sha256": "c34f13bbae2ea23108aeae8c3110effa5a48b181e79e6ccfb00f043a3216e9a7",
+    "qa": "Mniejsza sylwetka, podwinięte łapy i kierunek zachowane. Spójny styl skunk1. Różnica: model wydłużył tułów i powiększył uszy.",
+    "status": "generated_with_limitations",
+    "method": "image_gen.imagegen",
+    "logical_size": [
+      54,
+      54
+    ],
+    "aspect_ratio_relative_error": 0.0
+  },
+  {
+    "key": "char_skunk3",
+    "available": true,
+    "origin": "ai_repaired",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/char_skunk3.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/char_skunk3.png",
+    "dimensions": [
+      864,
+      864
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "content_bounds": [
+      80,
+      302,
+      560,
+      546
+    ],
+    "sha256": "0391b1c7d82bcd4115f08d40367783ab89f6ff3b28236e2e1fc55e3314d9728b",
+    "qa": "Zaokrąglony tułów i zwarta poza. Izolowane drobne składniki alfa usunięte; zachowano oryginalny antyalias przez rozszerzoną maskę mnożoną z alfa. Sylwetka dopasowana proporcjonalnie wewnątrz bbox oryginału na płótnie 864x864. Ograniczenie: ogon nadal większy i wyższy niż w źródle; contain nie zmienia wewnętrznych proporcji postaci. Kompozyt porównawczy obejrzany: brak dziur w tułowiu, biała pręga i oczy pełne, kontury bez widocznych obcych plam.",
+    "status": "repaired_with_limitations",
+    "method": "built-in image_gen edit; alpha connected components >64 px at alpha>8; 7x7 dilated mask multiplied with original alpha; proportional contain in original bbox at scale16",
+    "logical_size": [
+      54,
+      54
+    ],
+    "aspect_ratio_relative_error": 0.0
+  },
+  {
+    "key": "char_squirrel1",
+    "available": true,
+    "origin": "ai",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/char_squirrel1.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/char_squirrel1.png",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "content_bounds": [
+      43,
+      136,
+      1067,
+      1021
+    ],
+    "sha256": "789447535ec08c172750f3c6013d88f5877dc72600327a0774e6f20a0fca21ec",
+    "qa": "Poprawiony wynik ma dwoje oczu i czyste kontury. Zachowuje kierunek, kolory i zasadniczą pozę. Ograniczenie: model zmienił dokładne proporcje nosa i marginesy; nie jest zamiennikiem pixel-perfect.",
+    "status": "generated_with_limitations",
+    "method": "image_gen.imagegen",
+    "logical_size": [
+      54,
+      54
+    ],
+    "aspect_ratio_relative_error": 0.0
+  },
+  {
+    "key": "char_squirrel2",
+    "available": true,
+    "origin": "ai",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/char_squirrel2.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/char_squirrel2.png",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "content_bounds": [
+      73,
+      144,
+      1174,
+      1182
+    ],
+    "sha256": "1a431f6a9c2d11c58c7329eda00e378bb4393ecd5eb046fc9ef9c97c03c99f06",
+    "qa": "Korekta odzyskała zwarte ciało i ogon poniżej szczytu głowy. Ostry pysk, dwoje oczu. Styl oczu odbiega od squirrel1; kontynuacja nie jest pixel-perfect.",
+    "status": "generated_with_limitations",
+    "method": "image_gen.imagegen",
+    "logical_size": [
+      54,
+      54
+    ],
+    "aspect_ratio_relative_error": 0.0
+  },
+  {
+    "key": "char_squirrel3",
+    "available": true,
+    "origin": "ai",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/char_squirrel3.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/char_squirrel3.png",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "content_bounds": [
+      194,
+      152,
+      999,
+      1195
+    ],
+    "sha256": "875d511503908543e5c2d0b3e7c655768a681256386d35ff4c9e513acab40651",
+    "qa": "Zachowana owalna zwarta klatka bez wyprostowanego tułowia, ogon po lewej i dwoje oczu. Czyste krawędzie. Nos/oczy większe i jaśniejsze niż źródło.",
+    "status": "generated_with_limitations",
+    "method": "image_gen.imagegen",
+    "logical_size": [
+      54,
+      54
+    ],
+    "aspect_ratio_relative_error": 0.0
+  },
+  {
+    "key": "char_squirrel_cone",
+    "available": true,
+    "origin": "ai",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/char_squirrel_cone.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/char_squirrel_cone.png",
+    "dimensions": [
+      1293,
+      1217
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "content_bounds": [
+      0,
+      0,
+      1293,
+      1217
+    ],
+    "sha256": "2d21fd1681c522b17cbb4191b8c75762cf0816aa9ef7fa5bae392ecacee7131b",
+    "qa": "Wyraźne łuski, brązowa paleta i skos jak w źródle; model odtworzył dużo więcej detali łusek niż można potwierdzić przy 17x16. Sylwetka dochodzi do krawędzi podobnie jak oryginał.",
+    "status": "generated_with_limitations",
+    "method": "image_gen.imagegen",
+    "logical_size": [
+      17,
+      16
+    ],
+    "aspect_ratio_relative_error": 0.0
+  },
+  {
+    "key": "char_turtle1",
+    "available": true,
+    "origin": "ai",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/char_turtle1.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/char_turtle1.png",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "content_bounds": [
+      29,
+      232,
+      1254,
+      1156
+    ],
+    "sha256": "580067140e8351b52d8e070a9ebed57cf8efc664a5988c5b479665235073500e",
+    "qa": "Czytelne oczy, wzór skorupy i cztery łapy; zachowany wyciągnięty kark oraz paleta. Model dodał wyraźniejsze pazurki/usta i powiększył twarz.",
+    "status": "generated_with_limitations",
+    "method": "image_gen.imagegen",
+    "logical_size": [
+      54,
+      54
+    ],
+    "aspect_ratio_relative_error": 0.0
+  },
+  {
+    "key": "char_turtle2",
+    "available": true,
+    "origin": "ai",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/char_turtle2.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/char_turtle2.png",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "content_bounds": [
+      138,
+      311,
+      1087,
+      1053
+    ],
+    "sha256": "09813a1c0f2929a3c469f02f7ebbfddafaae7a84b0719ea4678daa02c0c0819a",
+    "qa": "Zachowany skrócony kark i zwarta poza, czytelna skorupa. Model dał bardziej żółtą skórę i większe oczy/łapy niż źródło.",
+    "status": "generated_with_limitations",
+    "method": "image_gen.imagegen",
+    "logical_size": [
+      54,
+      54
+    ],
+    "aspect_ratio_relative_error": 0.0
+  },
+  {
+    "key": "char_turtle3",
+    "available": true,
+    "origin": "ai",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/char_turtle3.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/char_turtle3.png",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "content_bounds": [
+      113,
+      31,
+      1216,
+      1053
+    ],
+    "sha256": "b67b9022d03dbcce622c4dced542e1f5bd11849439e68bb39625c0310868e067",
+    "qa": "Zachowana chowana klatka: skorupa, para oczu i ogonek bez kończyn. Wzór ostry. Oczy powiększone względem oryginału.",
+    "status": "generated_with_limitations",
+    "method": "image_gen.imagegen",
+    "logical_size": [
+      54,
+      54
+    ],
+    "aspect_ratio_relative_error": 0.0
+  },
+  {
+    "key": "targetBIG_dmg0",
+    "available": true,
+    "origin": "ai",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/targetBIG_dmg0.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/targetBIG_dmg0.png",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "content_bounds": [
+      43,
+      11,
+      1216,
+      1168
+    ],
+    "sha256": "2ab440be8924440d825bc87cff4a5dabc29ef08ebfed7402434717db6746b931",
+    "qa": "Wyraźna groźna mimika, pomarańczowa paleta i otwarta paszcza. Ostre zęby i oczy. Zmienione proporcje głowy, rozkład/rozmiar kłów i dodatkowe ząbki futra.",
+    "status": "generated_with_limitations",
+    "method": "image_gen.imagegen",
+    "logical_size": [
+      40,
+      40
+    ],
+    "aspect_ratio_relative_error": 0.0
+  },
+  {
+    "key": "targetBIG_dmg0_eyes",
+    "available": true,
+    "origin": "ai",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/targetBIG_dmg0_eyes.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/targetBIG_dmg0_eyes.png",
+    "dimensions": [
+      1983,
+      793
+    ],
+    "mode": "RGB",
+    "alpha_extrema": [
+      255,
+      255
+    ],
+    "content_bounds": [
+      0,
+      0,
+      1983,
+      793
+    ],
+    "sha256": "171dc2cc4434f83aade0440a1d892847fa4c2b69b644255daea1fbd7591b7a7f",
+    "qa": "Dwie zamknięte powieki na pełnym pomarańczowo-brązowym tle, proporcja 2.5:1 zachowana. Model dodał ząbki futra i większe przejścia barw; nakładka wymaga dopasowania do nowej głowy.",
+    "status": "generated_with_limitations",
+    "method": "image_gen.imagegen",
+    "logical_size": [
+      20,
+      8
+    ],
+    "aspect_ratio_relative_error": 0.0003
+  },
+  {
+    "key": "targetBIG_dmg1",
+    "available": true,
+    "origin": "ai",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/targetBIG_dmg1.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/targetBIG_dmg1.png",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "content_bounds": [
+      41,
+      27,
+      1212,
+      1160
+    ],
+    "sha256": "eb118d080829d6afb6a73346296c24b25eea94afd52cadc9b4535613db615650",
+    "qa": "Poprawne dwa fioletowe podbicia, przymknięte oczy i spójna głowa z dmg0. Detale kłów i futra inne od małego oryginału.",
+    "status": "generated_with_limitations",
+    "method": "image_gen.imagegen",
+    "logical_size": [
+      40,
+      40
+    ],
+    "aspect_ratio_relative_error": 0.0
+  },
+  {
+    "key": "targetBIG_dmg1_eyes",
+    "available": true,
+    "origin": "ai",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/targetBIG_dmg1_eyes.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/targetBIG_dmg1_eyes.png",
+    "dimensions": [
+      1983,
+      793
+    ],
+    "mode": "RGB",
+    "alpha_extrema": [
+      255,
+      255
+    ],
+    "content_bounds": [
+      0,
+      0,
+      1983,
+      793
+    ],
+    "sha256": "0d9bd862974bf2dd610eadde8ce9fc6afc9ea085b34ac1b9c6af95bc1ddb0119",
+    "qa": "Zamknięte powieki i symetryczne fioletowe podbicia właściwe. Pełne nieprzezroczyste tło i proporcje zachowane. Dodatkowe szczegóły futra/cieniowania.",
+    "status": "generated_with_limitations",
+    "method": "image_gen.imagegen",
+    "logical_size": [
+      20,
+      8
+    ],
+    "aspect_ratio_relative_error": 0.0003
+  },
+  {
+    "key": "targetBIG_dmg2",
+    "available": true,
+    "origin": "ai",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/targetBIG_dmg2.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/targetBIG_dmg2.png",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "content_bounds": [
+      30,
+      8,
+      1232,
+      1254
+    ],
+    "sha256": "67378a32946a35d21abd19197720481b6a0f2431b5487dd529ab073449b2e4c5",
+    "qa": "Zachowane asymetryczne podbicie, prawe zamknięte oko i lekki przechył. Styl głowy zgodny z pozostałymi. Więcej pomarańczowej obwódki niż w źródle, większe kły.",
+    "status": "generated_with_limitations",
+    "method": "image_gen.imagegen",
+    "logical_size": [
+      40,
+      40
+    ],
+    "aspect_ratio_relative_error": 0.0
+  },
+  {
+    "key": "targetBIG_dmg2_eyes",
+    "available": true,
+    "origin": "ai",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/targetBIG_dmg2_eyes.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/targetBIG_dmg2_eyes.png",
+    "dimensions": [
+      1983,
+      793
+    ],
+    "mode": "RGB",
+    "alpha_extrema": [
+      255,
+      255
+    ],
+    "content_bounds": [
+      0,
+      0,
+      1983,
+      793
+    ],
+    "sha256": "f678fc2345f08c16f77f5907a1c2b469072d14d48fe86cc067302cb1b1399fc1",
+    "qa": "Czyste dwie zamknięte powieki na fioletowym tle. Proporcja nakładki zachowana, położenie/rozmiar powiek wymaga dopasowania podczas integracji.",
+    "status": "generated_with_limitations",
+    "method": "image_gen.imagegen",
+    "logical_size": [
+      20,
+      8
+    ],
+    "aspect_ratio_relative_error": 0.0003
+  },
+  {
+    "key": "targetSMALL_dmg0",
+    "available": true,
+    "origin": "ai",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/targetSMALL_dmg0.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/targetSMALL_dmg0.png",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "content_bounds": [
+      28,
+      18,
+      1224,
+      1254
+    ],
+    "sha256": "8545c37cb814fc17393a486d5b4a27f35e288fd833d2fbf7d0dc4fb6ed043c58",
+    "qa": "Osobna generacja małego celu, czysta i zgodna stylistycznie z dużym. Gniewna mimika zachowana. Proporcje zębów i futra zmienione wobec źródła.",
+    "status": "generated_with_limitations",
+    "method": "image_gen.imagegen",
+    "logical_size": [
+      26,
+      26
+    ],
+    "aspect_ratio_relative_error": 0.0
+  },
+  {
+    "key": "targetSMALL_dmg0_eyes",
+    "available": true,
+    "origin": "ai",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/targetSMALL_dmg0_eyes.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/targetSMALL_dmg0_eyes.png",
+    "dimensions": [
+      1915,
+      821
+    ],
+    "mode": "RGB",
+    "alpha_extrema": [
+      255,
+      255
+    ],
+    "content_bounds": [
+      0,
+      0,
+      1915,
+      821
+    ],
+    "sha256": "860540d2df9d8f07f72291f94eb69b988cc6d5f1a966d1dcf22d2fef97f95f1d",
+    "qa": "Poprawne zamknięte oczy, paleta i pełne tło nakładki. Różnice: wyraźne detale futra i inny dokładny kształt powiek.",
+    "status": "generated_with_limitations",
+    "method": "image_gen.imagegen",
+    "logical_size": [
+      14,
+      6
+    ],
+    "aspect_ratio_relative_error": 0.0003
+  },
+  {
+    "key": "targetSMALL_dmg1",
+    "available": true,
+    "origin": "ai",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/targetSMALL_dmg1.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/targetSMALL_dmg1.png",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "content_bounds": [
+      35,
+      25,
+      1220,
+      1221
+    ],
+    "sha256": "072245a3e7dfdf90ea1ded2e8d4b1e5bdc801bf119609f5e48b8c0da3f29621b",
+    "qa": "Dwa fioletowe podbicia i przymknięte oczy zachowane. Osobna generacja, spójna z BIG dmg1. Różnice proporcji zębów i twarzy wobec źródła 26px.",
+    "status": "generated_with_limitations",
+    "method": "image_gen.imagegen",
+    "logical_size": [
+      26,
+      26
+    ],
+    "aspect_ratio_relative_error": 0.0
+  },
+  {
+    "key": "targetSMALL_dmg1_eyes",
+    "available": true,
+    "origin": "ai",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/targetSMALL_dmg1_eyes.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/targetSMALL_dmg1_eyes.png",
+    "dimensions": [
+      1916,
+      821
+    ],
+    "mode": "RGB",
+    "alpha_extrema": [
+      255,
+      255
+    ],
+    "content_bounds": [
+      0,
+      0,
+      1916,
+      821
+    ],
+    "sha256": "167f61701bae20d9e92b7f46bae1c59fc67f2c8f6def5dd94559abbff942c4ee",
+    "qa": "Właściwe fioletowe podbicia i zamknięte powieki. Czysta linia, pełne tło. Dodana szczegółowość futra i odbić.",
+    "status": "generated_with_limitations",
+    "method": "image_gen.imagegen",
+    "logical_size": [
+      14,
+      6
+    ],
+    "aspect_ratio_relative_error": 0.0002
+  },
+  {
+    "key": "targetSMALL_dmg2",
+    "available": true,
+    "origin": "ai",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/targetSMALL_dmg2.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/targetSMALL_dmg2.png",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "content_bounds": [
+      0,
+      8,
+      1230,
+      1238
+    ],
+    "sha256": "84359f55af44a26905386dc1221ca34dee54a4379a2ef981eb3f84236f8ea5a6",
+    "qa": "Asymetryczna fioletowa twarz, przechył i zamknięte prawe oko poprawne; spójność z BIG dmg2. Pozostaje zbyt duża pomarańczowa obwódka względem źródła.",
+    "status": "generated_with_limitations",
+    "method": "image_gen.imagegen",
+    "logical_size": [
+      26,
+      26
+    ],
+    "aspect_ratio_relative_error": 0.0
+  },
+  {
+    "key": "targetSMALL_dmg2_eyes",
+    "available": true,
+    "origin": "ai",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/targetSMALL_dmg2_eyes.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/targetSMALL_dmg2_eyes.png",
+    "dimensions": [
+      1916,
+      821
+    ],
+    "mode": "RGB",
+    "alpha_extrema": [
+      255,
+      255
+    ],
+    "content_bounds": [
+      0,
+      0,
+      1916,
+      821
+    ],
+    "sha256": "d08edc922f6f0e4f0fecf751c784d45390245f8b0565aaa5a5810b7ad2b1872c",
+    "qa": "Dwie zamknięte ciemne powieki i fioletowe tło poprawne. Kształt powiek bardziej zakrzywiony niż źródłowy; do dopasowania do głowy.",
+    "status": "generated_with_limitations",
+    "method": "image_gen.imagegen",
+    "logical_size": [
+      14,
+      6
+    ],
+    "aspect_ratio_relative_error": 0.0002
+  },
+  {
+    "key": "tutor",
+    "available": true,
+    "origin": "ai",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/tutor.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/tutor.png",
+    "dimensions": [
+      1159,
+      1357
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "content_bounds": [
+      0,
+      0,
+      1159,
+      1357
+    ],
+    "sha256": "a88743a18a5878398f3ed34a806c713703e2b121d3678046711758e0e8672fe8",
+    "qa": "Kompozycja panelu, pusta tablica i lewostronny uśmiech wiewiórki zachowane. Ostre liście i twarz. Drobne różnice układu liści, marginesów i obrysu tablicy.",
+    "status": "generated_with_limitations",
+    "method": "image_gen.imagegen",
+    "logical_size": [
+      205,
+      240
+    ],
+    "aspect_ratio_relative_error": 0.0001
+  },
+  {
+    "key": "tutorEye",
+    "available": true,
+    "origin": "ai",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/tutorEye.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/tutorEye.png",
+    "dimensions": [
+      1285,
+      1224
+    ],
+    "mode": "RGB",
+    "alpha_extrema": [
+      255,
+      255
+    ],
+    "content_bounds": [
+      0,
+      0,
+      1285,
+      1224
+    ],
+    "sha256": "29997c4d24c6c2626b162f61f591c9be3d9c9a9d986de0894e1d02c8d4ea53cb",
+    "qa": "Jedno oko na pomarańczowym pełnym tle, ostre obrysy i źrenica. Model nadał bardziej kuliste cieniowanie niż reszta ilustracji; nakładka wymaga dopasowania tonalnego.",
+    "status": "generated_with_limitations",
+    "method": "image_gen.imagegen",
+    "logical_size": [
+      21,
+      20
+    ],
+    "aspect_ratio_relative_error": 0.0002
+  },
+  {
+    "key": "tutorMouth0",
+    "available": true,
+    "origin": "original_upscale",
+    "generated_by_ai": false,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/tutorMouth0.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/tutorMouth0.png",
+    "dimensions": [
+      96,
+      64
+    ],
+    "mode": "RGB",
+    "alpha_extrema": [
+      255,
+      255
+    ],
+    "content_bounds": [
+      0,
+      0,
+      96,
+      64
+    ],
+    "sha256": "8b05b370bebe76998186f5e0181feb6eea0bbdaa187e0c0893aa72a3039addf1",
+    "qa": "Uzupełniono wcześniejszą wersją 4× z oryginału (96×64). Zachowany pełny obraz nakładki, kolory i układ. To wierny upscale, nie nowy rysunek AI; nadal widać ograniczenia rozdzielczości źródła. Zgodność przy nakładaniu na nowego tutora wymaga osobnej integracji.",
+    "status": "fallback_verified",
+    "method": "existing faithful 4x filtered upscale copied from previous verified asset set; no new image generation",
+    "logical_size": [
+      24,
+      16
+    ],
+    "aspect_ratio_relative_error": 0.0
+  },
+  {
+    "key": "tutorMouth1",
+    "available": true,
+    "origin": "ai",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/tutorMouth1.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/tutorMouth1.png",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "mode": "RGB",
+    "alpha_extrema": [
+      255,
+      255
+    ],
+    "content_bounds": [
+      0,
+      0,
+      1536,
+      1024
+    ],
+    "sha256": "9382f9aa5f07efa3c7c90b742dd4c7f259f010c82a1000754438e6e7a173d14b",
+    "qa": "Czarne owalne otwarcie i pomarańczowe tło z fragmentem nosa zachowane. Bardziej regularny owal oraz inne dokładne położenie/rozmiar niż 24x16.",
+    "status": "generated_with_limitations",
+    "method": "image_gen.imagegen",
+    "logical_size": [
+      24,
+      16
+    ],
+    "aspect_ratio_relative_error": 0.0
+  },
+  {
+    "key": "FONT",
+    "available": true,
+    "origin": "deterministic_font",
+    "generated_by_ai": false,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/FONT.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/FONT.png",
+    "dimensions": [
+      3840,
+      104
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "content_bounds": [
+      20,
+      0,
+      3832,
+      104
+    ],
+    "sha256": "178450f2cee5de571cbec6b6f9d4df11d94fe258bec0675bb43bb101adef4599",
+    "qa": "All required codepoints present in Unicode cmap; every glyph has alpha pixels strictly inside its original rect. Exact original advances retained. See all-glyph and Polish-text QA sheets; intentionally similar local fonts, not original outlines or AI output.",
+    "status": "deterministic_repaired_verified",
+    "method": "Pillow/FreeType TTF rasterization at 4x supersampling; exact original rects/advances at scale 8; per-glyph horizontal fit only",
+    "logical_size": [
+      480,
+      13
+    ],
+    "aspect_ratio_relative_error": 0.0
+  },
+  {
+    "key": "arrowInTheCircle",
+    "available": true,
+    "origin": "ai",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/arrowInTheCircle.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/arrowInTheCircle.png",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "content_bounds": [
+      19,
+      35,
+      1238,
+      1254
+    ],
+    "sha256": "092363ce9b24bf7404a87798871b17c00424f567bee17f77b97235d361a7defd",
+    "qa": "Visually inspected: sharp clean pink circular button and left arrow; glossy rim/highlight more pronounced than tiny reference.",
+    "status": "generated_qa_limitation",
+    "method": "image_gen.imagegen",
+    "logical_size": [
+      17,
+      17
+    ],
+    "aspect_ratio_relative_error": 0.0
+  },
+  {
+    "key": "blood1",
+    "available": true,
+    "origin": "ai",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/blood1.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/blood1.png",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "content_bounds": [
+      89,
+      166,
+      1121,
+      1126
+    ],
+    "sha256": "0a6c06c0a88a6749aadbc9ec4d19ebca3f011a2f423dd4ec9a5ae26b39b560b1",
+    "qa": "Inspected: crisp red rounded particle, but occupies less canvas than source; glossy highlight exaggerated and body more regular.",
+    "status": "generated_qa_limitation",
+    "method": "image_gen.imagegen",
+    "logical_size": [
+      8,
+      8
+    ],
+    "aspect_ratio_relative_error": 0.0
+  },
+  {
+    "key": "blood2",
+    "available": true,
+    "origin": "ai",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/blood2.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/blood2.png",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "content_bounds": [
+      0,
+      0,
+      1253,
+      1254
+    ],
+    "sha256": "029177135e308d37764f660129f2a2447ac763c219fb4902b2478bb6ab066a19",
+    "qa": "Inspected native preview: red gradient particle and irregular rounded four-sided shape;  Proper Pillow RGBA composite onto #355447 inspected: clean edges, no stray speckles. Earlier apparent artifacts came from hidden RGB in transparent pixels and are not visible when composited.",
+    "status": "generated_qa_limitation",
+    "method": "image_gen.imagegen",
+    "logical_size": [
+      4,
+      4
+    ],
+    "aspect_ratio_relative_error": 0.0
+  },
+  {
+    "key": "bullet",
+    "available": true,
+    "origin": "ai",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/bullet.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/bullet.png",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "content_bounds": [
+      0,
+      0,
+      1254,
+      1254
+    ],
+    "sha256": "c4a71749dc5438db4fdbc533b37acb956a85fa458a4a9f21af052814bd88b328",
+    "qa": "Inspected: detailed brown gray stone with clear facets and round silhouette; significantly more detailed than source.  Proper Pillow RGBA composite onto #355447 inspected: clean edges, no stray speckles. Earlier apparent artifacts came from hidden RGB in transparent pixels and are not visible when composited.",
+    "status": "generated_qa_limitation",
+    "method": "image_gen.imagegen",
+    "logical_size": [
+      20,
+      20
+    ],
+    "aspect_ratio_relative_error": 0.0
+  },
+  {
+    "key": "buttonEdge",
+    "available": true,
+    "origin": "ai",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/buttonEdge.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/buttonEdge.png",
+    "dimensions": [
+      887,
+      1774
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "content_bounds": [
+      0,
+      9,
+      887,
+      1774
+    ],
+    "sha256": "459b4485ceb31574dd491d718b74b144d92ed5ca0eb97be77079c7cb290beb61",
+    "qa": "Raw output inspected. Correct left semicircular cap and flat right cut, smooth pink bevel. Composite QA follows. Proper dark-green alpha composite inspected: clean edges and opaque interior, no visible detached fragments.",
+    "status": "complete",
+    "method": "image_gen.imagegen",
+    "logical_size": [
+      12,
+      24
+    ],
+    "aspect_ratio_relative_error": 0.0
+  },
+  {
+    "key": "buttonStripe",
+    "available": true,
+    "origin": "ai_normalized",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/buttonStripe.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/buttonStripe.png",
+    "dimensions": [
+      80,
+      192
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      255,
+      255
+    ],
+    "content_bounds": [
+      0,
+      0,
+      80,
+      192
+    ],
+    "sha256": "8e22c46735d351b9b222a5b91943955f621662a122f914987e06584b87631fb7",
+    "qa": [
+      "Exact logical dimensions times 8 verified; meaningful alpha retained within canvas. Proper alpha-composited output visually inspected; expected content is present."
+    ],
+    "status": "repaired",
+    "method": "Per-row median RGBA from middle half of AI image, replicated horizontally; exact seamless horizontal repeat.",
+    "logical_size": [
+      10,
+      24
+    ],
+    "aspect_ratio_relative_error": 0.0
+  },
+  {
+    "key": "explosion",
+    "available": true,
+    "origin": "ai_normalized",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/explosion.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/explosion.png",
+    "dimensions": [
+      1440,
+      240
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "content_bounds": [
+      64,
+      8,
+      1432,
+      231
+    ],
+    "sha256": "58603bc70a6d4afb15484b820ab54623d73f1f0308f8b3c80249e556b4f61558",
+    "qa": [
+      "Exact logical dimensions times 8 verified; meaningful alpha retained within canvas. Proper alpha-composited output visually inspected; expected content is present.",
+      "Every individual frame inspected after normalization; no missing content or clipping introduced by placement. Original relative margins retained, with aspect-preserving fit where AI silhouettes differ."
+    ],
+    "status": "repaired",
+    "method": "Segment alpha projection into distinct frames; aspect-preserving fit in original per-frame alpha bounds; preserve frame order and offsets.",
+    "logical_size": [
+      180,
+      30
+    ],
+    "aspect_ratio_relative_error": 0.0
+  },
+  {
+    "key": "fS",
+    "available": true,
+    "origin": "deterministic_font",
+    "generated_by_ai": false,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/fS.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/fS.png",
+    "dimensions": [
+      5064,
+      112
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "content_bounds": [
+      2,
+      0,
+      5054,
+      112
+    ],
+    "sha256": "cbe823087a16b29d24d230895e834c6cb2418c6a50428affd8fa57f67531026e",
+    "qa": "All required codepoints present in Unicode cmap; every glyph has alpha pixels strictly inside its original rect. Exact original advances retained. See all-glyph and Polish-text QA sheets; intentionally similar local fonts, not original outlines or AI output.",
+    "status": "deterministic_repaired_verified",
+    "method": "Pillow/FreeType TTF rasterization at 4x supersampling; exact original rects/advances at scale 8; per-glyph horizontal fit only",
+    "logical_size": [
+      633,
+      14
+    ],
+    "aspect_ratio_relative_error": 0.0
+  },
+  {
+    "key": "fire",
+    "available": true,
+    "origin": "ai_normalized",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/fire.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/fire.png",
+    "dimensions": [
+      1248,
+      344
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "content_bounds": [
+      56,
+      0,
+      1202,
+      344
+    ],
+    "sha256": "ecea32de1cbce607be0f66f36aa5edad45a54f16e973ace1d23029d10aeb1326",
+    "qa": [
+      "Exact logical dimensions times 8 verified; meaningful alpha retained within canvas. Proper alpha-composited output visually inspected; expected content is present.",
+      "Every individual frame inspected after normalization; no missing content or clipping introduced by placement. Original relative margins retained, with aspect-preserving fit where AI silhouettes differ."
+    ],
+    "status": "repaired",
+    "method": "Segment alpha projection into distinct frames; aspect-preserving fit in original per-frame alpha bounds; preserve frame order and offsets.",
+    "logical_size": [
+      156,
+      43
+    ],
+    "aspect_ratio_relative_error": 0.0
+  },
+  {
+    "key": "fontNum",
+    "available": true,
+    "origin": "deterministic_font",
+    "generated_by_ai": false,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/fontNum.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/fontNum.png",
+    "dimensions": [
+      544,
+      80
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "content_bounds": [
+      10,
+      0,
+      542,
+      80
+    ],
+    "sha256": "0f93f13a0fca71878fa0646166621201b281bfbc308f117a035a01485538a03b",
+    "qa": "All required codepoints present in Unicode cmap; every glyph has alpha pixels strictly inside its original rect. Exact original advances retained. See all-glyph and Polish-text QA sheets; intentionally similar local fonts, not original outlines or AI output.",
+    "status": "deterministic_repaired_verified",
+    "method": "Pillow/FreeType TTF rasterization at 4x supersampling; exact original rects/advances at scale 8; per-glyph horizontal fit only",
+    "logical_size": [
+      68,
+      10
+    ],
+    "aspect_ratio_relative_error": 0.0
+  },
+  {
+    "key": "framecorner",
+    "available": true,
+    "origin": "ai",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/framecorner.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/framecorner.png",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "content_bounds": [
+      0,
+      0,
+      1254,
+      1254
+    ],
+    "sha256": "13ae0f4140ed7d8a1c84deefeac51be782115ebe584923e7201c3552e63cdb3c",
+    "qa": "Raw output inspected. Correct lower-left golden/brown rounded frame corner. Smooth bevel; exact tiny original pixel proportions necessarily interpreted. Composite QA follows. Proper dark-green alpha composite inspected: clean edges and opaque interior, no visible detached fragments.",
+    "status": "complete",
+    "method": "image_gen.imagegen",
+    "logical_size": [
+      6,
+      6
+    ],
+    "aspect_ratio_relative_error": 0.0
+  },
+  {
+    "key": "heart",
+    "available": true,
+    "origin": "ai",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/heart.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/heart.png",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "content_bounds": [
+      0,
+      119,
+      1253,
+      1164
+    ],
+    "sha256": "dc264adc116bd17cd732f29a122e7d744eb542d95394ba6a4ce4174ee05045f3",
+    "qa": "Proper alpha composite inspected: smooth clean pink heart with white border, no visible speckles. Initial alpha artifact warning was false due to hidden RGB. Glossy highlight more pronounced than source.",
+    "status": "generated_qa_limitation",
+    "method": "image_gen.imagegen",
+    "logical_size": [
+      20,
+      20
+    ],
+    "aspect_ratio_relative_error": 0.0
+  },
+  {
+    "key": "i",
+    "available": true,
+    "origin": "ai",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/i.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/i.png",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "content_bounds": [
+      0,
+      0,
+      1254,
+      1242
+    ],
+    "sha256": "94d4bf978ff9c53c198dd4271cd563fd31e36237a283d7da0cdd107d4586e6d4",
+    "qa": "Inspected: clean cartoon squirrel, blue sky/green trees and small lower-right bear, correct composition. Anatomy/face details are AI reinterpretation, rounded-square margins slightly changed.",
+    "status": "generated_qa_limitation",
+    "method": "image_gen.imagegen",
+    "logical_size": [
+      64,
+      64
+    ],
+    "aspect_ratio_relative_error": 0.0
+  },
+  {
+    "key": "launcherBaseElement",
+    "available": true,
+    "origin": "ai",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/launcherBaseElement.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/launcherBaseElement.png",
+    "dimensions": [
+      1802,
+      873
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "content_bounds": [
+      0,
+      0,
+      1801,
+      873
+    ],
+    "sha256": "8df7c5a320d2281ca35fc9d38193b29375f7aeccdb7e9737bf949cc95254679a",
+    "qa": "Visually inspected: crisp wood braces/posts and transparent openings. Two X sections preserved; grain more pronounced and joint alignment/tile seam require runtime verification.",
+    "status": "generated_qa_limitation",
+    "method": "image_gen.imagegen",
+    "logical_size": [
+      31,
+      15
+    ],
+    "aspect_ratio_relative_error": 0.0012
+  },
+  {
+    "key": "launcherBaseTop",
+    "available": true,
+    "origin": "ai_normalized",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/launcherBaseTop.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/launcherBaseTop.png",
+    "dimensions": [
+      312,
+      64
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "content_bounds": [
+      0,
+      0,
+      312,
+      64
+    ],
+    "sha256": "42bdc8f2fa38d0c1db8ec74d9533a528621aec2133764022750a25a9fd899296",
+    "qa": [
+      "Exact logical dimensions times 8 verified; meaningful alpha retained within canvas. Proper alpha-composited output visually inspected; expected content is present."
+    ],
+    "status": "repaired",
+    "method": "Map tight wooden platform alpha bounds to original 39:8 geometry, correcting excessive horizontal flattening from AI.",
+    "logical_size": [
+      39,
+      8
+    ],
+    "aspect_ratio_relative_error": 0.0
+  },
+  {
+    "key": "launcher_1",
+    "available": true,
+    "origin": "ai",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/launcher_1.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/launcher_1.png",
+    "dimensions": [
+      1278,
+      1230
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "content_bounds": [
+      82,
+      56,
+      1215,
+      1171
+    ],
+    "sha256": "31623cb37567bc8ba4a4136cef164e8c21a0ea21ec72b725043dd61452fb4487",
+    "qa": "Visually inspected: crisp horizontal rounded/square-ended wooden plank and broad transparent margins maintained. Fine relative placement and composite pivot require runtime alignment.",
+    "status": "generated_qa_limitation",
+    "method": "image_gen.imagegen",
+    "logical_size": [
+      54,
+      55
+    ],
+    "aspect_ratio_relative_error": 0.0583
+  },
+  {
+    "key": "launcher_2",
+    "available": true,
+    "origin": "ai_normalized",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/launcher_2.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/launcher_2.png",
+    "dimensions": [
+      72,
+      320
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "content_bounds": [
+      11,
+      0,
+      60,
+      320
+    ],
+    "sha256": "2dc9319468a929fb5b28df9558b901da0b239f2e76496e4a5cba207e9cd48759",
+    "qa": [
+      "Exact logical dimensions times 8 verified; meaningful alpha retained within canvas. Proper alpha-composited output visually inspected; expected content is present."
+    ],
+    "status": "repaired",
+    "method": "Remove alpha padding; uniformly fit source bounds into original logical canvas; preserve silhouette aspect, center horizontally, bottom-anchor stems/trees.",
+    "logical_size": [
+      9,
+      40
+    ],
+    "aspect_ratio_relative_error": 0.0
+  },
+  {
+    "key": "launcher_3",
+    "available": true,
+    "origin": "ai",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/launcher_3.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/launcher_3.png",
+    "dimensions": [
+      887,
+      1774
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "content_bounds": [
+      90,
+      10,
+      859,
+      1763
+    ],
+    "sha256": "526aa21c350139cf00f696cd167ce3c6b8ff6fdab1ee94e3dde0c3f6549ac0f8",
+    "qa": "Inspected: clean pale/brown curved wooden sliver, orientation preserved; original tiny crop magnified to more slender curved shape. Alignment requires review.",
+    "status": "generated_qa_limitation",
+    "method": "image_gen.imagegen",
+    "logical_size": [
+      4,
+      8
+    ],
+    "aspect_ratio_relative_error": 0.0
+  },
+  {
+    "key": "launcher_4",
+    "available": true,
+    "origin": "ai",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/launcher_4.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/launcher_4.png",
+    "dimensions": [
+      1243,
+      1266
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "content_bounds": [
+      74,
+      119,
+      1221,
+      1131
+    ],
+    "sha256": "bc4e53db549c05fe964de294b41f2bebb7cb8286b055e327b53152dc8d0d44ae",
+    "qa": "Inspected: warm brown foreground launcher shell with right protruding tip; sharp contour and broad transparent margins. Proportions and notch depth drift from original, needs assembly review.",
+    "status": "generated_qa_limitation",
+    "method": "image_gen.imagegen",
+    "logical_size": [
+      54,
+      55
+    ],
+    "aspect_ratio_relative_error": 0.0
+  },
+  {
+    "key": "launcher_5",
+    "available": true,
+    "origin": "ai",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/launcher_5.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/launcher_5.png",
+    "dimensions": [
+      1243,
+      1266
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "content_bounds": [
+      41,
+      40,
+      1221,
+      1145
+    ],
+    "sha256": "6179fc71454b8ce8ccf5b7e084e4646e67be7285452a7151f84ea70b1ec81513",
+    "qa": "Inspected: clean pale wooden rear shell with slanted left bottom and rounded deeper right end. More defined shallow tray lip than original; broad transparent margins retained, composite alignment needs review.",
+    "status": "generated_qa_limitation",
+    "method": "image_gen.imagegen",
+    "logical_size": [
+      54,
+      55
+    ],
+    "aspect_ratio_relative_error": 0.0
+  },
+  {
+    "key": "lg",
+    "available": true,
+    "origin": "ai_normalized",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/lg.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/lg.png",
+    "dimensions": [
+      1400,
+      264
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "content_bounds": [
+      0,
+      6,
+      1400,
+      257
+    ],
+    "sha256": "2d508a4c71423d16ffa4c532708d91edb0d9ae5a0e14cf5cc3910a37fb4d7136",
+    "qa": [
+      "Registered glyph and reconstructed gold l corner inspected at enlarged scale and on light/dark matte composites; badge removed, letter retained. White glyph visibility on light backgrounds matches original white glyph behavior.",
+      "Exact logical dimensions times 8 verified; meaningful alpha retained within canvas. Proper alpha-composited output visually inspected; expected content is present."
+    ],
+    "status": "repaired",
+    "method": "Remove alpha padding; uniformly fit source bounds into original logical canvas; preserve silhouette aspect, center horizontally, bottom-anchor stems/trees. AI logo plus deterministic registered glyph; erase isolated wrong badge, reconstruct small gold l corner from matching adjacent vertical edge, render white Arial ® at original glyph proportions and position.",
+    "logical_size": [
+      175,
+      33
+    ],
+    "aspect_ratio_relative_error": 0.0
+  },
+  {
+    "key": "mark",
+    "available": true,
+    "origin": "ai_normalized",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/mark.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/mark.png",
+    "dimensions": [
+      336,
+      112
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "content_bounds": [
+      0,
+      0,
+      336,
+      112
+    ],
+    "sha256": "2a31ae0b10708fe7db51e548ad749d33db618fc8558a759c7fa708ed1932f5d6",
+    "qa": [
+      "Exact logical dimensions times 8 verified; meaningful alpha retained within canvas. Proper alpha-composited output visually inspected; expected content is present.",
+      "Every individual frame inspected after normalization; no missing content or clipping introduced by placement. Original relative margins retained, with aspect-preserving fit where AI silhouettes differ."
+    ],
+    "status": "repaired",
+    "method": "Segment alpha projection into distinct frames; aspect-preserving fit in original per-frame alpha bounds; preserve frame order and offsets.",
+    "logical_size": [
+      42,
+      14
+    ],
+    "aspect_ratio_relative_error": 0.0
+  },
+  {
+    "key": "markSelected",
+    "available": true,
+    "origin": "ai",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/markSelected.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/markSelected.png",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "content_bounds": [
+      31,
+      21,
+      1225,
+      1254
+    ],
+    "sha256": "5f93d794520b7616b790e1b6cf68ef8ffca6942ed3d77529f09c0279d9ac81f6",
+    "qa": "Proper alpha composite inspected: clean white irregular radial burst, transparent round center and intentionally separate droplets. Good analogous shape; center hole and spike arrangement differ modestly.",
+    "status": "generated_qa_limitation",
+    "method": "image_gen.imagegen",
+    "logical_size": [
+      36,
+      36
+    ],
+    "aspect_ratio_relative_error": 0.0
+  },
+  {
+    "key": "markUnlocked",
+    "available": true,
+    "origin": "ai",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/markUnlocked.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/markUnlocked.png",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "content_bounds": [
+      0,
+      35,
+      1234,
+      1254
+    ],
+    "sha256": "d4ddfd29a79baee6aab96d4bef1b097ca2b761af8ed8f004d08fa1c95253e2c2",
+    "qa": "Inspected: five-point silver star on purple disc, crisp edge/detail. Purple is more saturated and embossed bevel more pronounced than original.",
+    "status": "generated_qa_limitation",
+    "method": "image_gen.imagegen",
+    "logical_size": [
+      14,
+      14
+    ],
+    "aspect_ratio_relative_error": 0.0
+  },
+  {
+    "key": "menuButton",
+    "available": true,
+    "origin": "ai",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/menuButton.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/menuButton.png",
+    "dimensions": [
+      2134,
+      737
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "content_bounds": [
+      35,
+      25,
+      2100,
+      718
+    ],
+    "sha256": "5ebf3c576d770c06aff5604801f4ffe48cd2e82418fcd13c8f61e7647ecfcdf1",
+    "qa": "Raw output inspected. Gray silver panel and two orange straps preserved; smoother and slightly stronger bevel. Composite QA follows. Proper dark-green alpha composite inspected: clean edges and opaque interior, no visible detached fragments.",
+    "status": "complete",
+    "method": "image_gen.imagegen",
+    "logical_size": [
+      84,
+      29
+    ],
+    "aspect_ratio_relative_error": 0.0004
+  },
+  {
+    "key": "menuButtonSelected",
+    "available": true,
+    "origin": "ai",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/menuButtonSelected.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/menuButtonSelected.png",
+    "dimensions": [
+      2134,
+      737
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "content_bounds": [
+      19,
+      32,
+      2118,
+      719
+    ],
+    "sha256": "e1142052847a4edfb1ff719cefe7b4a3a418365ea9e265d54045b6b8da47733d",
+    "qa": "Raw output inspected. Glossy pink center and orange bands retained, no text. Straps simplified compared with original wood grain. Composite QA follows. Proper dark-green alpha composite inspected: clean edges and opaque interior, no visible detached fragments.",
+    "status": "complete",
+    "method": "image_gen.imagegen",
+    "logical_size": [
+      84,
+      29
+    ],
+    "aspect_ratio_relative_error": 0.0004
+  },
+  {
+    "key": "menuIconAim",
+    "available": true,
+    "origin": "ai",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/menuIconAim.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/menuIconAim.png",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "content_bounds": [
+      55,
+      57,
+      1181,
+      1194
+    ],
+    "sha256": "13cb44be288e2664bef6e5edb81892d297e00671fadd192b2d0be1a15b09a913",
+    "qa": "Inspected native generation: crisp smooth white target and diagonal arrow, transparent RGBA confirmed. Analogous composition maintained; stroke weights and arrow proportions differ from original, requiring integration review.",
+    "status": "generated_qa_limitation",
+    "method": "image_gen.imagegen",
+    "logical_size": [
+      30,
+      30
+    ],
+    "aspect_ratio_relative_error": 0.0
+  },
+  {
+    "key": "menuIconArrows",
+    "available": true,
+    "origin": "ai",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/menuIconArrows.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/menuIconArrows.png",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "content_bounds": [
+      57,
+      61,
+      1197,
+      1192
+    ],
+    "sha256": "9d293d969a341a57098929c6c0b6bd0b3fa5a715cf9db791c125906373ff1614",
+    "qa": "Inspected generated image: clean smooth four outward arrows; center spacing is wider than original and tiny enclosing square outline is omitted. Analogous asset, requires integration review.",
+    "status": "generated_qa_limitation",
+    "method": "image_gen.imagegen",
+    "logical_size": [
+      30,
+      30
+    ],
+    "aspect_ratio_relative_error": 0.0
+  },
+  {
+    "key": "menuIconFire",
+    "available": true,
+    "origin": "ai",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/menuIconFire.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/menuIconFire.png",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "content_bounds": [
+      132,
+      0,
+      1120,
+      1254
+    ],
+    "sha256": "952c1d584dda8c664b7f7e1d41cfee72001b508a3ac16f33a84241fa10a5dc60",
+    "qa": "Visually inspected: crisp white flame and interior cutout; simplified tongues and modest silhouette drift, no obvious raster artifacts.",
+    "status": "generated_qa_limitation",
+    "method": "image_gen.imagegen",
+    "logical_size": [
+      30,
+      30
+    ],
+    "aspect_ratio_relative_error": 0.0
+  },
+  {
+    "key": "menuIconInfinity",
+    "available": true,
+    "origin": "ai",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/menuIconInfinity.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/menuIconInfinity.png",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "content_bounds": [
+      0,
+      77,
+      1234,
+      1045
+    ],
+    "sha256": "303546651bebcd9ec5b50cc0d9863e9c6e6c4d529080e3f6e9b6822f687d453f",
+    "qa": "Visually inspected: clean infinity outline and transparent holes, composition preserved; thinner overall symbol and different vertical margins than reference.",
+    "status": "generated_qa_limitation",
+    "method": "image_gen.imagegen",
+    "logical_size": [
+      30,
+      30
+    ],
+    "aspect_ratio_relative_error": 0.0
+  },
+  {
+    "key": "menuIconOk",
+    "available": true,
+    "origin": "ai",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/menuIconOk.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/menuIconOk.png",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "content_bounds": [
+      67,
+      187,
+      1224,
+      1174
+    ],
+    "sha256": "fa07d3001a5f3b917f6f89c85c7e59b8e943dd5d16aeb7256de3f0d45bd609b1",
+    "qa": "Visually inspected: sharp checkmark, preserved long/right orientation and pointed arms; slight curve/proportion drift.",
+    "status": "generated_qa_limitation",
+    "method": "image_gen.imagegen",
+    "logical_size": [
+      30,
+      30
+    ],
+    "aspect_ratio_relative_error": 0.0
+  },
+  {
+    "key": "menuIconPlus",
+    "available": true,
+    "origin": "ai",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/menuIconPlus.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/menuIconPlus.png",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "content_bounds": [
+      0,
+      41,
+      1239,
+      1213
+    ],
+    "sha256": "1776223c8061704de5e7b40a200c09305da2e73895ace2d1685d39e1a430a307",
+    "qa": "Visually inspected: crisp plus with straight arms and genuine transparency. Relative margins slightly wider.",
+    "status": "generated_qa_limitation",
+    "method": "image_gen.imagegen",
+    "logical_size": [
+      30,
+      30
+    ],
+    "aspect_ratio_relative_error": 0.0
+  },
+  {
+    "key": "menuIconSandglass",
+    "available": true,
+    "origin": "ai",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/menuIconSandglass.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/menuIconSandglass.png",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "content_bounds": [
+      121,
+      54,
+      1200,
+      1166
+    ],
+    "sha256": "e9cf900e6368f9341de6b63943c6aad2920c18bca27071489fe87adcc031b6e0",
+    "qa": "Targeted retry restored the hollow hourglass chambers. Proper alpha composite inspected: sharp smooth white contours without speckles. Original rejection was caused by preview displaying hidden RGB. Minor proportions differ from source.",
+    "status": "generated_qa_limitation",
+    "method": "image_gen.imagegen",
+    "logical_size": [
+      30,
+      30
+    ],
+    "aspect_ratio_relative_error": 0.0
+  },
+  {
+    "key": "meteor",
+    "available": true,
+    "origin": "ai",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/meteor.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/meteor.png",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "content_bounds": [
+      0,
+      39,
+      1253,
+      1254
+    ],
+    "sha256": "ccdd895f1e0d358e17a2752f8ac2238115cbbe8fe26862078de979950216e9b2",
+    "qa": "Inspected: readable orange-yellow lava stone, white border preserved;  Proper Pillow RGBA composite onto #355447 inspected: clean edges, no stray speckles. Earlier apparent artifacts came from hidden RGB in transparent pixels and are not visible when composited.",
+    "status": "generated_qa_limitation",
+    "method": "image_gen.imagegen",
+    "logical_size": [
+      32,
+      32
+    ],
+    "aspect_ratio_relative_error": 0.0
+  },
+  {
+    "key": "miniboxik",
+    "available": true,
+    "origin": "ai",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/miniboxik.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/miniboxik.png",
+    "dimensions": [
+      1828,
+      860
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "content_bounds": [
+      20,
+      23,
+      1810,
+      718
+    ],
+    "sha256": "3c0fe6565a6b4590c5c090e92e71d1647b3017a740c990aecbf54311f630f1c0",
+    "qa": "Raw output inspected. Amber panel with golden lip, beveled edge and blank center analogous; slight side tabs more distinct than original. Composite QA follows. Proper dark-green alpha composite inspected: clean edges and opaque interior, no visible detached fragments.",
+    "status": "complete",
+    "method": "image_gen.imagegen",
+    "logical_size": [
+      34,
+      16
+    ],
+    "aspect_ratio_relative_error": 0.0003
+  },
+  {
+    "key": "pbarEmpty",
+    "available": true,
+    "origin": "ai_normalized",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/pbarEmpty.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/pbarEmpty.png",
+    "dimensions": [
+      1344,
+      120
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "content_bounds": [
+      0,
+      0,
+      1344,
+      120
+    ],
+    "sha256": "cbf53c475f19ac2f8970fc35c6f3c958a8aa29230de879df70164ac081de2907",
+    "qa": [
+      "Exact logical dimensions times 8 verified; meaningful alpha retained within canvas. Proper alpha-composited output visually inspected; expected content is present."
+    ],
+    "status": "repaired",
+    "method": "Remove transparent padding; scale stopwatch uniformly to original height; stretch only straight bar section horizontally to original logical width.",
+    "logical_size": [
+      168,
+      15
+    ],
+    "aspect_ratio_relative_error": 0.0
+  },
+  {
+    "key": "pbarFull",
+    "available": true,
+    "origin": "ai_normalized",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/pbarFull.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/pbarFull.png",
+    "dimensions": [
+      1344,
+      120
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "content_bounds": [
+      0,
+      0,
+      1344,
+      120
+    ],
+    "sha256": "204a14ca270dccf07c67b0562fdae0d5126a5539ae81bb8efbdc7274c55f0ca8",
+    "qa": [
+      "Exact logical dimensions times 8 verified; meaningful alpha retained within canvas. Proper alpha-composited output visually inspected; expected content is present."
+    ],
+    "status": "repaired",
+    "method": "Remove transparent padding; scale stopwatch uniformly to original height; stretch only straight bar section horizontally to original logical width.",
+    "logical_size": [
+      168,
+      15
+    ],
+    "aspect_ratio_relative_error": 0.0
+  },
+  {
+    "key": "plusInTheCircle",
+    "available": true,
+    "origin": "ai",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/plusInTheCircle.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/plusInTheCircle.png",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "content_bounds": [
+      0,
+      29,
+      1232,
+      1254
+    ],
+    "sha256": "0351e09d58cb347fe79bf821c4681b1f4b0b9acc78e0f4a4e7887c9ab69745cd",
+    "qa": "Inspected: clean magenta circular button and white plus, glossy shading more pronounced than original.",
+    "status": "generated_qa_limitation",
+    "method": "image_gen.imagegen",
+    "logical_size": [
+      17,
+      17
+    ],
+    "aspect_ratio_relative_error": 0.0
+  },
+  {
+    "key": "resultBG",
+    "available": true,
+    "origin": "ai",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/resultBG.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/resultBG.png",
+    "dimensions": [
+      1387,
+      1134
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "content_bounds": [
+      0,
+      24,
+      1387,
+      1116
+    ],
+    "sha256": "cabe0f4be0bb7db86107a2f670a2f6772b15a2d57712c648824cc46c89699d87",
+    "qa": "Visually inspected: blank circular wood plaque, exactly six dark score slots, shelf and two braces retained. Clean details, same broad layout; more bevel and refined grain than source.",
+    "status": "generated_qa_limitation",
+    "method": "image_gen.imagegen",
+    "logical_size": [
+      176,
+      144
+    ],
+    "aspect_ratio_relative_error": 0.0007
+  },
+  {
+    "key": "resultFail",
+    "available": true,
+    "origin": "ai",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/resultFail.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/resultFail.png",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "content_bounds": [
+      0,
+      0,
+      1254,
+      1238
+    ],
+    "sha256": "2fe097384986755d04e2ab05e5ef1180b7f3fd6f13d74c78f36354673c7527f1",
+    "qa": "Visually inspected: correct thumbs DOWN, cuff left, fingers right, pale-gold outline on wood disc. Crisp readable icon, no extra text; grain/crack pattern reinterpreted.",
+    "status": "generated_qa_limitation",
+    "method": "image_gen.imagegen",
+    "logical_size": [
+      84,
+      84
+    ],
+    "aspect_ratio_relative_error": 0.0
+  },
+  {
+    "key": "resultMedal",
+    "available": true,
+    "origin": "ai",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/resultMedal.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/resultMedal.png",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "content_bounds": [
+      0,
+      0,
+      1254,
+      1254
+    ],
+    "sha256": "32a93baad8d8ee85b23deca6a8b5a0a259e7e2685b8147c4e31b54c69ba7cbbd",
+    "qa": "Visually inspected: red medal with laurel wreath, three clouds, wavy hills and bottom ribbon, no extra text. Crisp embossed detail; reference proportions closely analogous.",
+    "status": "generated_qa_limitation",
+    "method": "image_gen.imagegen",
+    "logical_size": [
+      84,
+      84
+    ],
+    "aspect_ratio_relative_error": 0.0
+  },
+  {
+    "key": "softArrow",
+    "available": true,
+    "origin": "ai",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/softArrow.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/softArrow.png",
+    "dimensions": [
+      1345,
+      1169
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "content_bounds": [
+      37,
+      68,
+      1345,
+      1127
+    ],
+    "sha256": "a805ab86674ea07f1f1f9aa37cc4d1ae1c85446e8c8154e022d5b73c28ec2f1a",
+    "qa": "Inspected shape: correct left-pointing outline arrow and transparent interior. White edge preview artifacts require proper alpha composite; proportions wider shaft than original. Proper alpha composite inspected: crisp edges and no stray pixels.",
+    "status": "generated_qa_limitation",
+    "method": "image_gen.imagegen",
+    "logical_size": [
+      23,
+      20
+    ],
+    "aspect_ratio_relative_error": 0.0005
+  },
+  {
+    "key": "softButton",
+    "available": true,
+    "origin": "ai_normalized",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/softButton.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/softButton.png",
+    "dimensions": [
+      720,
+      208
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "content_bounds": [
+      0,
+      0,
+      720,
+      208
+    ],
+    "sha256": "d343c1dbbd74c20888aad9e06f68c58c26a9fb580b8592752d9ec04c8c79a6d8",
+    "qa": [
+      "Exact logical dimensions times 8 verified; meaningful alpha retained within canvas. Proper alpha-composited output visually inspected; expected content is present."
+    ],
+    "status": "repaired",
+    "method": "Nine-slice rounded caps preserve curvature; restore original black center alpha=77 beneath AI rim.",
+    "logical_size": [
+      90,
+      26
+    ],
+    "aspect_ratio_relative_error": 0.0
+  },
+  {
+    "key": "softMenu",
+    "available": true,
+    "origin": "ai",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/softMenu.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/softMenu.png",
+    "dimensions": [
+      1345,
+      1169
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "content_bounds": [
+      0,
+      23,
+      1333,
+      1169
+    ],
+    "sha256": "a1b7edc18814f29e45e39d99380a7ff74dc363b69a1218e3f13803fabb46e8be",
+    "qa": "Shape inspected: left arrowhead and right doorway/U tail preserved; crisp contour apparent beneath hidden RGB. Proper composite required. Proper alpha composite inspected: smooth clean white outline, no speckles.",
+    "status": "generated_qa_limitation",
+    "method": "image_gen.imagegen",
+    "logical_size": [
+      23,
+      20
+    ],
+    "aspect_ratio_relative_error": 0.0005
+  },
+  {
+    "key": "sparkles",
+    "available": true,
+    "origin": "ai_normalized",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/sparkles.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/sparkles.png",
+    "dimensions": [
+      1360,
+      272
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "content_bounds": [
+      8,
+      25,
+      1279,
+      255
+    ],
+    "sha256": "0edaebdb3bd50fa9d29e73d7061eadb4982f8404f75a8c452b791f72309ad6c4",
+    "qa": [
+      "Exact logical dimensions times 8 verified; meaningful alpha retained within canvas. Proper alpha-composited output visually inspected; expected content is present.",
+      "Every individual frame inspected after normalization; no missing content or clipping introduced by placement. Original relative margins retained, with aspect-preserving fit where AI silhouettes differ."
+    ],
+    "status": "repaired",
+    "method": "Segment alpha projection into distinct frames; aspect-preserving fit in original per-frame alpha bounds; preserve frame order and offsets.",
+    "logical_size": [
+      170,
+      34
+    ],
+    "aspect_ratio_relative_error": 0.0
+  },
+  {
+    "key": "bg_1",
+    "available": true,
+    "origin": "ai",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/bg_1.jpg",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/bg_1.png",
+    "dimensions": [
+      1448,
+      1086
+    ],
+    "mode": "RGB",
+    "alpha_extrema": [
+      255,
+      255
+    ],
+    "content_bounds": [
+      0,
+      0,
+      1448,
+      1086
+    ],
+    "sha256": "90ef9b216be1e41ffd1b01431349f6fb8c37ddbe945af5203094d7655962f92f",
+    "qa": "Generated image inspected. Clean smooth fills and sharp contours; composition, palette, hills and clouds closely preserved. Hill stripe boundaries are more defined than original. Native 4:3 output retained.",
+    "status": "complete",
+    "method": "image_gen.imagegen",
+    "logical_size": [
+      400,
+      300
+    ],
+    "aspect_ratio_relative_error": 0.0
+  },
+  {
+    "key": "bg_2",
+    "available": true,
+    "origin": "ai",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/bg_2.jpg",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/bg_2.png",
+    "dimensions": [
+      1448,
+      1086
+    ],
+    "mode": "RGB",
+    "alpha_extrema": [
+      255,
+      255
+    ],
+    "content_bounds": [
+      0,
+      0,
+      1448,
+      1086
+    ],
+    "sha256": "b9c205e655bc875f6cf23e006c1e7eef3ae2f6edcb34ec55ae24e8ef83b040ec",
+    "qa": "Inspected generated output. Smooth clean sky and crisp white contours. Original layered hill layout and pink/purple palette retained; broad internal bands slightly sharper.",
+    "status": "complete",
+    "method": "image_gen.imagegen",
+    "logical_size": [
+      400,
+      300
+    ],
+    "aspect_ratio_relative_error": 0.0
+  },
+  {
+    "key": "bg_3",
+    "available": true,
+    "origin": "ai",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/bg_3.jpg",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/bg_3.png",
+    "dimensions": [
+      1448,
+      1086
+    ],
+    "mode": "RGB",
+    "alpha_extrema": [
+      255,
+      255
+    ],
+    "content_bounds": [
+      0,
+      0,
+      1448,
+      1086
+    ],
+    "sha256": "60995ab5f539308c4c39e472a5e68ebcb60e6ce30e0e98b8fc68130a593d5461",
+    "qa": "Inspected output. Clean smooth sky, white cloud silhouettes and sharp angular mountain contours; source layout and cool gray-blue palette closely preserved.",
+    "status": "complete",
+    "method": "image_gen.imagegen",
+    "logical_size": [
+      400,
+      300
+    ],
+    "aspect_ratio_relative_error": 0.0
+  },
+  {
+    "key": "bg_4",
+    "available": true,
+    "origin": "ai",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/bg_4.jpg",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/bg_4.png",
+    "dimensions": [
+      1448,
+      1086
+    ],
+    "mode": "RGB",
+    "alpha_extrema": [
+      255,
+      255
+    ],
+    "content_bounds": [
+      0,
+      0,
+      1448,
+      1086
+    ],
+    "sha256": "af1354bfd3f5cd7f579e0e6b5f528ebefc14945f52bce19b4b6afe39baea3e85",
+    "qa": "Inspected generated output: clean smooth turquoise sky and orange hills, sharp pale outlines. Original domes, layer arrangement, stripes and palette closely retained.",
+    "status": "complete",
+    "method": "image_gen.imagegen",
+    "logical_size": [
+      400,
+      300
+    ],
+    "aspect_ratio_relative_error": 0.0
+  },
+  {
+    "key": "bg_5",
+    "available": true,
+    "origin": "ai",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/bg_5.jpg",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/bg_5.png",
+    "dimensions": [
+      1448,
+      1086
+    ],
+    "mode": "RGB",
+    "alpha_extrema": [
+      255,
+      255
+    ],
+    "content_bounds": [
+      0,
+      0,
+      1448,
+      1086
+    ],
+    "sha256": "930ff889aa900940e95809a29646bf191f14d3bf1be2fa2c2682af368a9ebf9f",
+    "qa": "Inspected output. Smooth cream sky and blocky gray-green silhouettes closely match original. Interior broad stripes somewhat stronger and more distinct; no compression noise visible.",
+    "status": "complete",
+    "method": "image_gen.imagegen",
+    "logical_size": [
+      400,
+      300
+    ],
+    "aspect_ratio_relative_error": 0.0
+  },
+  {
+    "key": "cloud1",
+    "available": true,
+    "origin": "ai",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/cloud1.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/cloud1.png",
+    "dimensions": [
+      1637,
+      961
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "content_bounds": [
+      40,
+      80,
+      1598,
+      885
+    ],
+    "sha256": "ff3927a53e0345407b20c591c851ff511bcd9928075bee380e0432d12a768b45",
+    "qa": "Inspected proper alpha-composited preview on dark green background. Smooth clean edges with no visible detached fragments. Earlier apparent fringe was hidden RGB shown by raw preview, not visible alpha. Composition and colors analogous to source.",
+    "status": "complete",
+    "method": "image_gen.imagegen",
+    "logical_size": [
+      46,
+      27
+    ],
+    "aspect_ratio_relative_error": 0.0002
+  },
+  {
+    "key": "cloud2",
+    "available": true,
+    "origin": "ai",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/cloud2.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/cloud2.png",
+    "dimensions": [
+      1583,
+      994
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "content_bounds": [
+      60,
+      85,
+      1523,
+      921
+    ],
+    "sha256": "b4a90091c50fa71241da849f20b1a6dba6b495941c004d540708edd14c1529f0",
+    "qa": "Inspected proper alpha-composited preview on dark green background. Smooth clean edges with no visible detached fragments. Earlier apparent fringe was hidden RGB shown by raw preview, not visible alpha. Composition and colors analogous to source.",
+    "status": "complete",
+    "method": "image_gen.imagegen",
+    "logical_size": [
+      43,
+      27
+    ],
+    "aspect_ratio_relative_error": 0.0
+  },
+  {
+    "key": "grass",
+    "available": true,
+    "origin": "ai_normalized",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/grass.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/grass.png",
+    "dimensions": [
+      2560,
+      320
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "content_bounds": [
+      0,
+      0,
+      2560,
+      320
+    ],
+    "sha256": "43894a68f106cb0d223116dbfd49c51f21aafc7f31c6b29a10e1155a38022885",
+    "qa": [
+      "Exact logical dimensions times 8 verified; meaningful alpha retained within canvas. Proper alpha-composited output visually inspected; expected content is present."
+    ],
+    "status": "repaired",
+    "method": "Piecewise vertical normalization: tuft/cream-edge zone mapped separately from deep soil; preserves three tuft positions and original 8:1 canvas.",
+    "logical_size": [
+      320,
+      40
+    ],
+    "aspect_ratio_relative_error": 0.0
+  },
+  {
+    "key": "island1",
+    "available": true,
+    "origin": "ai",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/island1.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/island1.png",
+    "dimensions": [
+      1173,
+      1341
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "content_bounds": [
+      0,
+      0,
+      1173,
+      1341
+    ],
+    "sha256": "3b69bc8fa37679fa620acb078cf1b6ff66c00dd58f14a25425490f0ec2fc9b0e",
+    "qa": "Inspected proper alpha-composited preview on dark green background. Smooth clean edges with no visible detached fragments. Earlier apparent fringe was hidden RGB shown by raw preview, not visible alpha. Composition and colors analogous to source.",
+    "status": "complete",
+    "method": "image_gen.imagegen",
+    "logical_size": [
+      174,
+      199
+    ],
+    "aspect_ratio_relative_error": 0.0004
+  },
+  {
+    "key": "island2",
+    "available": true,
+    "origin": "ai",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/island2.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/island2.png",
+    "dimensions": [
+      1181,
+      1331
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "content_bounds": [
+      0,
+      0,
+      1181,
+      1331
+    ],
+    "sha256": "f8f850a9ca3e188d8e845a1b41f0b6b616ab318f8e49763dc3ca68e2548ff40c",
+    "qa": "Inspected proper alpha-composited preview on dark green background. Smooth clean edges with no visible detached fragments. Earlier apparent fringe was hidden RGB shown by raw preview, not visible alpha. Composition and colors analogous to source.",
+    "status": "complete",
+    "method": "image_gen.imagegen",
+    "logical_size": [
+      173,
+      195
+    ],
+    "aspect_ratio_relative_error": 0.0001
+  },
+  {
+    "key": "island3",
+    "available": true,
+    "origin": "ai",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/island3.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/island3.png",
+    "dimensions": [
+      1349,
+      1166
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "content_bounds": [
+      0,
+      0,
+      1349,
+      1166
+    ],
+    "sha256": "3fb0e35ad8e43f23c3a7d2baa7f6787b5ba2037f968da119ea020e0b3403ece8",
+    "qa": "Inspected proper alpha-composited preview on dark green background. Smooth clean edges with no visible detached fragments. Earlier apparent fringe was hidden RGB shown by raw preview, not visible alpha. Composition and colors analogous to source.",
+    "status": "complete",
+    "method": "image_gen.imagegen",
+    "logical_size": [
+      251,
+      217
+    ],
+    "aspect_ratio_relative_error": 0.0002
+  },
+  {
+    "key": "island4",
+    "available": true,
+    "origin": "ai",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/island4.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/island4.png",
+    "dimensions": [
+      1141,
+      1378
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "content_bounds": [
+      0,
+      0,
+      1141,
+      1364
+    ],
+    "sha256": "246614c631ee22fb1c6ec648126ac29daea4d496905a674668a2b3f576e8f464",
+    "qa": "Inspected proper alpha-composited preview on dark green background. Smooth clean edges with no visible detached fragments. Earlier apparent fringe was hidden RGB shown by raw preview, not visible alpha. Composition and colors analogous to source.",
+    "status": "complete",
+    "method": "image_gen.imagegen",
+    "logical_size": [
+      183,
+      221
+    ],
+    "aspect_ratio_relative_error": 0.0001
+  },
+  {
+    "key": "island5",
+    "available": true,
+    "origin": "ai",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/island5.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/island5.png",
+    "dimensions": [
+      994,
+      1582
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "content_bounds": [
+      0,
+      0,
+      978,
+      1558
+    ],
+    "sha256": "4b5ca32bc84f97145ed43ed76107e8b50619d4c8c655913917f863e140777232",
+    "qa": "Inspected proper alpha-composited preview on dark green background. Smooth clean edges with no visible detached fragments. Earlier apparent fringe was hidden RGB shown by raw preview, not visible alpha. Composition and colors analogous to source.",
+    "status": "complete",
+    "method": "image_gen.imagegen",
+    "logical_size": [
+      215,
+      342
+    ],
+    "aspect_ratio_relative_error": 0.0005
+  },
+  {
+    "key": "map_bg",
+    "available": true,
+    "origin": "ai",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/map_bg.jpg",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/map_bg.png",
+    "dimensions": [
+      1448,
+      1086
+    ],
+    "mode": "RGB",
+    "alpha_extrema": [
+      255,
+      255
+    ],
+    "content_bounds": [
+      0,
+      0,
+      1448,
+      1086
+    ],
+    "sha256": "74c9ecf1de011d3ca813b98d192f689001e30557ca2327677eb231c734894fcd",
+    "qa": "Inspected. Clean smooth cyan gradient and low scalloped clouds retain original negative space; clouds more symmetrically balanced than original but analogous composition.",
+    "status": "complete",
+    "method": "image_gen.imagegen",
+    "logical_size": [
+      400,
+      300
+    ],
+    "aspect_ratio_relative_error": 0.0
+  },
+  {
+    "key": "menu_bg",
+    "available": true,
+    "origin": "ai",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/menu_bg.jpg",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/menu_bg.png",
+    "dimensions": [
+      1448,
+      1086
+    ],
+    "mode": "RGB",
+    "alpha_extrema": [
+      255,
+      255
+    ],
+    "content_bounds": [
+      0,
+      0,
+      1448,
+      1086
+    ],
+    "sha256": "0aaa1780174ff768c414780628c0c3fa5c75ffa5bad8a9ae58ed38edcb5568bb",
+    "qa": "Final targeted edit inspected. Removed incorrect hook from j and placed visible ogonek under final a. Title now reads Zwierzaki atakują correctly. Sharp analogous menu scene preserved from generated version; main squirrel expression remains an interpretation with two eyes visible.",
+    "status": "complete",
+    "method": "image_gen.imagegen",
+    "logical_size": [
+      320,
+      240
+    ],
+    "aspect_ratio_relative_error": 0.0
+  },
+  {
+    "key": "scoresBG",
+    "available": true,
+    "origin": "ai",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/scoresBG.jpg",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/scoresBG.png",
+    "dimensions": [
+      1448,
+      1086
+    ],
+    "mode": "RGB",
+    "alpha_extrema": [
+      255,
+      255
+    ],
+    "content_bounds": [
+      0,
+      0,
+      1448,
+      1086
+    ],
+    "sha256": "06659738cbd8e33c08b3732face4fcb366fe7cfdcd07ddef5fdf94c7b8b3d885",
+    "qa": "Inspected against original and enlarged source reference. Five columns, world colors, medal/bear icon rows, four empty cells per world and PUNKTY text retained. Clean sharp rendering. Miniature islands and medals interpreted slightly, overall positions closely retained.",
+    "status": "complete",
+    "method": "image_gen.imagegen",
+    "logical_size": [
+      320,
+      240
+    ],
+    "aspect_ratio_relative_error": 0.0
+  },
+  {
+    "key": "tree_1a",
+    "available": true,
+    "origin": "ai",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/tree_1a.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/tree_1a.png",
+    "dimensions": [
+      1047,
+      1502
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "content_bounds": [
+      0,
+      0,
+      1047,
+      1502
+    ],
+    "sha256": "82dd9fa495832eee1d11a7b782f8c5adbd357f887594bf22520af93c9b32f4f3",
+    "qa": "Raw output inspected; analogous domed crown, green stripes and short olive trunk. Proper composite check follows. Proper dark-green alpha composite inspected: clean white contour and opaque interior, no detached fragments.",
+    "status": "complete",
+    "method": "image_gen.imagegen",
+    "logical_size": [
+      68,
+      100
+    ],
+    "aspect_ratio_relative_error": 0.0251
+  },
+  {
+    "key": "tree_1b",
+    "available": true,
+    "origin": "ai",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/tree_1b.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/tree_1b.png",
+    "dimensions": [
+      1040,
+      1512
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "content_bounds": [
+      0,
+      0,
+      1040,
+      1512
+    ],
+    "sha256": "b6ccd74c397048873ca57aaafc5aae6ef40dd51248aa375876af81ed81f3b49b",
+    "qa": "Proper composite identified internal semi-transparent horizontal streak in lower green crown band. Root repaired interior alpha, preserved RGB, canvas and raw output; root visually verified repaired composite. Slight native green texture remains.",
+    "status": "complete_after_alpha_repair",
+    "method": "image_gen.imagegen",
+    "logical_size": [
+      55,
+      80
+    ],
+    "aspect_ratio_relative_error": 0.0005
+  },
+  {
+    "key": "tree_2a",
+    "available": true,
+    "origin": "ai",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/tree_2a.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/tree_2a.png",
+    "dimensions": [
+      1162,
+      1353
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "content_bounds": [
+      0,
+      0,
+      1152,
+      1319
+    ],
+    "sha256": "329ce17880f9f17f455f14450bf5464d33ef5628a0c900829daf369f13b3044e",
+    "qa": "Raw output inspected; pink lobed tree, stripe pattern and violet trunk analogous. Composite QA follows. Proper dark-green alpha composite inspected: clean white contour and opaque interior, no detached fragments.",
+    "status": "complete",
+    "method": "image_gen.imagegen",
+    "logical_size": [
+      73,
+      85
+    ],
+    "aspect_ratio_relative_error": 0.0
+  },
+  {
+    "key": "tree_2b",
+    "available": true,
+    "origin": "ai",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/tree_2b.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/tree_2b.png",
+    "dimensions": [
+      1028,
+      1530
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "content_bounds": [
+      23,
+      0,
+      1012,
+      1452
+    ],
+    "sha256": "a1d2eedd41fae9a48d5d759c929200492b306b83cbab79c4308b6e29daa8a7f1",
+    "qa": "Raw output inspected; narrow pink asymmetric tree and violet trunk analogous. Composite QA follows. Proper dark-green alpha composite inspected: clean border, opaque interior and no visible detached fragments.",
+    "status": "complete",
+    "method": "image_gen.imagegen",
+    "logical_size": [
+      45,
+      67
+    ],
+    "aspect_ratio_relative_error": 0.0004
+  },
+  {
+    "key": "tree_3a",
+    "available": true,
+    "origin": "ai",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/tree_3a.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/tree_3a.png",
+    "dimensions": [
+      1012,
+      1555
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "content_bounds": [
+      0,
+      18,
+      994,
+      1527
+    ],
+    "sha256": "c656aa51025f9b2a28665f62d0885d004f093d4b3348d1726c62dca01f199d59",
+    "qa": "Raw output inspected. Icy triangular crown and two pale diagonal stripes retained; short blue trunk analogous. Composite QA follows. Proper dark-green alpha composite inspected: clean border, opaque interior and no visible detached fragments.",
+    "status": "complete",
+    "method": "image_gen.imagegen",
+    "logical_size": [
+      67,
+      103
+    ],
+    "aspect_ratio_relative_error": 0.0005
+  },
+  {
+    "key": "tree_3b",
+    "available": true,
+    "origin": "ai_normalized",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/tree_3b.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/tree_3b.png",
+    "dimensions": [
+      360,
+      552
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "content_bounds": [
+      0,
+      26,
+      360,
+      552
+    ],
+    "sha256": "88acb3d13c522ad060ef7396687c85e707d37c362ef5ec9401f8e56cb722de8d",
+    "qa": [
+      "Exact logical dimensions times 8 verified; meaningful alpha retained within canvas. Proper alpha-composited output visually inspected; expected content is present."
+    ],
+    "status": "repaired",
+    "method": "Remove alpha padding; uniformly fit source bounds into original logical canvas; preserve silhouette aspect, center horizontally, bottom-anchor stems/trees.",
+    "logical_size": [
+      45,
+      69
+    ],
+    "aspect_ratio_relative_error": 0.0
+  },
+  {
+    "key": "tree_4a",
+    "available": true,
+    "origin": "ai",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/tree_4a.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/tree_4a.png",
+    "dimensions": [
+      934,
+      1685
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "content_bounds": [
+      0,
+      0,
+      934,
+      1655
+    ],
+    "sha256": "694bbc21aa034602c514fadf8d10459ea9c10a16056ebb6bbbd6f3d7bd3e2fb1",
+    "qa": "Raw output inspected. Rounded yellow crown taper and tiny red trunk analogous. Composite QA follows. Proper dark-green alpha composite inspected: clean border, opaque interior and no visible detached fragments.",
+    "status": "complete",
+    "method": "image_gen.imagegen",
+    "logical_size": [
+      46,
+      83
+    ],
+    "aspect_ratio_relative_error": 0.0002
+  },
+  {
+    "key": "tree_4b",
+    "available": true,
+    "origin": "ai",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/tree_4b.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/tree_4b.png",
+    "dimensions": [
+      1024,
+      1536
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "content_bounds": [
+      0,
+      49,
+      1008,
+      1475
+    ],
+    "sha256": "866bcf9848ac2393212867bb3997b230fdcc8c46283390402ce4745837b9898e",
+    "qa": "Raw output inspected. Yellow-orange teardrop and red trunk analogous. Raw preview shows wide glow, need composite verify. Proper dark-green alpha composite inspected: clean border, opaque interior and no visible detached fragments.",
+    "status": "complete",
+    "method": "image_gen.imagegen",
+    "logical_size": [
+      38,
+      57
+    ],
+    "aspect_ratio_relative_error": 0.0
+  },
+  {
+    "key": "tree_5a",
+    "available": true,
+    "origin": "ai",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/tree_5a.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/tree_5a.png",
+    "dimensions": [
+      957,
+      1644
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "content_bounds": [
+      30,
+      83,
+      925,
+      1585
+    ],
+    "sha256": "647c9841c7baaa52f9204cecc654c3d7eb1901a6e7383af74cef79bc18201433",
+    "qa": "Raw output inspected. Flat-topped trapezoid crown, subtle gray bands and short gray trunk analogous. Composite QA follows. Proper dark-green alpha composite inspected: clean border, opaque interior and no visible detached fragments.",
+    "status": "complete",
+    "method": "image_gen.imagegen",
+    "logical_size": [
+      46,
+      79
+    ],
+    "aspect_ratio_relative_error": 0.0003
+  },
+  {
+    "key": "tree_5b",
+    "available": true,
+    "origin": "ai",
+    "generated_by_ai": true,
+    "source": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-original/tree_5b.png",
+    "output": "/Users/rtcoder/projekty/Gry/zwierzaki-atakuja-web-port/assets-ai/images/tree_5b.png",
+    "dimensions": [
+      834,
+      1885
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "content_bounds": [
+      94,
+      66,
+      763,
+      1843
+    ],
+    "sha256": "d10b109601937f0fc43d5bf30b23c91a049b8a16875902f24ff5e563b7f7e2ca",
+    "qa": "Raw output inspected. Slender gray rounded crown and tiny trunk analogous; diagonal stripes more explicit than source. Composite QA follows. Proper dark-green alpha composite inspected: clean border, opaque interior and no visible detached fragments.",
+    "status": "complete",
+    "method": "image_gen.imagegen",
+    "logical_size": [
+      23,
+      52
+    ],
+    "aspect_ratio_relative_error": 0.0003
+  }
+]

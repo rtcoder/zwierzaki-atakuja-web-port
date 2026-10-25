@@ -1,0 +1,56 @@
+[
+  {
+    "key": "cloud1",
+    "raw": "raw/cloud1.png",
+    "output": "images/cloud1.png",
+    "method": "alpha-only morphological opening and isolated-component removal",
+    "opening": 25,
+    "keep_largest": true,
+    "removed_components": 0,
+    "dimensions": [
+      1637,
+      961
+    ],
+    "raw_sha256": "6a3ff7801ada6e93e47ac1e8ecdfee2af4c3502d020efc961565ad7b2b8ba643",
+    "output_sha256": "ff3927a53e0345407b20c591c851ff511bcd9928075bee380e0432d12a768b45",
+    "qa": "Inspected raw and cleaned versions composited onto dark green: clean edges, no visible detached speckles. Original suspected speckles were RGB hidden under zero alpha. Minimal fringe opening retained; raw preserved."
+  },
+  {
+    "key": "cloud2",
+    "raw": "raw/cloud2.png",
+    "output": "images/cloud2.png",
+    "method": "alpha-only morphological opening and isolated-component removal",
+    "opening": 25,
+    "keep_largest": true,
+    "removed_components": 0,
+    "dimensions": [
+      1583,
+      994
+    ],
+    "raw_sha256": "2039c49fd7614af519feaa24b07cd50106973f88e9a0015f7beb7fe221834bba",
+    "output_sha256": "b4a90091c50fa71241da849f20b1a6dba6b495941c004d540708edd14c1529f0",
+    "qa": "Inspected raw and cleaned versions composited onto dark green: clean edges, no visible detached speckles. Original suspected speckles were RGB hidden under zero alpha. Minimal fringe opening retained; raw preserved."
+  },
+  {
+    "key": "tree_1b",
+    "raw": "raw/tree_1b.png",
+    "output": "images/tree_1b.png",
+    "method": "fill inspected interior alpha region",
+    "fill_box": [
+      100,
+      790,
+      945,
+      1000
+    ],
+    "opening": 3,
+    "keep_largest": false,
+    "removed_components": 0,
+    "dimensions": [
+      1040,
+      1512
+    ],
+    "raw_sha256": "a0cacb959a10e95c8ebb73a79bb89e8cde8b2eb4ef84dbea7ba62a0be01624ed",
+    "output_sha256": "b6ccd74c397048873ca57aaafc5aae6ef40dd51248aa375876af81ed81f3b49b",
+    "qa": "Verified unchanged RGB/canvas and alpha changes confined to [100,790,945,1000]. Composite inspection confirms accidental transparent interior band repaired; slight native green texture remains."
+  }
+]

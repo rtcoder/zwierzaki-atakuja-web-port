@@ -1,5 +1,50 @@
 # Verification — 2026-10-25
 
+## AI runtime integration
+
+- Final `npm test`: 71/71 passed. `npm run check` and `git diff --check` passed.
+  Runtime PNGs total 15,541,314 bytes; decoded RGBA totals 88,956,032 bytes.
+- All six bear blink derivatives match their base SHA and renderer offsets;
+  open/closed pairs were visually inspected. Grass now has identical RGBA
+  at both horizontal edges, and the corrected stage 31 was inspected in a
+  fresh browser load. No console errors or warnings appeared.
+- All 105 approved candidates still match the pre-integration inventory SHA.
+- Approved artwork is packaged as 105 runtime PNGs at exact original dimensions
+  ×4. Collision dimensions, pivots, glyph advances and animation cells remain
+  unchanged. Original SHA-256 values and candidate provenance are checked.
+- Desktop browser inspected stages 2, 11, 21, 31 and 41 across all five themes.
+  Turtle boost, squirrel cone and hedgehog spine abilities were activated via
+  the actual UI. Pause/resume, restart and stage selection were exercised.
+- At 390×844, three real 27° / 95% button-triggered shots completed stage 1
+  with 140 points and three stars. Restart and both camera modes worked.
+  The document remained 390px wide with no horizontal overflow or broken DOM
+  images. Browser console reported no errors or warnings in this sequence.
+- Screenshots: `screenshots/assets-ai-mobile.png`, `assets-ai-mobile-win.png`
+  and `assets-ai-desktop.png`. This is responsive browser coverage, not a test
+  on physical Android/iOS hardware.
+- Build/QA provenance: `assets-ai/runtime-report.json` and
+  `assets-ai/runtime-qa/`. Source archives and approved candidates are preserved.
+
+## Previous phase: faithful 4× asset refresh
+
+- All 105 originals copied byte-for-byte to `assets-original/`, verified against
+  their original SHA-256 hashes. All 105 runtime images now decode as PNG at
+  exactly 4× original width and height; logical dimensions remain unchanged.
+- Runtime images total 11,504,943 bytes; originals total 396,425 bytes.
+- Re-running `tools/enhance-assets.py` produced byte-identical metadata and
+  runtime module; `npm run check` then verified every generated image hash.
+- Renderer regressions cover 54×54 sprite destinations, physical explosion
+  frame crops, font source crops/advances, tree size and grass tiling.
+- Local browser verification completed stage 1 through three actual button
+  presses, reaching 140 points and three stars. Reload resumed at stage 2.
+- Desktop and 390×844 viewport screenshots confirm sprite/scenery proportions
+  and HUD layout. A fresh mobile load selects the follow camera. No warnings
+  or errors were reported by the browser console during the tested sequence.
+- Before/after and browser evidence: `screenshots/assets-4x-comparison.jpg`,
+  `assets-4x-desktop.jpg`, `assets-4x-mobile.jpg`, `assets-4x-mobile-win.jpg`.
+
+The sections below record the initial port verification before the 4× refresh.
+
 ## Automated
 
 - `node --test tests/*.test.mjs`: seven test files passed, zero failures.

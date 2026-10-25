@@ -1,13 +1,29 @@
-# Original asset and renderer map
+# Asset provenance, AI runtime and renderer map
 
-The 105 images in `dist/assets` are original encoded bytes from the supplied
-`zwierzaki-atakuja-Nokia6300.jar`. `tools/extract-assets.py` copies the bytes,
-checks SHA-256 equality, reads dimensions, and generates `manifest.json` plus
-`dist/js/assets.js`. Nothing is resized, retouched, regenerated, or recolored.
-The extraction script reads the actual PNG/JPEG signature before naming output.
+The 105 files in `assets-original/` retain the original encoded bytes and hashes.
+The approved new artwork is in `assets-ai/images/`: 101 AI-derived images, three
+deterministic font atlases, and the faithful original-based tutorMouth0 fallback.
+These source candidates and all raw/backups remain separate from the runtime.
+
+`tools/build-ai-assets.py` builds all runtime files at original logical dimensions
+multiplied by 4, avoiding the decoded-memory cost of loading the full AI canvases.
+It normalizes unprepared transparent sprites against original alpha bounds while
+preserving repaired geometry. Font glyphs and effect frames are resized separately.
+`dist/assets/manifest.json` and `dist/js/assets.js` record the actual runtime hash,
+original hash, candidate path/hash, artwork origin and processing method.
+
+Install `tools/requirements-assets.txt`, then run `python3 tools/build-ai-assets.py`.
+This uses existing source candidates; no AI calls or system fonts are needed to
+rebuild the runtime bundle. The earlier `enhance-assets.py` is a historical faithful
+upscale path and does not build the current AI-derived artwork.
+
+`ASSET_META.width/height` remain logical source dimensions. `pixelWidth`,
+`pixelHeight` and `scale` describe physical PNGs. Canvas destinations use logical
+units; glyph/effect source rectangles use physical pixels. The original geometry
+maps below remain the reference for collision, pivots and placement.
 
 `assets.js` exports `loadAssets`, `ASSET_META`, `ANIMALS`, `TARGETS`, `EFFECTS`,
-`LAUNCHER`, `FONTS`, and `drawBitmapText`. Asset lookup keys omit `.png`.
+`LAUNCHER`, `FONTS`, and `drawBitmapText`. Asset keys omit `.png`.
 
 ## Source evidence
 
@@ -61,8 +77,12 @@ composited on the unrotated base before the whole bear rotates:
 - Small eyes: 14×6, top-left offset `(6,7)` in the 26×26 image.
 
 The source briefly shows the closed-eye patch for 200 ms, then restores the
-underlying pixels for 2–4 seconds. These tiny eye PNGs are intentionally opaque
-RGB patches; do not chroma-key their backgrounds.
+underlying pixels for 2–4 seconds. The original eye PNGs are opaque RGB patches.
+The AI runtime rebuilds all six patches from the matching normalized bear base,
+then closes the eyes locally, retaining those source offsets and dimensions.
+`blinkRect`, `baseKey`, `baseSha256` and derivative provenance record this
+relationship; the renderer still uses the original placement. Do not chroma-key
+these backgrounds.
 
 ## Launcher assembly
 

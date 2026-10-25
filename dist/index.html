@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#243d2e">
-  <meta name="description" content="Zwierzaki Atakują wracają do przeglądarki. Oryginalne grafiki, 50 odzyskanych plansz i rozgrywka w HTML oraz JavaScript.">
+  <meta name="description" content="Zwierzaki Atakują wracają do przeglądarki. Nowe grafiki, 50 odzyskanych plansz i rozgrywka w HTML oraz JavaScript.">
   <title>Zwierzaki Atakują — znowu w grze</title>
   <link rel="icon" href="assets/i.png">
   <link rel="stylesheet" href="style.css">
@@ -75,7 +75,7 @@
   </div>
 
   <dialog id="welcome-dialog" class="welcome-dialog" aria-labelledby="welcome-title">
-    <div class="welcome-art"><img src="assets/menu_bg.jpg" alt="Oryginalny ekran tytułowy gry Zwierzaki Atakują"><span>PROSTO Z ERY J2ME</span></div>
+    <div class="welcome-art"><img src="assets/menu_bg.png" alt="Odświeżony ekran tytułowy gry Zwierzaki Atakują"><span>PROSTO Z ERY J2ME</span></div>
     <div class="welcome-content"><span class="eyebrow">DOBRZE CIĘ ZNOWU WIDZIEĆ</span><h2 id="welcome-title">Wciąż mają<br> pazur.</h2><p>Pięć zwierzaków, jedna wyrzutnia i niedźwiadki do strącenia. Stara dobra gra wraca do przeglądarki.</p><div class="welcome-facts"><span><b>50</b> plansz</span><span><b>5</b> zwierzaków</span><span><b>∞</b> prób</span></div><button class="primary-button" id="start-button" disabled>Wczytywanie…</button><small class="welcome-note">Mysz, dotyk lub klawiatura. Postęp zapisuje się tutaj.</small></div>
   </dialog>
 
@@ -83,7 +83,7 @@
 
   <dialog id="help-dialog" class="content-dialog" aria-labelledby="help-title"><div class="dialog-heading"><div><span class="eyebrow">SZYBKIE PRZYPOMNIENIE</span><h2 id="help-title">Cel. Moc. Rozróba.</h2></div><button class="icon-button close-dialog" aria-label="Zamknij">×</button></div><div class="instructions"><div><b>01</b><h3>Wyceluj</h3><p>Suwakami ustaw kąt i moc. Możesz też odciągnąć zwierzaka na wyrzutni. Kropki pokazują przewidywany lot.</p></div><div><b>02</b><h3>Wystrzel</h3><p>Naciśnij „Atakuj!” lub spację. W locie użyj zdolności przyciskiem lub klawiszem E. Skunks leci bez dodatkowej zdolności.</p></div><div><b>03</b><h3>Strąć niedźwiadki</h3><p>Uderzaj bezpośrednio lub przewracaj konstrukcje. Ocalałe zwierzaki dają bonus. Na planszach z armatą chroń trzy życia wyrzutni.</p></div></div><div id="animal-guide" class="animal-guide"></div><div class="keyboard-guide"><span><kbd>←</kbd><kbd>→</kbd> moc</span><span><kbd>↑</kbd><kbd>↓</kbd> kąt</span><span><kbd>R</kbd> od nowa</span><span><kbd>P</kbd> pauza</span><span><kbd>V</kbd> widok</span></div></dialog>
 
-  <dialog id="about-dialog" class="content-dialog compact-dialog" aria-labelledby="about-title"><div class="dialog-heading"><div><span class="eyebrow">ZWIERZAKI ATAKUJĄ · WEB 0.1</span><h2 id="about-title">Powrót z małego ekranu</h2></div><button class="icon-button close-dialog" aria-label="Zamknij">×</button></div><p>Port w HTML i JavaScript, przygotowany na podstawie analizy wersji J2ME 1.5. Korzysta ze 105 oryginalnych grafik i danych 50 plansz.</p><p>To grywalna wersja rozwojowa. Reguły strzału, obrażeń i punktacji pochodzą z oryginału. Kontakty fizyczne, rozpad połączonych konstrukcji, kamera i sterowanie są odtworzone na potrzeby przeglądarki; zachowanie nie jest jeszcze potwierdzone porównaniem z działającą wersją Java.</p><p class="about-credit">Oryginał: CT Creative Team / PTGame.eu. Grafiki i nazwa pochodzą z oryginalnej gry. Port nie uruchamia usług SMS ani dawnego sklepu.</p></dialog>
+  <dialog id="about-dialog" class="content-dialog compact-dialog" aria-labelledby="about-title"><div class="dialog-heading"><div><span class="eyebrow">ZWIERZAKI ATAKUJĄ · WEB 0.1</span><h2 id="about-title">Powrót z małego ekranu</h2></div><button class="icon-button close-dialog" aria-label="Zamknij">×</button></div><p>Port w HTML i JavaScript, przygotowany na podstawie analizy wersji J2ME 1.5. Korzysta z nowego zestawu 105 grafik oraz danych 50 plansz. Rysunki odtworzono z pomocą AI, fonty przygotowano z prawidłowych glifów, a rozmiary obiektów zachowano jak w oryginale.</p><p>To grywalna wersja rozwojowa. Reguły strzału, obrażeń i punktacji pochodzą z oryginału. Kontakty fizyczne, rozpad połączonych konstrukcji, kamera i sterowanie są odtworzone na potrzeby przeglądarki; zachowanie nie jest jeszcze potwierdzone porównaniem z działającą wersją Java.</p><p class="about-credit">Oryginał: CT Creative Team / PTGame.eu. Nowe grafiki opracowano na podstawie oryginalnej gry; nazwa i pierwowzór należą do jej twórców. Port nie uruchamia usług SMS ani dawnego sklepu.</p></dialog>
   <div id="loading-error" class="loading-error" hidden role="alert"></div>
   <script type="module" src="js/main.js"></script>
 </body>

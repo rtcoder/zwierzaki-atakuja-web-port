@@ -1,0 +1,18 @@
+[
+  {
+    "key": "tutorMouth0",
+    "source": "assets-original/tutorMouth0.png",
+    "selected_source": "dist/assets/tutorMouth0.png",
+    "output": "assets-ai/images/tutorMouth0.png",
+    "method": "existing faithful 4x filtered upscale copied from previous verified asset set; no new image generation",
+    "origin": "original_upscale",
+    "dimensions": [
+      96,
+      64
+    ],
+    "status": "fallback_verified",
+    "qa": "Uzupełniono wcześniejszą wersją 4× z oryginału (96×64). Zachowany pełny obraz nakładki, kolory i układ. To wierny upscale, nie nowy rysunek AI; nadal widać ograniczenia rozdzielczości źródła. Zgodność przy nakładaniu na nowego tutora wymaga osobnej integracji.",
+    "sha256": "8b05b370bebe76998186f5e0181feb6eea0bbdaa187e0c0893aa72a3039addf1",
+    "historical_generation_status": "generation_blocked; retained in characters.json"
+  }
+]

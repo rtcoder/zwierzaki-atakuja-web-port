@@ -1,0 +1,358 @@
+[
+  {
+    "key": "bg_1",
+    "source": "assets-original/bg_1.jpg",
+    "artifact_analysis": "Visible pervasive fine grain/JPEG speckles, softened small edges and color noise in sky, clouds and hills.",
+    "prompt": "Use case: precise-object-edit. Input image is the edit target, a 400x300 opaque 2D cartoon game background. Recreate this SAME illustration sharply at high resolution, target 1600x1200 with identical 4:3 frame. Remove visible fine grain, JPEG speckles, compression artifacts and jagged low-resolution edges. Preserve exact composition and palette: pale cyan sky, soft white cloud silhouettes in the middle, rounded light lime-green hills rising from the bottom with pale outlines, alternating translucent green bands, large cropped hill at left edge, tall central hill, lower right hills, sweeping pale curve along bottom. Preserve every hill contour and relative position and smooth original gradient fills. Keep restrained simple vintage 2D cartoon style, no new objects or texture, no extra details, no text, no border, no realism. Entire background opaque.",
+    "output": "assets-ai/images/bg_1.png",
+    "dimensions": [
+      1448,
+      1086
+    ],
+    "qa": "Generated image inspected. Clean smooth fills and sharp contours; composition, palette, hills and clouds closely preserved. Hill stripe boundaries are more defined than original. Native 4:3 output retained.",
+    "status": "complete"
+  },
+  {
+    "key": "bg_2",
+    "source": "assets-original/bg_2.jpg",
+    "artifact_analysis": "Fine JPEG grain across pink sky, cloudy color blotches and blurred contour edges.",
+    "prompt": "Use case: precise-object-edit. Input image is the edit target. Clean high-resolution reconstruction of this SAME 2D cartoon game illustration. Preserve EXACT layout, original silhouettes, object positions, proportions, palette and soft original shading. Remove grain, JPEG blocks/speckles, low-resolution blur and stair-stepped edges. Clean crisp continuous contours and smooth fills. No new objects, no extra details or texture, no redesign, no realism, no border or watermark. Opaque 4:3 landscape target 1600x1200. Preserve dusty pink sky and pale cloud band, two white-outlined rolling mountain layers, muted lavender/pink background mountains and purple/magenta foreground bands. All peaks, dips and their exact heights and positions must stay unchanged.",
+    "output": "assets-ai/images/bg_2.png",
+    "qa": "Inspected generated output. Smooth clean sky and crisp white contours. Original layered hill layout and pink/purple palette retained; broad internal bands slightly sharper.",
+    "status": "complete",
+    "dimensions": [
+      1448,
+      1086
+    ]
+  },
+  {
+    "key": "bg_3",
+    "source": "assets-original/bg_3.jpg",
+    "artifact_analysis": "Strong fine grain in cyan sky and white clouds, jagged angular ridge edges with JPEG ringing.",
+    "prompt": "Use case: precise-object-edit. Input image is the edit target. Clean high-resolution reconstruction of this SAME 2D cartoon game illustration. Preserve EXACT layout, original silhouettes, object positions, proportions, palette and soft original shading. Remove grain, JPEG blocks/speckles, low-resolution blur and stair-stepped edges. Clean crisp continuous contours and smooth fills. No new objects, no extra details or texture, no redesign, no realism, no border or watermark. Opaque 4:3 landscape target 1600x1200. Preserve pale cyan sky and white low cloud silhouettes, layered angular icy gray-blue mountains with thin white outlines and smooth translucent bands. Exact triangular ridge positions and heights unchanged; no added snow texture.",
+    "output": "assets-ai/images/bg_3.png",
+    "qa": "Inspected output. Clean smooth sky, white cloud silhouettes and sharp angular mountain contours; source layout and cool gray-blue palette closely preserved.",
+    "status": "complete",
+    "dimensions": [
+      1448,
+      1086
+    ]
+  },
+  {
+    "key": "bg_4",
+    "source": "assets-original/bg_4.jpg",
+    "artifact_analysis": "Heavy fine grain and JPEG noise in turquoise sky and ochre hills; rough white outlines.",
+    "prompt": "Use case: precise-object-edit. Input image is the edit target. Clean high-resolution reconstruction of this SAME 2D cartoon game illustration. Preserve EXACT layout, original silhouettes, object positions, proportions, palette and soft original shading. Remove grain, JPEG blocks/speckles, low-resolution blur and stair-stepped edges. Clean crisp continuous contours and smooth fills. No new objects, no extra details or texture, no redesign, no realism, no border or watermark. Opaque 4:3 landscape 1600x1200. Preserve muted turquoise sky and pale turquoise rounded cloud silhouettes. Large domed golden-orange mountain centered left with wavy yellow/ochre stripes, smaller domed orange hills spanning bottom, thin cream-white outlines. Preserve exact peak sizes and positions and all original bands.",
+    "output": "assets-ai/images/bg_4.png",
+    "qa": "Inspected generated output: clean smooth turquoise sky and orange hills, sharp pale outlines. Original domes, layer arrangement, stripes and palette closely retained.",
+    "status": "complete",
+    "dimensions": [
+      1448,
+      1086
+    ]
+  },
+  {
+    "key": "bg_5",
+    "source": "assets-original/bg_5.jpg",
+    "artifact_analysis": "Grainy beige sky/cloud fields, JPEG color noise on gray-green hills and low-resolution rounded corners.",
+    "prompt": "Use case: precise-object-edit. Input image is the edit target. Clean high-resolution reconstruction of this SAME 2D cartoon game illustration. Preserve EXACT layout, original silhouettes, object positions, proportions, palette and soft original shading. Remove grain, JPEG blocks/speckles, low-resolution blur and stair-stepped edges. Clean crisp continuous contours and smooth fills. No new objects, no extra details or texture, no redesign, no realism, no border or watermark. Opaque 4:3 landscape target 1600x1200. Preserve muted pale beige-yellow sky, pale cream cloud band, two layers of stepped blocky gray-green mountains with rounded corners and thin white outlines. Tall narrow pillar at center-right, large block at left, low steps at right, and flowing muted gray-green internal stripes. All steps, corners and silhouettes exactly match reference.",
+    "output": "assets-ai/images/bg_5.png",
+    "qa": "Inspected output. Smooth cream sky and blocky gray-green silhouettes closely match original. Interior broad stripes somewhat stronger and more distinct; no compression noise visible.",
+    "status": "complete",
+    "dimensions": [
+      1448,
+      1086
+    ]
+  },
+  {
+    "key": "cloud1",
+    "source": "assets-original/cloud1.png",
+    "artifact_analysis": "Very low-resolution white cloud sprite, blurred/jagged scalloped edge and cyan shading edge pixels.",
+    "prompt": "Use case: precise-object-edit. Input image is the edit target. Clean high-resolution reconstruction of this SAME 2D cartoon game illustration. Preserve EXACT layout, original silhouettes, object positions, proportions, palette and soft original shading. Remove grain, JPEG blocks/speckles, low-resolution blur and stair-stepped edges. Clean crisp continuous contours and smooth fills. No new objects, no extra details or texture, no redesign, no realism, no border or watermark. Transparent background sprite, aspect ratio 46:27, target about 1360x800. Single small horizontally stretched white cartoon cloud filling canvas similarly to source. Exactly preserve lumpy scalloped silhouette: tall upper-left-central bulge, smaller right lobes, three soft lower lobes, pale cyan underside shading. Clean smooth antialiased silhouette, simple soft white fill and very light blue lower shading. No face, outline, ground, sky, drop shadow or added texture. Actual transparent alpha surrounding cloud.",
+    "retry_prompt": "Use case: precise-object-edit. Input image is the edit target. Clean high-resolution reconstruction of this SAME 2D cartoon game illustration. Preserve EXACT layout, original silhouettes, object positions, proportions, palette and soft original shading. Remove grain, JPEG blocks/speckles, low-resolution blur and stair-stepped edges. Clean crisp continuous contours and smooth fills. No new objects, no extra details or texture, no redesign, no realism, no border or watermark. Transparent background sprite, aspect ratio 46:27, target about 1360x800. Single small horizontally stretched white cartoon cloud filling canvas similarly to source. Exactly preserve lumpy scalloped silhouette: tall upper-left-central bulge, smaller right lobes, three soft lower lobes, pale cyan underside shading. Clean smooth antialiased silhouette, simple soft white fill and very light blue lower shading. No face, outline, ground, sky, drop shadow or added texture. Actual transparent alpha surrounding cloud. Targeted correction: ensure alpha boundary is perfectly smooth and clean, with ZERO detached white fragments, stray pixels, speckles, torn edges or eroded holes. One solid connected cloud only. Every pixel outside exact smooth silhouette fully transparent. Do not add irregular scraps around it.",
+    "output": "assets-ai/images/cloud1.png",
+    "qa": "Inspected proper alpha-composited preview on dark green background. Smooth clean edges with no visible detached fragments. Earlier apparent fringe was hidden RGB shown by raw preview, not visible alpha. Composition and colors analogous to source.",
+    "status": "complete",
+    "attempts": 2,
+    "dimensions": [
+      1637,
+      961
+    ],
+    "qa_initial_raw_preview": "Both first output and targeted retry inspected. Clean large cloud fill, but transparency extraction leaves detached white fragments around perimeter. Retry did not resolve artifacts; first version retained as slightly cleaner. NOT production ready."
+  },
+  {
+    "key": "cloud2",
+    "source": "assets-original/cloud2.png",
+    "artifact_analysis": "Tiny 43x27 cloud has jagged scalloped perimeter and blocky cyan underside pixels.",
+    "prompt": "Use case: precise-object-edit. Input image is the edit target. Clean high-resolution reconstruction of this SAME 2D cartoon game illustration. Preserve EXACT layout, original silhouettes, object positions, proportions, palette and soft original shading. Remove grain, JPEG blocks/speckles, low-resolution blur and stair-stepped edges. Clean crisp continuous contours and smooth fills. No new objects, no extra details or texture, no redesign, no realism, no border or watermark. Transparent sprite, original aspect ratio 43:27, high resolution around 1376x864. Reproduce exact irregular white cartoon cloud silhouette and pale cyan underside: high round left lobe, small top-center bulge, descending sloping right shoulder and small lobed underside. Keep flat simple illustration, smooth alpha edge with NO detached pixels or fragments, no checkerboard, no ground/shadow/sky. Actual transparent background.",
+    "retry_prompt": "Use case: precise-object-edit. Input image is the edit target. Clean high-resolution reconstruction of this SAME 2D cartoon game illustration. Preserve EXACT layout, original silhouettes, object positions, proportions, palette and soft original shading. Remove grain, JPEG blocks/speckles, low-resolution blur and stair-stepped edges. Clean crisp continuous contours and smooth fills. No new objects, no extra details or texture, no redesign, no realism, no border or watermark. Transparent sprite, original aspect ratio 43:27, high resolution around 1376x864. Reproduce exact irregular white cartoon cloud silhouette and pale cyan underside: high round left lobe, small top-center bulge, descending sloping right shoulder and small lobed underside. Keep flat simple illustration, smooth alpha edge with NO detached pixels or fragments, no checkerboard, no ground/shadow/sky. Actual transparent background. Correction: the cloud must be a single smooth filled shape with clean alpha boundary. Eliminate ALL stray opaque fragments around outline. Use subtle light blue outline inside silhouette if necessary to make boundary unambiguous, otherwise same reference shape.",
+    "output": "assets-ai/images/cloud2.png",
+    "qa": "Inspected proper alpha-composited preview on dark green background. Smooth clean edges with no visible detached fragments. Earlier apparent fringe was hidden RGB shown by raw preview, not visible alpha. Composition and colors analogous to source.",
+    "status": "complete",
+    "attempts": 2,
+    "dimensions": [
+      1583,
+      994
+    ],
+    "qa_initial_raw_preview": "First and retry inspected. Retry reduces large detached fragments, but rough white fringing and sparse stray pixels remain. Shape and cyan shading analogous. NOT production ready."
+  },
+  {
+    "key": "grass",
+    "source": "assets-original/grass.png",
+    "artifact_analysis": "Long narrow red terrain strip with coarse one-pixel cream top edge and three blocky grass tufts; slight gradient banding.",
+    "prompt": "Use case: precise-object-edit. Input image is the edit target. Clean high-resolution reconstruction of this SAME 2D cartoon game illustration. Preserve EXACT layout, original silhouettes, object positions, proportions, palette and soft original shading. Remove grain, JPEG blocks/speckles, low-resolution blur and stair-stepped edges. Clean crisp continuous contours and smooth fills. No new objects, no extra details or texture, no redesign, no realism, no border or watermark. Transparent 8:1 horizontal game platform strip target 2560x320. Reproduce source entire strip from left to right edge: flat deep burgundy-red soil gradient, gently undulating cream white top outline, red lighter lip beneath, THREE small red grass tufts at exact original positions near x=20%,32%,76%. Keep extremely shallow 8:1 aspect ratio, bottom edge straight at canvas bottom. Only above the terrain is transparent; fill extends to bottom and side edges. No extra grass, no dirt texture, no rocks, no background, no isolated stray pixels.",
+    "retry_prompt": "Use case: precise-object-edit. Input image is the edit target. Clean high-resolution reconstruction of this SAME 2D cartoon game illustration. Preserve EXACT layout, original silhouettes, object positions, proportions, palette and soft original shading. Remove grain, JPEG blocks/speckles, low-resolution blur and stair-stepped edges. Clean crisp continuous contours and smooth fills. No new objects, no extra details or texture, no redesign, no realism, no border or watermark. Transparent 8:1 horizontal game platform strip target 2560x320. Reproduce source entire strip from left to right edge: flat deep burgundy-red soil gradient, gently undulating cream white top outline, red lighter lip beneath, THREE small red grass tufts at exact original positions near x=20%,32%,76%. Keep extremely shallow 8:1 aspect ratio, bottom edge straight at canvas bottom. Only above the terrain is transparent; fill extends to bottom and side edges. No extra grass, no dirt texture, no rocks, no background, no isolated stray pixels. Critical correction: do NOT place a large empty transparent region above. The artwork strip must occupy virtually all canvas height; grass tips at 3% from top, soil surface at 25% from top, soil fills remaining 75% down to bottom. Preserve 8:1 canvas width to height, very wide panoramic banner, 3200x400 pixels. Remove all detached specks along alpha boundary.",
+    "output": "assets-ai/images/grass.png",
+    "qa": "Inspected proper alpha-composited preview on dark green background. Smooth clean edges with no visible detached fragments. Earlier apparent fringe was hidden RGB shown by raw preview, not visible alpha. Composition and colors analogous to source. Native canvas remains 1983x793 versus original 8:1; requires layout-aware sizing for integration.",
+    "status": "complete_with_aspect_ratio_limitation",
+    "attempts": 2,
+    "dimensions": [
+      1983,
+      793
+    ],
+    "qa_initial_raw_preview": "First and targeted retry inspected. Retry places terrain nearer correct normalized vertical position, but native output 2.5:1 instead of source 8:1, and white/red stray fragments remain along alpha boundary. NOT production ready."
+  },
+  {
+    "key": "island1",
+    "source": "assets-original/island1.png",
+    "artifact_analysis": "Small isometric island has stair-stepped exterior, blurry round star map markers and muddied tiny trees/terrain edges.",
+    "prompt": "Use case: precise-object-edit. Input image is the edit target. Clean high-resolution reconstruction of this SAME 2D cartoon game illustration. Preserve EXACT layout, original silhouettes, object positions, proportions, palette and soft original shading. Remove grain, JPEG blocks/speckles, low-resolution blur and stair-stepped edges. Clean crisp continuous contours and smooth fills. No new objects, no extra details or texture, no redesign, no realism, no border or watermark. Transparent isometric floating world-map island, preserve source aspect 174:199 portrait and every element exactly. Lime green grass atop brown faceted tapered floating rock; broad upper oval narrows into winding neck and small lower projecting peninsula. Rounded lime striped hills, tiny tiered green trees, winding pale yellow path and silver circular star pins at EXACT original locations and count. Keep smooth simple 2D game illustration, clean crisp pins and tree silhouettes. No added decorations/markers, no rearrangement, no text, no detached pixels outside silhouette. Actual transparent background.",
+    "output": "assets-ai/images/island1.png",
+    "qa": "Inspected proper alpha-composited preview on dark green background. Smooth clean edges with no visible detached fragments. Earlier apparent fringe was hidden RGB shown by raw preview, not visible alpha. Composition and colors analogous to source.",
+    "status": "complete",
+    "dimensions": [
+      1173,
+      1341
+    ],
+    "qa_initial_raw_preview": "Inspected generated image. Layout, green island silhouette, star pins, path and hills analogous and sharp. Some yellow-white alpha fringing around top hills/exterior, requires alpha cleanup. Original tiny tree placements closely retained but exact tiny details interpreted."
+  },
+  {
+    "key": "island2",
+    "source": "assets-original/island2.png",
+    "artifact_analysis": "Low-resolution purple island outline jagged; star pins and small pink trees blurred, tiny shading and ridge details merge.",
+    "prompt": "Use case: precise-object-edit. Input image is the edit target. Clean high-resolution reconstruction of this SAME 2D cartoon game illustration. Preserve EXACT layout, original silhouettes, object positions, proportions, palette and soft original shading. Remove grain, JPEG blocks/speckles, low-resolution blur and stair-stepped edges. Clean crisp continuous contours and smooth fills. No new objects, no extra details or texture, no redesign, no realism, no border or watermark. Transparent floating world-map island, original 173:195 portrait proportions. Preserve exact shape, elevated curved horseshoe-like purple grass surface atop tapered dark brown faceted rock. Pink/lavender rounded hills with magenta stripes, tiny layered pink trees, winding light-pink path and all silver star map pins at exact original positions/count. Top peak cluster, left edge stars and foreground left pink tree cluster must stay. Preserve soft vintage 2D illustration with clean simple shading, no extra objects, no cropping.",
+    "output": "assets-ai/images/island2.png",
+    "qa": "Inspected proper alpha-composited preview on dark green background. Smooth clean edges with no visible detached fragments. Earlier apparent fringe was hidden RGB shown by raw preview, not visible alpha. Composition and colors analogous to source.",
+    "status": "complete",
+    "dimensions": [
+      1181,
+      1331
+    ],
+    "qa_initial_raw_preview": "Inspected. Island outline, purple/pink palette, star path and trees closely analogous and sharp. Magenta edge fringe and a few white remnants at outer pins require alpha cleanup. Added visible pin landing pads are minor interpretive detail."
+  },
+  {
+    "key": "island3",
+    "source": "assets-original/island3.png",
+    "artifact_analysis": "Low-res icy island silhouette and mountain diagonals have jaggies; tiny star markers and snowy trees blurred.",
+    "prompt": "Use case: precise-object-edit. Input image is the edit target. Clean high-resolution reconstruction of this SAME 2D cartoon game illustration. Preserve EXACT layout, original silhouettes, object positions, proportions, palette and soft original shading. Remove grain, JPEG blocks/speckles, low-resolution blur and stair-stepped edges. Clean crisp continuous contours and smooth fills. No new objects, no extra details or texture, no redesign, no realism, no border or watermark. Transparent floating world-map island, source aspect 251:217 landscape. Preserve exact irregular broad pale blue ice surface atop downward tapered dark brown faceted rock. Angular icy blue triangular mountain ridges, small white/blue layered conifer trees, pale winding path and all silver circular star map pins exactly positioned as reference, no added markers. Smooth simple 2D game illustration, white icy highlights, no snow grain or extra texture. Keep entire island and tapered rock in frame, preserve proportions.",
+    "output": "assets-ai/images/island3.png",
+    "qa": "Inspected proper alpha-composited preview on dark green background. Smooth clean edges with no visible detached fragments. Earlier apparent fringe was hidden RGB shown by raw preview, not visible alpha. Composition and colors analogous to source.",
+    "status": "complete",
+    "dimensions": [
+      1349,
+      1166
+    ],
+    "qa_initial_raw_preview": "Inspected. Crisp triangular mountains, trees and star markers closely match source placement and blue-white palette; cyan/white edge fringe at silhouette requires alpha cleanup."
+  },
+  {
+    "key": "island4",
+    "source": "assets-original/island4.png",
+    "artifact_analysis": "Small orange island has jagged diagonal borders, blurred tree crowns, grainy star pins and indistinct rock facets.",
+    "prompt": "Use case: precise-object-edit. Input image is the edit target. Clean high-resolution reconstruction of this SAME 2D cartoon game illustration. Preserve EXACT layout, original silhouettes, object positions, proportions, palette and soft original shading. Remove grain, JPEG blocks/speckles, low-resolution blur and stair-stepped edges. Clean crisp continuous contours and smooth fills. No new objects, no extra details or texture, no redesign, no realism, no border or watermark. Transparent floating world-map island source 183:221 portrait. Long diagonal oval golden-orange surface running from lower-left to upper-right, topped with rounded striped ochre/red hills and tiny yellow/orange lollipop trees. Preserve winding pale yellow path, exact count and positions of silver star map pins, and brown faceted tapered floating-rock underside. Same compact crop and all original proportions. Smooth simple 2D cartoon shading, no new texture or additional markers.",
+    "output": "assets-ai/images/island4.png",
+    "qa": "Inspected proper alpha-composited preview on dark green background. Smooth clean edges with no visible detached fragments. Earlier apparent fringe was hidden RGB shown by raw preview, not visible alpha. Composition and colors analogous to source.",
+    "status": "complete",
+    "dimensions": [
+      1141,
+      1378
+    ],
+    "qa_initial_raw_preview": "Inspected. Warm diagonal island, markers, rounded striped hills and yellow trees closely retained. Clean interiors and clear stars. Orange-white alpha fringe along island edge requires cleanup."
+  },
+  {
+    "key": "island5",
+    "source": "assets-original/island5.png",
+    "artifact_analysis": "Narrow gray island has coarse edges on winding outline, blurred silver stars, indistinct blocky mountains and low-res snowy trees.",
+    "prompt": "Use case: precise-object-edit. Input image is the edit target. Clean high-resolution reconstruction of this SAME 2D cartoon game illustration. Preserve EXACT layout, original silhouettes, object positions, proportions, palette and soft original shading. Remove grain, JPEG blocks/speckles, low-resolution blur and stair-stepped edges. Clean crisp continuous contours and smooth fills. No new objects, no extra details or texture, no redesign, no realism, no border or watermark. Transparent floating world-map island, source 215:342 tall portrait. EXACT long winding S-like gray island silhouette, broad upper/middle platform narrows into curved lower-left peninsula, tapered dark brown rock underneath. Blocky pale gray-green rounded rectangular pillars, tiny white-gray triangular trees, white winding path and exact original silver star pins. At far top preserve dark cave entrance in gray arched mountain and final top star pin. Gray muted palette, simple 2D shading, no new buildings or objects, all top and bottom silhouette in frame.",
+    "output": "assets-ai/images/island5.png",
+    "qa": "Inspected proper alpha-composited preview on dark green background. Smooth clean edges with no visible detached fragments. Earlier apparent fringe was hidden RGB shown by raw preview, not visible alpha. Composition and colors analogous to source.",
+    "status": "complete",
+    "dimensions": [
+      994,
+      1582
+    ],
+    "qa_initial_raw_preview": "Inspected generated image. Long gray island, blocky pillars, trees, star path, bear-faced cave and rock closely analogous. Need proper alpha-composited preview; raw view may reveal RGB under transparent pixels."
+  },
+  {
+    "key": "map_bg",
+    "source": "assets-original/map_bg.jpg",
+    "artifact_analysis": "Pervasive grain and JPEG speckling across turquoise-to-pale-yellow sky and scalloped cloud bands; faint gradient banding.",
+    "prompt": "Use case: precise-object-edit. Input image is the edit target. Clean high-resolution reconstruction of this SAME 2D cartoon game illustration. Preserve EXACT layout, original silhouettes, object positions, proportions, palette and soft original shading. Remove grain, JPEG blocks/speckles, low-resolution blur and stair-stepped edges. Clean crisp continuous contours and smooth fills. No new objects, no extra details or texture, no redesign, no realism, no border or watermark. Opaque 4:3 game map backdrop, 1600x1200. Preserve empty central turquoise/cyan sky, subtle pale center glow, pale cream-green near bottom, and layered soft scalloped cloud silhouettes rising only at left and right edges and across bottom, darker muted teal foreground cloud silhouettes at bottom corners. EXACT negative space and low cloud placement. Smooth original gradients, no islands, no text, no objects, no visible texture.",
+    "output": "assets-ai/images/map_bg.png",
+    "qa": "Inspected. Clean smooth cyan gradient and low scalloped clouds retain original negative space; clouds more symmetrically balanced than original but analogous composition.",
+    "status": "complete",
+    "dimensions": [
+      1448,
+      1086
+    ]
+  },
+  {
+    "key": "menu_bg",
+    "source": "assets-original/menu_bg.jpg",
+    "artifact_analysis": "JPEG ringing around title and squirrel, blurry facial details, blocky clouds and ground, visible grain/noise in cyan sky and pale lower background.",
+    "prompt": "Use case: precise-object-edit. Input image is the edit target. Clean high-resolution reconstruction of this SAME 2D cartoon game illustration. Preserve EXACT layout, original silhouettes, object positions, proportions, palette and soft original shading. Remove grain, JPEG blocks/speckles, low-resolution blur and stair-stepped edges. Clean crisp continuous contours and smooth fills. No new objects, no extra details or texture, no redesign, no realism, no border or watermark. Opaque 4:3 title-screen illustration target 1600x1200. Preserve EXACT existing composition and content: large orange angry cartoon squirrel facing right in center, large curled fluffy tail to left; small orange squirrel on far left of grassy floating island, dark brown/black squirrel on far right; lime hills behind; floating brown pointed rock below; cyan sky with small white clouds. Preserve exact pink curved outlined title lettering in two lines: upper text 'Zwierzaki', lower text 'atakują' with correct Polish ą and final letter ą (z-w-i-e-r-z-a-k-i / a-t-a-k-u-j-ą). Exact original lettering placement, playful skewed font, white and dark outlines, characters partly overlapping title as source. Main squirrel angry half-lidded eye, black nose, clenched white teeth, orange silhouette and tail pose identical. No added UI, no new text, no redesign. Sharpen illustration and remove compression artifacts only. Floating dust below island remains sparse intended particles, not compression grain.",
+    "retry_prompt": "Use case: precise-object-edit. Input image is the edit target. Clean high-resolution reconstruction of this SAME 2D cartoon game illustration. Preserve EXACT layout, original silhouettes, object positions, proportions, palette and soft original shading. Remove grain, JPEG blocks/speckles, low-resolution blur and stair-stepped edges. Clean crisp continuous contours and smooth fills. No new objects, no extra details or texture, no redesign, no realism, no border or watermark. Opaque 4:3 title-screen illustration target 1600x1200. Preserve EXACT existing composition and content: large orange angry cartoon squirrel facing right in center, large curled fluffy tail to left; small orange squirrel on far left of grassy floating island, dark brown/black squirrel on far right; lime hills behind; floating brown pointed rock below; cyan sky with small white clouds. Preserve exact pink curved outlined title lettering in two lines: upper text 'Zwierzaki', lower text 'atakują' with correct Polish ą and final letter ą (z-w-i-e-r-z-a-k-i / a-t-a-k-u-j-ą). Exact original lettering placement, playful skewed font, white and dark outlines, characters partly overlapping title as source. Main squirrel angry half-lidded eye, black nose, clenched white teeth, orange silhouette and tail pose identical. No added UI, no new text, no redesign. Sharpen illustration and remove compression artifacts only. Floating dust below island remains sparse intended particles, not compression grain. Critical typography correction: lower word MUST read atakują with a clear Polish OGONEK descending hook attached below the final a. Last letter is ą, Unicode U+0105. Make the curved descending hook plainly visible below its lower right stroke. Do not render plain a. Keep original animal scene and frame. Main squirrel head should match original side-facing one prominent half-lidded eye; do not redesign expression.",
+    "output": "assets-ai/images/menu_bg.png",
+    "qa": "Final targeted edit inspected. Removed incorrect hook from j and placed visible ogonek under final a. Title now reads Zwierzaki atakują correctly. Sharp analogous menu scene preserved from generated version; main squirrel expression remains an interpretation with two eyes visible.",
+    "status": "complete",
+    "attempts": 3,
+    "dimensions": [
+      1448,
+      1086
+    ],
+    "final_correction_prompt": "Use case: precise-object-edit. Edit this image with ONE tiny typography correction only. Preserve the entire image, characters, layout, colors, rendering and all existing lettering exactly. In the lower pink word, REMOVE the small pink curved hook currently hanging below the letter j at approximately x=960,y=748 in the 1448x1086 image. Restore underlying green grass there seamlessly. ADD that same style small pink curved descending ogonek hook attached to the LOWER-RIGHT foot of the FINAL LETTER a at approximately x=1100,y=650, so the final letter becomes Polish ą. The complete bottom word must read 'atakują' (a t a k u j ą), with ogonek on LAST letter only. The j must have NO ogonek. Top word 'Zwierzaki' unchanged. Do not change any letter shapes, do not recompose artwork. Keep same 4:3 opaque image.",
+    "final_generation_source": "/Users/rtcoder/.codex/generated_images/01a17440-6ade-7ee0-84da-e5480867a9e2/exec-5b409c6a-2f37-4d00-8410-4c261b00851f.png"
+  },
+  {
+    "key": "scoresBG",
+    "source": "assets-original/scoresBG.jpg",
+    "artifact_analysis": "Low-res scoreboard with JPEG grain, jagged panel borders, blurred tiny medal/skull icons and hard-to-read PUNKTY text.",
+    "prompt": "Use case: precise-object-edit. Input image is the edit target. Clean high-resolution reconstruction of this SAME 2D cartoon game illustration. Preserve EXACT layout, original silhouettes, object positions, proportions, palette and soft original shading. Remove grain, JPEG blocks/speckles, low-resolution blur and stair-stepped edges. Clean crisp continuous contours and smooth fills. No new objects, no extra details or texture, no redesign, no realism, no border or watermark. Opaque 4:3 score screen, source 320x240 target1600x1200. EXACT UI illustration layout: FIVE vertical rounded brown wood panels evenly spaced across top, topped by pale circular windows with tiny floating islands in order green/purple/ice blue/orange/gray. Each panel preserves exact small rows of gold/silver/bronze coin icons, purple skull icons and bottom empty inset score squares. Bottom row has three large gold silver bronze medals then large purple skull badge and smaller purple skull badge, each above small brown score slot. At lower-right preserve embossed gold text 'PUNKTY' exactly, above long dark brown rounded score box with inset cells, and small right-facing green triangle at far right. Soft turquoise upper and pale yellow-green lower background. Do not add numbers, change icon counts/layout, or invent text. Keep original vintage game UI, crisp readable small symbols, smooth shading.",
+    "output": "assets-ai/images/scoresBG.png",
+    "qa": "Inspected against original and enlarged source reference. Five columns, world colors, medal/bear icon rows, four empty cells per world and PUNKTY text retained. Clean sharp rendering. Miniature islands and medals interpreted slightly, overall positions closely retained.",
+    "status": "complete",
+    "dimensions": [
+      1448,
+      1086
+    ]
+  },
+  {
+    "key": "tree_1a",
+    "source": "assets-original/tree_1a.png",
+    "artifact_analysis": "68x100 tree has coarse white border steps, grain/noise in green crown and blocky short trunk edge.",
+    "prompt": "Use case: precise-object-edit. Input image is the edit target. Clean high-resolution reconstruction of this SAME 2D cartoon game illustration. Preserve EXACT layout, original silhouettes, object positions, proportions, palette and soft original shading. Remove grain, JPEG blocks/speckles, low-resolution blur and stair-stepped edges. Clean crisp continuous contours and smooth fills. No new objects, no extra details or texture, no redesign, no realism, no border or watermark. Transparent tree sprite, source 68:100 portrait. One rounded domed green crown, slightly wider near bottom, flat gently curved bottom, dark olive short rectangular trunk centered below, cream-white thin outline around whole tree. Preserve exactly crown silhouette, trunk width/height, four broad slanting lime/olive green bands and soft upper-left highlight. Clean simple 2D cartoon asset filling frame as source, no ground, shadow outside, leaves or texture, no face. True transparent alpha.",
+    "output": "assets-ai/images/tree_1a.png",
+    "qa": "Raw output inspected; analogous domed crown, green stripes and short olive trunk. Proper composite check follows. Proper dark-green alpha composite inspected: clean white contour and opaque interior, no detached fragments.",
+    "status": "complete",
+    "dimensions": [
+      1047,
+      1502
+    ]
+  },
+  {
+    "key": "tree_1b",
+    "source": "assets-original/tree_1b.png",
+    "artifact_analysis": "55x80 small green tree has blocky white outline, grainy crown shading and coarse trunk pixels.",
+    "prompt": "Use case: precise-object-edit. Input image is the edit target. Clean high-resolution reconstruction of this SAME 2D cartoon game illustration. Preserve EXACT layout, original silhouettes, object positions, proportions, palette and soft original shading. Remove grain, JPEG blocks/speckles, low-resolution blur and stair-stepped edges. Clean crisp continuous contours and smooth fills. No new objects, no extra details or texture, no redesign, no realism, no border or watermark. Transparent tree sprite, source 55:80 portrait. Single compact domed light lime-green crown with rounded wide bottom, short dark olive centered trunk and thin cream-white outline around entire silhouette. Exactly preserve simple alternating green/yellow-green slanted stripes and original relative crown/trunk proportions. Smooth 2D cartoon fills, no leaves, no new texture, no ground or shadow; tight frame same as source.",
+    "output": "assets-ai/images/tree_1b.png",
+    "qa": "Proper composite identified internal semi-transparent horizontal streak in lower green crown band. Root repaired interior alpha, preserved RGB, canvas and raw output; root visually verified repaired composite. Slight native green texture remains.",
+    "status": "complete_after_alpha_repair",
+    "dimensions": [
+      1040,
+      1512
+    ]
+  },
+  {
+    "key": "tree_2a",
+    "source": "assets-original/tree_2a.png",
+    "artifact_analysis": "73x85 pink tree has granular fill, jagged white border and low-resolution lobe corners.",
+    "prompt": "Use case: precise-object-edit. Input image is the edit target. Clean high-resolution reconstruction of this SAME 2D cartoon game illustration. Preserve EXACT layout, original silhouettes, object positions, proportions, palette and soft original shading. Remove grain, JPEG blocks/speckles, low-resolution blur and stair-stepped edges. Clean crisp continuous contours and smooth fills. No new objects, no extra details or texture, no redesign, no realism, no border or watermark. Transparent pink tree sprite, source73:85 portrait. Single broad candy-like crown with stacked irregular rounded tiers: small round upper cap, narrow neck, broad bulging middle, lower rounded tier. Pale pink and medium rose curved horizontal stripes, muted violet short rectangular trunk and thin ivory outline. Preserve asymmetry and exact lobe contour/proportions. Flat smooth 2D cartoon shaded fills. Interior fully opaque, outside transparent. No leaves or added texture, ground, shadows or face.",
+    "output": "assets-ai/images/tree_2a.png",
+    "qa": "Raw output inspected; pink lobed tree, stripe pattern and violet trunk analogous. Composite QA follows. Proper dark-green alpha composite inspected: clean white contour and opaque interior, no detached fragments.",
+    "status": "complete",
+    "dimensions": [
+      1162,
+      1353
+    ]
+  },
+  {
+    "key": "tree_2b",
+    "source": "assets-original/tree_2b.png",
+    "artifact_analysis": "45x67 narrow pink tree has heavily pixelated lobe border and grainy pink bands.",
+    "prompt": "Use case: precise-object-edit. Input image is the edit target. Clean high-resolution reconstruction of this SAME 2D cartoon game illustration. Preserve EXACT layout, original silhouettes, object positions, proportions, palette and soft original shading. Remove grain, JPEG blocks/speckles, low-resolution blur and stair-stepped edges. Clean crisp continuous contours and smooth fills. No new objects, no extra details or texture, no redesign, no realism, no border or watermark. Transparent narrow pink tiered tree source45:67 portrait. Reproduce EXACT three-lobed asymmetric candy crown: rounded top bulge, wide right middle bulge and small left protrusion, rounded lower tier. Alternating pink and pale pink curved bands, short narrow violet trunk centered below, thin white outline. Smooth simple 2D cartoon. Interior fully opaque; transparent outside. Preserve exact proportions and canvas filling, no added leaves/texture/shadows.",
+    "output": "assets-ai/images/tree_2b.png",
+    "qa": "Raw output inspected; narrow pink asymmetric tree and violet trunk analogous. Composite QA follows. Proper dark-green alpha composite inspected: clean border, opaque interior and no visible detached fragments.",
+    "status": "complete",
+    "dimensions": [
+      1028,
+      1530
+    ]
+  },
+  {
+    "key": "tree_3a",
+    "source": "assets-original/tree_3a.png",
+    "artifact_analysis": "67x103 icy tree has coarse diagonal white outline, granular pale blue bands and jagged trunk corners.",
+    "prompt": "Use case: precise-object-edit. Input image is the edit target. Clean high-resolution reconstruction of this SAME 2D cartoon game illustration. Preserve EXACT layout, original silhouettes, object positions, proportions, palette and soft original shading. Remove grain, JPEG blocks/speckles, low-resolution blur and stair-stepped edges. Clean crisp continuous contours and smooth fills. No new objects, no extra details or texture, no redesign, no realism, no border or watermark. Transparent icy conifer sprite, source67:103 portrait. Exactly preserve tall triangular crown widening to low angled sides then tapered angled bottom to short blue-gray rectangular trunk. Pale icy blue fill, two broad slanted cream-white bands, white rim all around. Crown has one pointed apex and sharp geometric diagonals, no branches/needles/extra tiers. Smooth simple 2D cartoon. Interior fully opaque; transparent outside. No ground/shadow/texture.",
+    "output": "assets-ai/images/tree_3a.png",
+    "qa": "Raw output inspected. Icy triangular crown and two pale diagonal stripes retained; short blue trunk analogous. Composite QA follows. Proper dark-green alpha composite inspected: clean border, opaque interior and no visible detached fragments.",
+    "status": "complete",
+    "dimensions": [
+      1012,
+      1555
+    ]
+  },
+  {
+    "key": "tree_3b",
+    "source": "assets-original/tree_3b.png",
+    "artifact_analysis": "45x69 small icy tree has coarse diagonal edges, muddy blue-white bands and tiny blocky trunk.",
+    "prompt": "Use case: precise-object-edit. Input image is the edit target. Clean high-resolution reconstruction of this SAME 2D cartoon game illustration. Preserve EXACT layout, original silhouettes, object positions, proportions, palette and soft original shading. Remove grain, JPEG blocks/speckles, low-resolution blur and stair-stepped edges. Clean crisp continuous contours and smooth fills. No new objects, no extra details or texture, no redesign, no realism, no border or watermark. Transparent icy tree source45:69 portrait. Exact narrow triangular crown with single apex, pointed widest corners near lower half, diagonally tapered lower crown, short dark blue-gray trunk. Soft pale gray-cyan fill and two pale diagonal bands, thin white perimeter. Preserve source subtle muted tones and exact silhouette. Interior opaque, outside transparent; no branches, needles, texture, ground or added shadow.",
+    "output": "assets-ai/images/tree_3b.png",
+    "qa": "Raw output inspected. Pale blue angular tree, slanted stripes and short blue trunk analogous. Composite QA follows. Proper dark-green alpha composite inspected: clean border, opaque interior and no visible detached fragments.",
+    "status": "complete",
+    "dimensions": [
+      1069,
+      1472
+    ]
+  },
+  {
+    "key": "tree_4a",
+    "source": "assets-original/tree_4a.png",
+    "artifact_analysis": "46x83 yellow tree has grainy bands, jagged white perimeter and chunky tiny red trunk.",
+    "prompt": "Use case: precise-object-edit. Input image is the edit target. Clean high-resolution reconstruction of this SAME 2D cartoon game illustration. Preserve EXACT layout, original silhouettes, object positions, proportions, palette and soft original shading. Remove grain, JPEG blocks/speckles, low-resolution blur and stair-stepped edges. Clean crisp continuous contours and smooth fills. No new objects, no extra details or texture, no redesign, no realism, no border or watermark. Transparent tree source46:83 tall portrait. Single inverted teardrop balloon-shaped crown: rounded broad top, sides gradually narrowing to point above tiny centered brick-red rectangular trunk. Pale butter-yellow and gold soft curved stripes, thin white outline including trunk. Exact original silhouette and crown/trunk proportions. Smooth simple 2D game asset, opaque interior, transparent outside; no leaves, veins, ground or texture.",
+    "output": "assets-ai/images/tree_4a.png",
+    "qa": "Raw output inspected. Rounded yellow crown taper and tiny red trunk analogous. Composite QA follows. Proper dark-green alpha composite inspected: clean border, opaque interior and no visible detached fragments.",
+    "status": "complete",
+    "dimensions": [
+      934,
+      1685
+    ]
+  },
+  {
+    "key": "tree_4b",
+    "source": "assets-original/tree_4b.png",
+    "artifact_analysis": "38x57 orange-yellow tree has coarse outer contour and grainy gradients, blocky tiny trunk.",
+    "prompt": "Use case: precise-object-edit. Input image is the edit target. Clean high-resolution reconstruction of this SAME 2D cartoon game illustration. Preserve EXACT layout, original silhouettes, object positions, proportions, palette and soft original shading. Remove grain, JPEG blocks/speckles, low-resolution blur and stair-stepped edges. Clean crisp continuous contours and smooth fills. No new objects, no extra details or texture, no redesign, no realism, no border or watermark. Transparent small tree source38:57 portrait. Inverted teardrop orange-yellow crown rounded broad top tapering down to tiny red rectangular centered trunk, white thin outline entire silhouette. Preserve more orange lower crown and pale yellow top, three curved slanting golden bands, precise original proportions. Fully opaque interior, smooth simple 2D shading, transparent exterior; no texture, ground, leaves or added objects.",
+    "output": "assets-ai/images/tree_4b.png",
+    "qa": "Raw output inspected. Yellow-orange teardrop and red trunk analogous. Raw preview shows wide glow, need composite verify. Proper dark-green alpha composite inspected: clean border, opaque interior and no visible detached fragments.",
+    "status": "complete",
+    "dimensions": [
+      1024,
+      1536
+    ]
+  },
+  {
+    "key": "tree_5a",
+    "source": "assets-original/tree_5a.png",
+    "artifact_analysis": "46x79 gray trapezoid tree has jagged angled borders, granular gray bands and tiny pixelated trunk.",
+    "prompt": "Use case: precise-object-edit. Input image is the edit target. Clean high-resolution reconstruction of this SAME 2D cartoon game illustration. Preserve EXACT layout, original silhouettes, object positions, proportions, palette and soft original shading. Remove grain, JPEG blocks/speckles, low-resolution blur and stair-stepped edges. Clean crisp continuous contours and smooth fills. No new objects, no extra details or texture, no redesign, no realism, no border or watermark. Transparent gray tree source46:79 portrait. Exactly preserve crown shape: tall flat-topped trapezoid, narrow flat top, straight sides sloping outward to wide flat bottom, small rounded bottom corners; short dark gray rectangular trunk centered beneath. Muted very pale gray-green fill with broad curved light gray horizontal bands, white thin outline around crown and trunk. Smooth 2D cartoon, fully opaque interior, transparent exterior. No new leaves, shadows, texture or details.",
+    "output": "assets-ai/images/tree_5a.png",
+    "qa": "Raw output inspected. Flat-topped trapezoid crown, subtle gray bands and short gray trunk analogous. Composite QA follows. Proper dark-green alpha composite inspected: clean border, opaque interior and no visible detached fragments.",
+    "status": "complete",
+    "dimensions": [
+      957,
+      1644
+    ]
+  },
+  {
+    "key": "tree_5b",
+    "source": "assets-original/tree_5b.png",
+    "artifact_analysis": "23x52 tiny tall gray tree has severely stepped perimeter, barely resolved gray banding and blocky white-outlined trunk.",
+    "prompt": "Use case: precise-object-edit. Input image is the edit target. Clean high-resolution reconstruction of this SAME 2D cartoon game illustration. Preserve EXACT layout, original silhouettes, object positions, proportions, palette and soft original shading. Remove grain, JPEG blocks/speckles, low-resolution blur and stair-stepped edges. Clean crisp continuous contours and smooth fills. No new objects, no extra details or texture, no redesign, no realism, no border or watermark. Transparent tiny narrow tree source23:52 tall portrait. EXACT narrow tall tapered crown with softly rounded small flat top, sides widen gradually to round-cornered wider flat bottom, very short gray rectangular trunk. Extremely pale gray-green crown, gentle diagonal gray stripes, white thin border. Preserve slender proportions, simple smooth 2D cartoon shading; interior opaque, exterior transparent; no extra texture or objects.",
+    "output": "assets-ai/images/tree_5b.png",
+    "qa": "Raw output inspected. Slender gray rounded crown and tiny trunk analogous; diagonal stripes more explicit than source. Composite QA follows. Proper dark-green alpha composite inspected: clean border, opaque interior and no visible detached fragments.",
+    "status": "complete",
+    "dimensions": [
+      834,
+      1885
+    ]
+  }
+]

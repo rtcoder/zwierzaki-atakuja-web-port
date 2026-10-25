@@ -1,0 +1,842 @@
+{
+  "group": "interface",
+  "items": [
+    {
+      "key": "menuIconAim",
+      "source": "assets-original/menuIconAim.png",
+      "source_artifacts": "Visible stair-stepping and irregular white/black strokes in 30x30 source; 4x reference also shows soft fringes.",
+      "prompt": "Use case: precise-object-edit. Asset type: menuIconAim, transparent 2D cartoon game UI icon. Input image is the edit target and exact composition reference. Recreate this white circular bullseye with a white arrow entering diagonally from upper left into its center, with the same black outlines and transparent gaps. Preserve silhouette, palette, arrow orientation, ring count, proportions, and relative placement. Keep the original square composition and margins: the icon nearly fills the 30x30 logical canvas. Produce a clean high-resolution raster with sharp smooth contours and uniform readable strokes; remove visible stair-step pixel artifacts, fuzzy fringes, and rough irregular edges. Do not redesign, add text, add objects, introduce colors, add glow, or add a background. Real transparent background and internal transparent holes.",
+      "tool": "image_gen.imagegen",
+      "generation_source": "/Users/rtcoder/.codex/generated_images/01a17440-a130-70c0-9fe0-8add00d511e4/exec-9b5bad45-1084-46b2-b8c0-e140a7a41f19.png",
+      "output": "assets-ai/images/menuIconAim.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "qa": "Inspected native generation: crisp smooth white target and diagonal arrow, transparent RGBA confirmed. Analogous composition maintained; stroke weights and arrow proportions differ from original, requiring integration review.",
+      "status": "generated_qa_limitation",
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "key": "menuIconArrows",
+      "source": "assets-original/menuIconArrows.png",
+      "source_artifacts": "Rough staircase edges and soft gray ringing around the white arrowheads.",
+      "prompt": "Use case: precise-object-edit. Asset: menuIconArrows, 2D cartoon game UI icon. Input is the exact composition reference/edit target. Recreate it as a sharp clean high-resolution raster. Exactly four white arrows pointing outward up, down, left and right, surrounding a small black/transparent square opening. Preserve the four-way cross composition. Preserve palette (white, black, transparency), orientation, proportions, silhouette, square canvas and original relative margins. Replace jagged pixels and fuzzy fringes with smooth crisp contours. No redesign, text, extra objects, colors, shading, glow or background. Keep genuine transparent background and holes.",
+      "tool": "image_gen.imagegen",
+      "generation_source": "/Users/rtcoder/.codex/generated_images/01a17440-a130-70c0-9fe0-8add00d511e4/exec-354e405c-3723-41aa-b3dc-40c63cc9e9dd.png",
+      "output": "assets-ai/images/menuIconArrows.png",
+      "qa": "Inspected generated image: clean smooth four outward arrows; center spacing is wider than original and tiny enclosing square outline is omitted. Analogous asset, requires integration review.",
+      "status": "generated_qa_limitation",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "key": "menuIconFire",
+      "source": "assets-original/menuIconFire.png",
+      "source_artifacts": "Jagged flame silhouette, soft/frayed gray edges, low resolution cutouts.",
+      "prompt": "Use case: precise-object-edit. Asset: menuIconFire, 2D cartoon game asset. Input is the exact composition reference/edit target. Recreate it as a sharp clean high-resolution raster. One compact white flame symbol with black contour and transparent inner cutouts, broad base and tall central pointed tongue, with smaller tongues around it. Preserve exact silhouette family. Preserve palette, orientation, proportions, silhouette, aspect ratio and original relative margins. Replace jagged pixels and fuzzy fringes with smooth crisp contours. No redesign, extra text or objects, new colors, shading, glow or background. Keep genuine transparent background and holes. ",
+      "tool": "image_gen.imagegen",
+      "generation_source": "/Users/rtcoder/.codex/generated_images/01a17440-a130-70c0-9fe0-8add00d511e4/exec-d070ae39-0a76-41b0-a902-d3ce379b1155.png",
+      "output": "assets-ai/images/menuIconFire.png",
+      "qa": "Visually inspected: crisp white flame and interior cutout; simplified tongues and modest silhouette drift, no obvious raster artifacts.",
+      "status": "generated_qa_limitation",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "key": "menuIconInfinity",
+      "source": "assets-original/menuIconInfinity.png",
+      "source_artifacts": "Stepped curves, fuzzy edge halos and irregular thickness.",
+      "prompt": "Use case: precise-object-edit. Asset: menuIconInfinity, 2D cartoon game asset. Input is the exact composition reference/edit target. Recreate it as a sharp clean high-resolution raster. One bold white infinity symbol, sideways figure eight, with two dark transparent oval holes and thin dark outline. Preserve wide symmetrical lobes and centered square framing. Preserve palette, orientation, proportions, silhouette, aspect ratio and original relative margins. Replace jagged pixels and fuzzy fringes with smooth crisp contours. No redesign, extra text or objects, new colors, shading, glow or background. Keep genuine transparent background and holes. ",
+      "tool": "image_gen.imagegen",
+      "generation_source": "/Users/rtcoder/.codex/generated_images/01a17440-a130-70c0-9fe0-8add00d511e4/exec-d14d5dec-3a65-41c1-b99d-80d75b2a5f76.png",
+      "output": "assets-ai/images/menuIconInfinity.png",
+      "qa": "Visually inspected: clean infinity outline and transparent holes, composition preserved; thinner overall symbol and different vertical margins than reference.",
+      "status": "generated_qa_limitation",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "key": "menuIconOk",
+      "source": "assets-original/menuIconOk.png",
+      "source_artifacts": "Diagonal stair-step pixels and blurred white/gray fringes.",
+      "prompt": "Use case: precise-object-edit. Asset: menuIconOk, 2D cartoon game asset. Input is the exact composition reference/edit target. Recreate it as a sharp clean high-resolution raster. A single white checkmark with a black outline, short left descending arm and long right ascending arm. Preserve asymmetric pointed taper and original centered composition. Preserve palette, orientation, proportions, silhouette, aspect ratio and original relative margins. Replace jagged pixels and fuzzy fringes with smooth crisp contours. No redesign, extra text or objects, new colors, shading, glow or background. Keep genuine transparent background and holes. ",
+      "tool": "image_gen.imagegen",
+      "generation_source": "/Users/rtcoder/.codex/generated_images/01a17440-a130-70c0-9fe0-8add00d511e4/exec-70bb0efb-1ac3-485c-b834-2d0ceb102f3c.png",
+      "output": "assets-ai/images/menuIconOk.png",
+      "qa": "Visually inspected: sharp checkmark, preserved long/right orientation and pointed arms; slight curve/proportion drift.",
+      "status": "generated_qa_limitation",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "key": "menuIconPlus",
+      "source": "assets-original/menuIconPlus.png",
+      "source_artifacts": "Uneven pixel-stepped outline and light edge halos.",
+      "prompt": "Use case: precise-object-edit. Asset: menuIconPlus, 2D cartoon game asset. Input is the exact composition reference/edit target. Recreate it as a sharp clean high-resolution raster. A bold upright white plus sign with thin black outline, square straight ends and equal-width arms, centered in square transparent canvas. Preserve palette, orientation, proportions, silhouette, aspect ratio and original relative margins. Replace jagged pixels and fuzzy fringes with smooth crisp contours. No redesign, extra text or objects, new colors, shading, glow or background. Keep genuine transparent background and holes. ",
+      "tool": "image_gen.imagegen",
+      "generation_source": "/Users/rtcoder/.codex/generated_images/01a17440-a130-70c0-9fe0-8add00d511e4/exec-65f94a9c-1a76-47ba-894b-4f051d86d6fa.png",
+      "output": "assets-ai/images/menuIconPlus.png",
+      "qa": "Visually inspected: crisp plus with straight arms and genuine transparency. Relative margins slightly wider.",
+      "status": "generated_qa_limitation",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "key": "menuIconSandglass",
+      "source": "assets-original/menuIconSandglass.png",
+      "source_artifacts": "Jagged inner diagonal glass contours, gray blurred fringes.",
+      "prompt": "Use case: precise-object-edit. Asset: menuIconSandglass, 2D cartoon game asset. Input is the exact composition reference/edit target. Recreate it as a sharp clean high-resolution raster. One upright white OUTLINED hourglass: flat thick white top/bottom horizontal bars joined by thin white curved diagonal sides crossing at center. Critically both upper and lower triangular chambers are hollow TRANSPARENT, NOT solid white. White sand occupies only a tiny triangle near central neck. Match reference outline geometry. Preserve palette, orientation, proportions, silhouette, aspect ratio and original relative margins. Replace jagged pixels and fuzzy fringes with smooth crisp contours. No redesign, extra text or objects, new colors, shading, glow or background. Keep genuine transparent background and holes. Targeted correction: preserve two large hollow triangular glass chambers. Do not create solid silhouette.",
+      "tool": "image_gen.imagegen",
+      "generation_source": "/Users/rtcoder/.codex/generated_images/01a17440-a130-70c0-9fe0-8add00d511e4/exec-9077ffbf-5296-44a9-830d-c077a64d93b6.png",
+      "output": "assets-ai/images/menuIconSandglass.png",
+      "qa": "Targeted retry restored the hollow hourglass chambers. Proper alpha composite inspected: sharp smooth white contours without speckles. Original rejection was caused by preview displaying hidden RGB. Minor proportions differ from source.",
+      "status": "generated_qa_limitation",
+      "previous_attempt": {
+        "key": "menuIconSandglass",
+        "source": "assets-original/menuIconSandglass.png",
+        "source_artifacts": "Jagged inner diagonal glass contours, gray blurred fringes.",
+        "prompt": "Use case: precise-object-edit. Asset: menuIconSandglass, 2D cartoon game asset. Input is the exact composition reference/edit target. Recreate it as a sharp clean high-resolution raster. One upright white hourglass icon outlined in black, flat thick top and bottom horizontal bars, two symmetrical tapering glass triangles meeting at central neck. Preserve compact square frame. Preserve palette, orientation, proportions, silhouette, aspect ratio and original relative margins. Replace jagged pixels and fuzzy fringes with smooth crisp contours. No redesign, extra text or objects, new colors, shading, glow or background. Keep genuine transparent background and holes. ",
+        "tool": "image_gen.imagegen",
+        "generation_source": "/Users/rtcoder/.codex/generated_images/01a17440-a130-70c0-9fe0-8add00d511e4/exec-0f220634-2b3a-40d6-976f-514c292cb36f.png",
+        "output": "assets-ai/images/menuIconSandglass.png",
+        "qa": "First image failed faithful appearance: glass was filled solid white, missing triangular holes. Targeted retry scheduled.",
+        "status": "retry_required"
+      },
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "key": "arrowInTheCircle",
+      "source": "assets-original/arrowInTheCircle.png",
+      "source_artifacts": "Jagged circular edge, fuzzy gradient and arrow contour.",
+      "prompt": "Use case: precise-object-edit. Asset: arrowInTheCircle, 2D cartoon game asset. Input is the exact composition reference/edit target. Recreate it as a sharp clean high-resolution raster. One glossy magenta/pink circular button with a bold white left-pointing arrow centered within it. Dark purple perimeter, bright pink center/top-left highlight, white arrow with short shaft. Preserve square framing. Preserve palette, orientation, proportions, silhouette, aspect ratio and original relative margins. Replace jagged pixels and fuzzy fringes with smooth crisp contours. No redesign, extra text or objects, new colors, shading, glow or background. Keep genuine transparent background and holes. ",
+      "tool": "image_gen.imagegen",
+      "generation_source": "/Users/rtcoder/.codex/generated_images/01a17440-a130-70c0-9fe0-8add00d511e4/exec-2d17207b-c426-49e9-80d1-c4797fcc82b5.png",
+      "output": "assets-ai/images/arrowInTheCircle.png",
+      "qa": "Visually inspected: sharp clean pink circular button and left arrow; glossy rim/highlight more pronounced than tiny reference.",
+      "status": "generated_qa_limitation",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "key": "plusInTheCircle",
+      "source": "assets-original/plusInTheCircle.png",
+      "source_artifacts": "Jagged circular silhouette and fuzzy plus edges.",
+      "prompt": "Use case: precise-object-edit. Asset: plusInTheCircle, 2D cartoon game asset. Input is the exact composition reference/edit target. Recreate it as a sharp clean high-resolution raster. One glossy magenta/pink circular button containing a centered white upright plus sign, equal straight arms. Dark purple outer edge, bright pink highlight. Preserve palette, orientation, proportions, silhouette, aspect ratio and original relative margins. Replace jagged pixels and fuzzy fringes with smooth crisp contours. No redesign, extra text or objects, new colors, shading, glow or background. Keep genuine transparent background and holes. ",
+      "tool": "image_gen.imagegen",
+      "generation_source": "/Users/rtcoder/.codex/generated_images/01a17440-a130-70c0-9fe0-8add00d511e4/exec-63c58c21-2fb0-49ad-8e70-209f19032c77.png",
+      "output": "assets-ai/images/plusInTheCircle.png",
+      "qa": "Inspected: clean magenta circular button and white plus, glossy shading more pronounced than original.",
+      "status": "generated_qa_limitation",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "key": "heart",
+      "source": "assets-original/heart.png",
+      "source_artifacts": "Blurry pink interior, highly jagged broken white halo.",
+      "prompt": "Use case: precise-object-edit. Asset: heart, 2D cartoon game asset. Input is the exact composition reference/edit target. Recreate it as a sharp clean high-resolution raster. One small rounded pink heart, two lobes and a bottom point, light pink highlight at upper left and darker pink bottom, surrounded by original thick white soft outline. Match source heart shape and broad white border. Preserve palette, orientation, proportions, silhouette, aspect ratio and original relative margins. Replace jagged pixels and fuzzy fringes with smooth crisp contours. No redesign, extra text or objects, new colors, shading, glow or background. Keep genuine transparent background and holes. ",
+      "tool": "image_gen.imagegen",
+      "generation_source": "/Users/rtcoder/.codex/generated_images/01a17440-a130-70c0-9fe0-8add00d511e4/exec-f74fca04-c928-4cfa-abcc-06c5c38a599c.png",
+      "output": "assets-ai/images/heart.png",
+      "qa": "Proper alpha composite inspected: smooth clean pink heart with white border, no visible speckles. Initial alpha artifact warning was false due to hidden RGB. Glossy highlight more pronounced than source.",
+      "status": "generated_qa_limitation",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "key": "blood1",
+      "source": "assets-original/blood1.png",
+      "source_artifacts": "Blocky tiny red particle, low-resolution highlight.",
+      "prompt": "Use case: precise-object-edit. Asset: blood1, 2D cartoon game asset. Input is the exact composition reference/edit target. Recreate it as a sharp clean high-resolution raster. One small round red droplet/particle with irregular slightly squared round silhouette, bright red center upper left, darker red lower right. No icon or symbol. Match source compact red blob exactly. Preserve palette, orientation, proportions, silhouette, aspect ratio and original relative margins. Replace jagged pixels and fuzzy fringes with smooth crisp contours. No redesign, extra text or objects, new colors, shading, glow or background. Keep genuine transparent background and holes. ",
+      "tool": "image_gen.imagegen",
+      "generation_source": "/Users/rtcoder/.codex/generated_images/01a17440-a130-70c0-9fe0-8add00d511e4/exec-d804aa79-0cdf-4759-a91d-17cac9e992a7.png",
+      "output": "assets-ai/images/blood1.png",
+      "qa": "Inspected: crisp red rounded particle, but occupies less canvas than source; glossy highlight exaggerated and body more regular.",
+      "status": "generated_qa_limitation",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "key": "blood2",
+      "source": "assets-original/blood2.png",
+      "source_artifacts": "Very low resolution four-pixel shape, smeared red gradient.",
+      "prompt": "Use case: precise-object-edit. Asset: blood2, 2D cartoon game asset. Input is the exact composition reference/edit target. Recreate it as a sharp clean high-resolution raster. One tiny red particle, compact irregular four-sided rounded dot, bright red upper-left and deep red bottom-right. Fill almost entire square as reference. No teardrop tail, extra droplets, symbol or border. Preserve palette, orientation, proportions, silhouette, aspect ratio and original relative margins. Replace jagged pixels and fuzzy fringes with smooth crisp contours. No redesign, extra text or objects, new colors, shading, glow or background. Keep genuine transparent background and holes. ",
+      "tool": "image_gen.imagegen",
+      "generation_source": "/Users/rtcoder/.codex/generated_images/01a17440-a130-70c0-9fe0-8add00d511e4/exec-d9f1e0cf-7f78-48b3-8fb7-e3e135ced1c7.png",
+      "output": "assets-ai/images/blood2.png",
+      "qa": "Inspected native preview: red gradient particle and irregular rounded four-sided shape;  Proper Pillow RGBA composite onto #355447 inspected: clean edges, no stray speckles. Earlier apparent artifacts came from hidden RGB in transparent pixels and are not visible when composited.",
+      "status": "generated_qa_limitation",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "key": "bullet",
+      "source": "assets-original/bullet.png",
+      "source_artifacts": "Coarse blurred texture, stair-stepped rock perimeter.",
+      "prompt": "Use case: precise-object-edit. Asset: bullet, 2D cartoon game asset. Input is the exact composition reference/edit target. Recreate it as a sharp clean high-resolution raster. One round brown-gray stone projectile, roughly spherical irregular outline, mottled facets and creases, lighter top-left and darker lower-right. Preserve compact neutral stone palette and fill the square. Preserve palette, orientation, proportions, silhouette, aspect ratio and original relative margins. Replace jagged pixels and fuzzy fringes with smooth crisp contours. No redesign, extra text or objects, new colors, shading, glow or background. Keep genuine transparent background and holes. ",
+      "tool": "image_gen.imagegen",
+      "generation_source": "/Users/rtcoder/.codex/generated_images/01a17440-a130-70c0-9fe0-8add00d511e4/exec-5b261426-6efb-4700-9963-3af1c577bc1c.png",
+      "output": "assets-ai/images/bullet.png",
+      "qa": "Inspected: detailed brown gray stone with clear facets and round silhouette; significantly more detailed than source.  Proper Pillow RGBA composite onto #355447 inspected: clean edges, no stray speckles. Earlier apparent artifacts came from hidden RGB in transparent pixels and are not visible when composited.",
+      "status": "generated_qa_limitation",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "key": "meteor",
+      "source": "assets-original/meteor.png",
+      "source_artifacts": "Blurred molten texture and jagged white halo.",
+      "prompt": "Use case: precise-object-edit. Asset: meteor, 2D cartoon game asset. Input is the exact composition reference/edit target. Recreate it as a sharp clean high-resolution raster. One rounded meteor rock with fiery orange yellow lava patches over dark reddish brown surface, white outer halo/border, matching reference near-round compact silhouette. No tail, stars or flame tongues beyond source. Preserve palette, orientation, proportions, silhouette, aspect ratio and original relative margins. Replace jagged pixels and fuzzy fringes with smooth crisp contours. No redesign, extra text or objects, new colors, shading, glow or background. Keep genuine transparent background and holes. ",
+      "tool": "image_gen.imagegen",
+      "generation_source": "/Users/rtcoder/.codex/generated_images/01a17440-a130-70c0-9fe0-8add00d511e4/exec-5f8496a1-0f39-4e45-b8d1-d172cf1c990c.png",
+      "output": "assets-ai/images/meteor.png",
+      "qa": "Inspected: readable orange-yellow lava stone, white border preserved;  Proper Pillow RGBA composite onto #355447 inspected: clean edges, no stray speckles. Earlier apparent artifacts came from hidden RGB in transparent pixels and are not visible when composited.",
+      "status": "generated_qa_limitation",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "key": "launcherBaseElement",
+      "source": "assets-original/launcherBaseElement.png",
+      "source_artifacts": "Blurred wood grain and jagged diagonal brace edges.",
+      "prompt": "Use case: precise-object-edit. Asset: launcherBaseElement, 2D cartoon game asset. Input is the exact composition reference/edit target. Recreate it as a sharp clean high-resolution raster. A horizontal wooden scaffold segment: brown wood vertical posts at left/right and crossing diagonal wooden braces forming X lattice, empty transparent triangular openings. Canvas aspect ratio 31:15. Preserve exact post/brace arrangement and cropped tileable top/bottom edges for stacking. Preserve palette, orientation, proportions, silhouette, aspect ratio and original relative margins. Replace jagged pixels and fuzzy fringes with smooth crisp contours. No redesign, extra text or objects, new colors, shading, glow or background. Keep genuine transparent background and holes. ",
+      "tool": "image_gen.imagegen",
+      "generation_source": "/Users/rtcoder/.codex/generated_images/01a17440-a130-70c0-9fe0-8add00d511e4/exec-8ee7d8c5-a88d-41fb-8e08-de47b09a4e48.png",
+      "output": "assets-ai/images/launcherBaseElement.png",
+      "qa": "Visually inspected: crisp wood braces/posts and transparent openings. Two X sections preserved; grain more pronounced and joint alignment/tile seam require runtime verification.",
+      "status": "generated_qa_limitation",
+      "dimensions": [
+        1802,
+        873
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "key": "launcherBaseTop",
+      "source": "assets-original/launcherBaseTop.png",
+      "source_artifacts": "Blurred wood texture and uneven plank edge.",
+      "prompt": "Use case: precise-object-edit. Asset: launcherBaseTop, 2D cartoon game asset. Input is the exact composition reference/edit target. Recreate it as a sharp clean high-resolution raster. A thin horizontal wooden platform plank, light tan upper edge and warm brown front/bottom edge, rounded/beveled ends. Canvas aspect ratio exactly 39:8. Fill width as reference, no legs, no extra beams. Preserve palette, orientation, proportions, silhouette, aspect ratio and original relative margins. Replace jagged pixels and fuzzy fringes with smooth crisp contours. No redesign, extra text or objects, new colors, shading, glow or background. Keep genuine transparent background and holes. ",
+      "tool": "image_gen.imagegen",
+      "generation_source": "/Users/rtcoder/.codex/generated_images/01a17440-a130-70c0-9fe0-8add00d511e4/exec-78e3f88d-d576-4036-962a-297a8607ef5a.png",
+      "output": "assets-ai/images/launcherBaseTop.png",
+      "qa": "Visually inspected: clean horizontal wooden plank. Generator returned 3:1 canvas with extra transparent vertical margins instead of 39:8 aspect. Native output preserved; requires geometry normalization before integration.",
+      "status": "generated_qa_limitation",
+      "dimensions": [
+        2172,
+        724
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "key": "launcher_1",
+      "source": "assets-original/launcher_1.png",
+      "source_artifacts": "Blurred horizontal wood grain and jagged narrow board silhouette.",
+      "prompt": "Use case: precise-object-edit. Asset: launcher_1, 2D cartoon game asset. Input is the exact composition reference/edit target. Recreate it as a sharp clean high-resolution raster. One horizontal narrow wooden piston/plank in transparent nearly square canvas (54x55 logical). The plank occupies x approximately 4..44 and y approximately 23..30: keep abundant empty transparency above and below and right. Golden tan long rectangular plank with rounded left end, squared right end, light top and dark brown bottom edge. Match original precise layout; not centered vertically taller wood panel. Preserve palette, orientation, proportions, silhouette, aspect ratio and original relative margins. Replace jagged pixels and fuzzy fringes with smooth crisp contours. No redesign, extra text or objects, new colors, shading, glow or background. Keep genuine transparent background and holes. Keep original large transparent canvas margins absolutely unchanged proportionally.",
+      "tool": "image_gen.imagegen",
+      "generation_source": "/Users/rtcoder/.codex/generated_images/01a17440-a130-70c0-9fe0-8add00d511e4/exec-e92c0f64-b19f-41e2-be03-32e8097f24a0.png",
+      "output": "assets-ai/images/launcher_1.png",
+      "qa": "Visually inspected: crisp horizontal rounded/square-ended wooden plank and broad transparent margins maintained. Fine relative placement and composite pivot require runtime alignment.",
+      "status": "generated_qa_limitation",
+      "dimensions": [
+        1278,
+        1230
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "key": "launcher_2",
+      "source": "assets-original/launcher_2.png",
+      "source_artifacts": "Blurry narrow wood post and jagged fork notch.",
+      "prompt": "Use case: precise-object-edit. Asset: launcher_2, 2D cartoon game asset. Input is the exact composition reference/edit target. Recreate it as a sharp clean high-resolution raster. One narrow vertical wooden fork/post, brown outer dark left edge, cream/tan right/front face. Top has an irregular fork/notch, lower straight stem extends to bottom. Preserve narrow tall 9:40 logical aspect, same fork geometry. Preserve palette, orientation, proportions, silhouette, aspect ratio and original relative margins. Replace jagged pixels and fuzzy fringes with smooth crisp contours. No redesign, extra text or objects, new colors, shading, glow or background. Keep genuine transparent background and holes. Do not make a whole slingshot, tree or extra branches. Only this component.",
+      "tool": "image_gen.imagegen",
+      "generation_source": "/Users/rtcoder/.codex/generated_images/01a17440-a130-70c0-9fe0-8add00d511e4/exec-fba8be85-062d-4758-8581-b26f59a15d3a.png",
+      "output": "assets-ai/images/launcher_2.png",
+      "qa": "Visually inspected: matching bent narrow wooden support and clean grain. Native canvas is wider than 9:40 logical ratio, with extra transparent side margins; geometry normalization required.",
+      "status": "generated_qa_limitation",
+      "dimensions": [
+        758,
+        2076
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "key": "launcher_3",
+      "source": "assets-original/launcher_3.png",
+      "source_artifacts": "Extremely low resolution tiny wooden sliver with blurry edges.",
+      "prompt": "Use case: precise-object-edit. Asset: launcher_3, 2D cartoon game asset. Input is the exact composition reference/edit target. Recreate it as a sharp clean high-resolution raster. A tiny vertical slim bent wooden sliver/component: cream tan right face, darker brown left side, upper stem curves to the left at bottom. Exact reference silhouette, narrow 4:8 canvas, component fills almost all height. No extra objects. Preserve palette, orientation, proportions, silhouette, aspect ratio and original relative margins. Replace jagged pixels and fuzzy fringes with smooth crisp contours. No redesign, extra text or objects, new colors, shading, glow or background. Keep genuine transparent background and holes. ",
+      "tool": "image_gen.imagegen",
+      "generation_source": "/Users/rtcoder/.codex/generated_images/01a17440-a130-70c0-9fe0-8add00d511e4/exec-6a95f428-f2a3-4ad9-aa8e-58fcd89b39a8.png",
+      "output": "assets-ai/images/launcher_3.png",
+      "qa": "Inspected: clean pale/brown curved wooden sliver, orientation preserved; original tiny crop magnified to more slender curved shape. Alignment requires review.",
+      "status": "generated_qa_limitation",
+      "dimensions": [
+        887,
+        1774
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "key": "launcher_4",
+      "source": "assets-original/launcher_4.png",
+      "source_artifacts": "Blurred stippled wood grain and stair-step asymmetrical rim.",
+      "prompt": "Use case: precise-object-edit. Asset: launcher_4, 2D cartoon game asset. Input is the exact composition reference/edit target. Recreate it as a sharp clean high-resolution raster. A single irregular brown wooden launcher foreground shell/plank in near-square transparent 54x55 canvas. Shape occupies roughly x4..53 and y20..35: long horizontal shallow wooden tray side with short left wall, rough top lip, raised notch on right and short protruding right tip. Preserve broad transparency above/below and original positioning. Warm brown wood grain and pale top/right edges. Preserve palette, orientation, proportions, silhouette, aspect ratio and original relative margins. Replace jagged pixels and fuzzy fringes with smooth crisp contours. No redesign, extra text or objects, new colors, shading, glow or background. Keep genuine transparent background and holes. Keep exact source crop, orientation and component geometry; no full catapult.",
+      "tool": "image_gen.imagegen",
+      "generation_source": "/Users/rtcoder/.codex/generated_images/01a17440-a130-70c0-9fe0-8add00d511e4/exec-70bbc073-ee14-4b6b-acfd-26a884ae2ae9.png",
+      "output": "assets-ai/images/launcher_4.png",
+      "qa": "Inspected: warm brown foreground launcher shell with right protruding tip; sharp contour and broad transparent margins. Proportions and notch depth drift from original, needs assembly review.",
+      "status": "generated_qa_limitation",
+      "dimensions": [
+        1243,
+        1266
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "key": "launcher_5",
+      "source": "assets-original/launcher_5.png",
+      "source_artifacts": "Blurry granular grain, jagged asymmetrical wood rim.",
+      "prompt": "Use case: precise-object-edit. Asset: launcher_5, 2D cartoon game asset. Input is the exact composition reference/edit target. Recreate it as a sharp clean high-resolution raster. A pale tan wooden rear launcher shell isolated in near-square transparent 54x55 canvas. It occupies roughly x4..53 and y18..34: elongated shallow irregular bowl/board with flat upper lip, tapering slanted lower left edge and rounded deeper right end. Light beige speckled wood grain, gold/brown edging. Keep exact silhouette and broad transparent margins. Preserve palette, orientation, proportions, silhouette, aspect ratio and original relative margins. Replace jagged pixels and fuzzy fringes with smooth crisp contours. No redesign, extra text or objects, new colors, shading, glow or background. Keep genuine transparent background and holes. No whole launcher, no legs or extra components.",
+      "tool": "image_gen.imagegen",
+      "generation_source": "/Users/rtcoder/.codex/generated_images/01a17440-a130-70c0-9fe0-8add00d511e4/exec-1e475119-49cd-4e8e-9a88-61786b06bf51.png",
+      "output": "assets-ai/images/launcher_5.png",
+      "qa": "Inspected: clean pale wooden rear shell with slanted left bottom and rounded deeper right end. More defined shallow tray lip than original; broad transparent margins retained, composite alignment needs review.",
+      "status": "generated_qa_limitation",
+      "dimensions": [
+        1243,
+        1266
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "key": "markUnlocked",
+      "source": "assets-original/markUnlocked.png",
+      "source_artifacts": "Blurred star points and jagged purple circular edge.",
+      "prompt": "Use case: precise-object-edit. Asset: markUnlocked, 2D cartoon game asset. Input is the exact composition reference/edit target. Recreate it as a sharp clean high-resolution raster. One pale silver-white five-pointed star embossed on a small round lavender-purple medallion/button. Preserve centered five-point star, purple perimeter and top highlight. Preserve palette, orientation, proportions, silhouette, aspect ratio and original relative margins. Replace jagged pixels and fuzzy fringes with smooth crisp contours. No redesign, extra text or objects, new colors, shading, glow or background. Keep genuine transparent background and holes. ",
+      "tool": "image_gen.imagegen",
+      "generation_source": "/Users/rtcoder/.codex/generated_images/01a17440-a130-70c0-9fe0-8add00d511e4/exec-87ac39ac-fdc8-4a7a-b721-57e9c6565c90.png",
+      "output": "assets-ai/images/markUnlocked.png",
+      "qa": "Inspected: five-point silver star on purple disc, crisp edge/detail. Purple is more saturated and embossed bevel more pronounced than original.",
+      "status": "generated_qa_limitation",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "key": "mark",
+      "source": "assets-original/mark.png",
+      "source_artifacts": "All three medal stars blurry and circular edges jagged.",
+      "prompt": "Use case: precise-object-edit. Asset: mark, 2D cartoon game asset. Input is the exact composition reference/edit target. Recreate it as a sharp clean high-resolution raster. Exactly THREE circular star medallions in a single horizontal row of equal square cells. Original logical atlas 42x14: frame1 GOLD/yellow five-point star and gold disc with purple rim; frame2 SILVER gray star and gray disc with purple rim; frame3 BRONZE copper star and orange-brown disc with purple rim. Order left to right GOLD, SILVER, BRONZE. All five-point stars upright, same scale and center, equal cell widths, no gutters, no overlapping cells. Crisp clean raster atlas. Preserve palette, orientation, proportions, silhouette, aspect ratio and original relative margins. Replace jagged pixels and fuzzy fringes with smooth crisp contours. No redesign, extra text or objects, new colors, shading, glow or background. Keep genuine transparent background and holes. Preserve exactly 3 frames, 3:1 canvas, transparent exterior. No labels, numbers, separators or extra frames.",
+      "tool": "image_gen.imagegen",
+      "generation_source": "/Users/rtcoder/.codex/generated_images/01a17440-a130-70c0-9fe0-8add00d511e4/exec-cd6e4692-be5c-4e1a-8b20-f09972740fdc.png",
+      "output": "assets-ai/images/mark.png",
+      "qa": "Visually inspected: exactly 3 frames in correct GOLD, SILVER, BRONZE order, all five-point stars. Clean edges; more prominent bevel/purple rim. Equal-cell source rectangles still require verification before runtime.",
+      "status": "generated_qa_limitation",
+      "dimensions": [
+        2172,
+        724
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "key": "markSelected",
+      "source": "assets-original/markSelected.png",
+      "source_artifacts": "Stepped thin rays and rough high-contrast edges.",
+      "prompt": "Use case: precise-object-edit. Asset: markSelected, 2D cartoon game asset. Input is the exact composition reference/edit target. Recreate it as a sharp clean high-resolution raster. A white jagged radial burst/ring selection highlight with an empty transparent central circular opening. Many irregular long thin spikes radiate outward, varied lengths, small white droplets close to ring, matching original graphic. Square canvas 36x36 logical; center hole around one-third canvas diameter. Preserve palette, orientation, proportions, silhouette, aspect ratio and original relative margins. Replace jagged pixels and fuzzy fringes with smooth crisp contours. No redesign, extra text or objects, new colors, shading, glow or background. Keep genuine transparent background and holes. Preserve intended rays and dots; do not turn into solid star, sun face or circle.",
+      "tool": "image_gen.imagegen",
+      "generation_source": "/Users/rtcoder/.codex/generated_images/01a17440-a130-70c0-9fe0-8add00d511e4/exec-4a8ea7b2-9e7d-4463-8708-7d3f33916cae.png",
+      "output": "assets-ai/images/markSelected.png",
+      "qa": "Proper alpha composite inspected: clean white irregular radial burst, transparent round center and intentionally separate droplets. Good analogous shape; center hole and spike arrangement differ modestly.",
+      "status": "generated_qa_limitation",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "key": "explosion",
+      "source": "assets-original/explosion.png",
+      "source_artifacts": "Pixelated blurry gray dust lobes and irregular fringe pixels.",
+      "prompt": "Use case: precise-object-edit. Asset: explosion, 2D cartoon game asset. Input is the exact composition reference/edit target. Recreate it as a sharp clean high-resolution raster. EXACTLY SIX animation frames in ONE horizontal strip, six equal square cells, source logical 180x30 (6:1). Gray-brown dust explosion cloud: frame1 small central puff; frame2 larger expanding rounded puff; frame3 largest pale dense cloud; frame4 full gray cloud beginning fade; frame5 gray-brown fading cloud; frame6 darker transparent dissipating remnants. Same center per cell, no overlaps, preserve order, variable growth/fade and smoky rounded lobe shapes. Preserve palette, orientation, proportions, silhouette, aspect ratio and original relative margins. Replace jagged pixels and fuzzy fringes with smooth crisp contours. No redesign, extra text or objects, new colors, shading, glow or background. Keep genuine transparent background and holes. Exactly 6 frames left to right. No text, separators, fire, orange sparks or extra frames. If output canvas aspect constrained, keep complete strip with empty transparent padding; never wrap into rows.",
+      "tool": "image_gen.imagegen",
+      "generation_source": "/Users/rtcoder/.codex/generated_images/01a17440-a130-70c0-9fe0-8add00d511e4/exec-8a1daf14-caa2-4801-9a2b-5568a5fed7ef.png",
+      "output": "assets-ai/images/explosion.png",
+      "qa": "Visually inspected: exactly 6 gray-brown dust frames, growth/fade order retained. Native canvas 3:1 adds vertical padding vs required 6:1; atlas cell rectangles must be recalculated before integration. Detailed lobes differ from source. Proper alpha composite inspected: clean rendering, hidden-RGB speckles disappear.",
+      "status": "generated_qa_limitation",
+      "dimensions": [
+        2172,
+        724
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "key": "fire",
+      "source": "assets-original/fire.png",
+      "source_artifacts": "Pixelated flame edges and blurred orange cores; tiny detached embers rough.",
+      "prompt": "Use case: precise-object-edit. Asset: fire, 2D cartoon game asset. Input is the exact composition reference/edit target. Recreate it as a sharp clean high-resolution raster. EXACTLY SIX animation frames in ONE horizontal strip of six equal 26:43 cells, source total aspect 156:43. Yellow-orange cartoon flames with bright yellow upper edges and orange lower core. Each flame base aligned to bottom of its own cell. Frames 1..6 preserve source sequence of flickering flames, bending tongues and separated ember droplets above the body. No overlap between cells. Maintain per-frame heights and distinct tongue directions. Preserve palette, orientation, proportions, silhouette, aspect ratio and original relative margins. Replace jagged pixels and fuzzy fringes with smooth crisp contours. No redesign, extra text or objects, new colors, shading, glow or background. Keep genuine transparent background and holes. Exactly 6 frames left to right, ONE row. Preserve cell order and source composition. No labels, separators, background or additional frames.",
+      "tool": "image_gen.imagegen",
+      "generation_source": "/Users/rtcoder/.codex/generated_images/01a17440-a130-70c0-9fe0-8add00d511e4/exec-6de724ba-23d8-407c-b4ac-a374b148132d.png",
+      "output": "assets-ai/images/fire.png",
+      "qa": "Visually inspected: exactly 6 distinct flame frames in one row, bases aligned, detached tongues retained. Native canvas 3:1 differs from source ratio; equal-cell alignment/source rectangles need verification. Apparent scattered colored speckles may be hidden RGB. Proper alpha composite inspected: clean rendering, hidden-RGB speckles disappear.",
+      "status": "generated_qa_limitation",
+      "dimensions": [
+        2172,
+        724
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "key": "sparkles",
+      "source": "assets-original/sparkles.png",
+      "source_artifacts": "Blurry colored cloud lobes, coarse noisy alpha fringes.",
+      "prompt": "Use case: precise-object-edit. Asset: sparkles, 2D cartoon game asset. Input is the exact composition reference/edit target. Recreate it as a sharp clean high-resolution raster. EXACTLY FIVE animation frames in ONE horizontal strip of five equal square cells, original 170x34 logical. Preserve original colored ability burst evolution left to right: 1 large bright pink petal-like puff cluster with central hole; 2 large round magenta/pink cloud; 3 medium red-orange cloud; 4 smaller orange-yellow puff; 5 very small yellow-green final spark. Each frame centered in its own equal square cell, same centerline, gradually shrinking after frame2. Soft lobe interiors but crisp clean alpha edges. Preserve palette, orientation, proportions, silhouette, aspect ratio and original relative margins. Replace jagged pixels and fuzzy fringes with smooth crisp contours. No redesign, extra text or objects, new colors, shading, glow or background. Keep genuine transparent background and holes. Exactly five frames, one row, original color progression and relative sizes. No star shapes, labels or extra frames. If aspect constrained, add transparent padding around full strip, never rearrange into rows.",
+      "tool": "image_gen.imagegen",
+      "generation_source": "/Users/rtcoder/.codex/generated_images/01a17440-a130-70c0-9fe0-8add00d511e4/exec-0ead6fe1-3e89-46ce-8483-4104dd6d4c79.png",
+      "output": "assets-ai/images/sparkles.png",
+      "qa": "Inspected: exactly 5 frames, pink/pink/red-orange/orange/yellow-green progression, shrinking size retained. Native ~3:1 canvas rather than 5:1 and frame centers are not exactly equally spaced, requiring atlas normalization. Proper alpha composite inspected: crisp edges and no stray pixels.",
+      "status": "generated_qa_limitation",
+      "dimensions": [
+        2164,
+        727
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "key": "softArrow",
+      "source": "assets-original/softArrow.png",
+      "source_artifacts": "Jagged white outline corners and fuzzy contour.",
+      "prompt": "Use case: precise-object-edit. Asset: softArrow, 2D cartoon game asset. Input is the exact composition reference/edit target. Recreate it as a sharp clean high-resolution raster. A white thick outline of a left-pointing arrow, with transparent empty interior. Short rectangular right shaft, large triangular left arrowhead, crisp angular corners, preserve source proportions in 23:20 logical canvas. Preserve palette, orientation, proportions, silhouette, aspect ratio and original relative margins. Replace jagged pixels and fuzzy fringes with smooth crisp contours. No redesign, extra text or objects, new colors, shading, glow or background. Keep genuine transparent background and holes. ",
+      "tool": "image_gen.imagegen",
+      "generation_source": "/Users/rtcoder/.codex/generated_images/01a17440-a130-70c0-9fe0-8add00d511e4/exec-a655f900-2b0f-4a5d-81c1-7f226e4739f8.png",
+      "output": "assets-ai/images/softArrow.png",
+      "qa": "Inspected shape: correct left-pointing outline arrow and transparent interior. White edge preview artifacts require proper alpha composite; proportions wider shaft than original. Proper alpha composite inspected: crisp edges and no stray pixels.",
+      "status": "generated_qa_limitation",
+      "dimensions": [
+        1345,
+        1169
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "key": "softButton",
+      "source": "assets-original/softButton.png",
+      "source_artifacts": "Fuzzy jagged white outline of capsule shape.",
+      "prompt": "Use case: precise-object-edit. Asset: softButton, 2D cartoon game asset. Input is the exact composition reference/edit target. Recreate it as a sharp clean high-resolution raster. A horizontal empty capsule button outline: white rounded rectangle border with semicircular ends and transparent empty interior. Source logical 90x26, smooth uniform thin white border, no fill, no text, no icon. Match relative border thickness and overall pill proportions. Preserve palette, orientation, proportions, silhouette, aspect ratio and original relative margins. Replace jagged pixels and fuzzy fringes with smooth crisp contours. No redesign, extra text or objects, new colors, shading, glow or background. Keep genuine transparent background and holes. ",
+      "tool": "image_gen.imagegen",
+      "generation_source": "/Users/rtcoder/.codex/generated_images/01a17440-a130-70c0-9fe0-8add00d511e4/exec-7c24568c-6137-4e19-8a0e-53693b2a1c67.png",
+      "output": "assets-ai/images/softButton.png",
+      "qa": "Shape inspected: horizontal capsule outline with empty interior. Native 3:1 canvas vs 90:26 and thinner outline than source; proper alpha composite required for edge validation. Proper alpha composite inspected: smooth clean white outline, no speckles.",
+      "status": "generated_qa_limitation",
+      "dimensions": [
+        2172,
+        724
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "key": "softMenu",
+      "source": "assets-original/softMenu.png",
+      "source_artifacts": "Jagged white diagonal contour and narrow small right notches blurred.",
+      "prompt": "Use case: precise-object-edit. Asset: softMenu, 2D cartoon game asset. Input is the exact composition reference/edit target. Recreate it as a sharp clean high-resolution raster. A white outline icon pointing LEFT, almost like a small doorway/return arrow: triangular arrowhead on left attached to a narrow rectangular U-shaped outlined vertical tail on right with top/bottom small rectangular notches. Transparent interior. Preserve exact distinctive reference path and 23:20 logical aspect. Preserve palette, orientation, proportions, silhouette, aspect ratio and original relative margins. Replace jagged pixels and fuzzy fringes with smooth crisp contours. No redesign, extra text or objects, new colors, shading, glow or background. Keep genuine transparent background and holes. ",
+      "tool": "image_gen.imagegen",
+      "generation_source": "/Users/rtcoder/.codex/generated_images/01a17440-a130-70c0-9fe0-8add00d511e4/exec-7c4b6640-4891-429d-9bf6-120b269eb676.png",
+      "output": "assets-ai/images/softMenu.png",
+      "qa": "Shape inspected: left arrowhead and right doorway/U tail preserved; crisp contour apparent beneath hidden RGB. Proper composite required. Proper alpha composite inspected: smooth clean white outline, no speckles.",
+      "status": "generated_qa_limitation",
+      "dimensions": [
+        1345,
+        1169
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "key": "i",
+      "source": "assets-original/i.png",
+      "source_artifacts": "Tiny blurred faces and forest details, low-resolution compression-like texture, jagged rounded icon corners.",
+      "prompt": "Use case: precise-object-edit. Asset: i, 2D cartoon game asset. Input is the exact composition reference/edit target. Recreate it as a sharp clean high-resolution raster. Rounded-square app icon matching reference exactly: a large orange/yellow angry cartoon squirrel head/body flying diagonally at left/center, narrowed white eyes, dark round nose near right lower face, clenched white grinning teeth and tan ears/tail behind; pastel blue sky and white clouds above green rounded forest treetops, tiny brown bear in lower right. Preserve all subjects, crop, orientation, relative scale and rounded transparent corners. Clean sharp 2D cartoon artwork. Preserve palette, orientation, proportions, silhouette, aspect ratio and original relative margins. Replace jagged pixels and fuzzy fringes with smooth crisp contours. No redesign, extra text or objects, new colors, shading, glow or background. Keep genuine transparent background and holes. Keep existing illustrated background inside icon; transparency ONLY outside rounded square. No new character, text or border.",
+      "tool": "image_gen.imagegen",
+      "generation_source": "/Users/rtcoder/.codex/generated_images/01a17440-a130-70c0-9fe0-8add00d511e4/exec-00dad316-a1af-4d38-a4cd-71bea46d1b7c.png",
+      "output": "assets-ai/images/i.png",
+      "qa": "Inspected: clean cartoon squirrel, blue sky/green trees and small lower-right bear, correct composition. Anatomy/face details are AI reinterpretation, rounded-square margins slightly changed.",
+      "status": "generated_qa_limitation",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "key": "lg",
+      "source": "assets-original/lg.png",
+      "source_artifacts": "Blurred thick lettering edges, jagged yellow outline and low-resolution starburst.",
+      "prompt": "Use case: precise-object-edit. Asset: lg, 2D cartoon game asset. Input is the exact composition reference/edit target. Recreate it as a sharp clean high-resolution raster. Recreate exact existing publisher logo. Text verbatim: WapSter.pl . Preserve case W capital, S capital, remaining lowercase. Large bold black WapSter with yellow gold outline, suffix .pl white with yellow outline. Left circular dark disc edged yellow containing thin yellow vertical bar and yellow right-pointing play triangle. Small white starburst at far upper right. Single very wide horizontal composition, original 175:33 aspect, exact relative spacing. Preserve palette, orientation, proportions, silhouette, aspect ratio and original relative margins. Replace jagged pixels and fuzzy fringes with smooth crisp contours. No redesign, extra text or objects, new colors, shading, glow or background. Keep genuine transparent background and holes. Do not change spelling or add text. Maintain every logo component. If canvas ratio constrained, transparent padding only.",
+      "tool": "image_gen.imagegen",
+      "generation_source": "/Users/rtcoder/.codex/generated_images/01a17440-a130-70c0-9fe0-8add00d511e4/exec-97a3164b-2620-404e-9c80-5bdb4a9ea8ba.png",
+      "output": "assets-ai/images/lg.png",
+      "qa": "Inspected text: WapSter.pl spelled correctly with expected case and black/yellow/white colors; play emblem retained. Upper-right starburst changed into circled asterisk; flagged fidelity limitation. Native canvas padded vs original wide ratio.",
+      "status": "generated_qa_limitation",
+      "dimensions": [
+        2168,
+        725
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "key": "resultBG",
+      "source": "assets-original/resultBG.png",
+      "source_artifacts": "Pixelated stippled wood texture, rough circular edge and blurred small slot borders.",
+      "prompt": "Use case: precise-object-edit. Asset: resultBG, 2D cartoon game asset. Input is the exact composition reference/edit target. Recreate it as a sharp clean high-resolution raster. Wooden result-screen display assembly exactly as reference: large plain circular golden-brown wooden plaque centered above a wide gold-brown shelf. Below circle a horizontal rounded dark wooden score holder with EXACTLY SIX empty dark brown rounded rectangular slots, evenly spaced. Shelf spans canvas bottom; thin diagonal ropes/braces rise from bottom outside corners to upper side points. Original 176:144 aspect. Circle blank, no text or symbols, six empty score slots. Preserve palette, orientation, proportions, silhouette, aspect ratio and original relative margins. Replace jagged pixels and fuzzy fringes with smooth crisp contours. No redesign, extra text or objects, new colors, shading, glow or background. Keep genuine transparent background and holes. Keep circle size, score holder position, six slot count, shelf/braces composition. No medals, labels, numbers or extra decoration.",
+      "tool": "image_gen.imagegen",
+      "generation_source": "/Users/rtcoder/.codex/generated_images/01a17440-a130-70c0-9fe0-8add00d511e4/exec-af6f932d-edd5-42e4-ae3c-4045be24a06c.png",
+      "output": "assets-ai/images/resultBG.png",
+      "qa": "Visually inspected: blank circular wood plaque, exactly six dark score slots, shelf and two braces retained. Clean details, same broad layout; more bevel and refined grain than source.",
+      "status": "generated_qa_limitation",
+      "dimensions": [
+        1387,
+        1134
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "key": "resultFail",
+      "source": "assets-original/resultFail.png",
+      "source_artifacts": "Blurred thumbs-down outline, coarse wood texture and stair-stepped circular rim.",
+      "prompt": "Use case: precise-object-edit. Asset: resultFail, 2D cartoon game asset. Input is the exact composition reference/edit target. Recreate it as a sharp clean high-resolution raster. One circular warm brown wooden failure medal/plaque with pale gold beveled rim. Center contains a clean pale-gold outlined THUMBS-DOWN hand: cuff on LEFT, curled fingers extending RIGHT, thumb pointing DOWN. Horizontal wood grain and cracks behind icon, preserve reference. Entire circular disc fills square with tiny transparent corners. Preserve palette, orientation, proportions, silhouette, aspect ratio and original relative margins. Replace jagged pixels and fuzzy fringes with smooth crisp contours. No redesign, extra text or objects, new colors, shading, glow or background. Keep genuine transparent background and holes. ",
+      "tool": "image_gen.imagegen",
+      "generation_source": "/Users/rtcoder/.codex/generated_images/01a17440-a130-70c0-9fe0-8add00d511e4/exec-e08e0659-0e08-45cf-af71-68537534605a.png",
+      "output": "assets-ai/images/resultFail.png",
+      "qa": "Visually inspected: correct thumbs DOWN, cuff left, fingers right, pale-gold outline on wood disc. Crisp readable icon, no extra text; grain/crack pattern reinterpreted.",
+      "status": "generated_qa_limitation",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "key": "resultMedal",
+      "source": "assets-original/resultMedal.png",
+      "source_artifacts": "Blurry embossed laurel details, jagged red rim and indistinct landscape contours.",
+      "prompt": "Use case: precise-object-edit. Asset: resultMedal, 2D cartoon game asset. Input is the exact composition reference/edit target. Recreate it as a sharp clean high-resolution raster. One circular crimson red embossed medal. Concentric red rim with laurel leaves curving up both sides, small horizontal ribbon/pedestal at bottom. Inner circle contains a stylized embossed red landscape: three small clouds at upper left/center and wavy tall hill silhouettes across lower half. Preserve red-on-red monochrome palette and highlights, exact symbols and composition. No letters, numbers or extra badges. Preserve palette, orientation, proportions, silhouette, aspect ratio and original relative margins. Replace jagged pixels and fuzzy fringes with smooth crisp contours. No redesign, extra text or objects, new colors, shading, glow or background. Keep genuine transparent background and holes. ",
+      "tool": "image_gen.imagegen",
+      "generation_source": "/Users/rtcoder/.codex/generated_images/01a17440-a130-70c0-9fe0-8add00d511e4/exec-18bc28f0-e397-413e-8a31-821d0c47fe68.png",
+      "output": "assets-ai/images/resultMedal.png",
+      "qa": "Visually inspected: red medal with laurel wreath, three clouds, wavy hills and bottom ribbon, no extra text. Crisp embossed detail; reference proportions closely analogous.",
+      "status": "generated_qa_limitation",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "key": "fontNum",
+      "source": "assets-original/fontNum.png",
+      "source_artifacts": "Low-resolution white block digits, blurred contours and small holes.",
+      "prompt": "Use case: precise-object-edit. Asset: fontNum, 2D cartoon game asset. Input is the exact composition reference/edit target. Recreate it as a sharp clean high-resolution raster. Bitmap-style game digit atlas, EXACTLY TEN separate white heavy condensed block digits in one horizontal line: 0 1 2 3 4 5 6 7 8 9. This is an atlas, not a text banner: keep all ten digits separately readable, same baseline/cap height and original order. Match source bold slightly irregular chunky style. No other marks, repeats or omissions. Original logical strip 68x10; preserve relative digit widths including narrow 1. Crisp smooth edges replacing pixel stair steps. Preserve palette, orientation, proportions, silhouette, aspect ratio and original relative margins. Replace jagged pixels and fuzzy fringes with smooth crisp contours. No redesign, extra text or objects, new colors, shading, glow or background. Keep genuine transparent background and holes. Exact glyph count10, exact content0123456789. One row only, genuine transparent background and digit counters. If aspect constraint, add transparent vertical padding rather than wrap.",
+      "tool": "image_gen.imagegen",
+      "generation_source": "/Users/rtcoder/.codex/generated_images/01a17440-a130-70c0-9fe0-8add00d511e4/exec-7535ebe7-cdae-4ebd-b4aa-ac27b4562775.png",
+      "output": "assets-ai/images/fontNum.png",
+      "qa": "Proper alpha composite inspected character by character: exactly 10 glyphs 0123456789, correct order, separate shapes and transparent counters. Chunky style retained, smooth edges. Native canvas padded; per-glyph source rectangles/advances differ and require remapping. Not drop-in production font.",
+      "status": "generated_qa_limitation",
+      "expected_glyphs": "0123456789",
+      "verified_glyph_count": 10,
+      "dimensions": [
+        2155,
+        730
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "key": "FONT",
+      "source": "assets-original/FONT.png",
+      "source_artifacts": "Low-resolution chunky glyphs and blurred edges; native font has per-character delimiters and exact metrics.",
+      "prompt": "Use case: precise-object-edit. Edit this generated white font atlas. Make ONE correction only: the PENULTIMATE glyph must be uppercase Ź, Z WITH ACUTE ACCENT (a short slanted stroke above it). Currently both last two glyphs have dots. Keep the final glyph Ż with DOT above it unchanged. Keep ALL52 glyphs, all shapes, order, spacing, white color, transparent background and single-line layout unchanged. Exact order is !,-./0123456789:;ABCDEFGHIJKLMNOPQRSTUVWXYZĄĆĘŁŃÓŚŹŻ . The last9 are Ą Ć Ę Ł Ń Ó Ś Ź Ż. Last two differ: Ź acute accent, Ż dot. No extra punctuation after last glyph. Preserve existing canvas and every other pixel as closely as possible.",
+      "tool": "image_gen.imagegen",
+      "generation_source": "/Users/rtcoder/.codex/generated_images/01a17440-a130-70c0-9fe0-8add00d511e4/exec-794b1de6-c108-4fa4-88de-6fb01017f4e5.png",
+      "output": "assets-ai/images/FONT.png",
+      "qa": "Verified52 glyph positions/order against manifest using alpha-composite crops. Targeted retry FAILED to fix penultimate Ź: output still has Ż Ż as final pair (two dots, missing acute on penultimate). Other51 positions visually match expected characters. NOT production-ready; incorrect Polish glyph remains. Canvas and glyph metrics also need remapping.",
+      "status": "generated_rejected",
+      "previous_attempt": {
+        "key": "FONT",
+        "source": "assets-original/FONT.png",
+        "source_artifacts": "Low-resolution chunky glyphs and blurred edges; native font has per-character delimiters and exact metrics.",
+        "prompt": "Use case: precise-object-edit. Asset: FONT, 2D cartoon game asset. Input is the exact composition reference/edit target. Recreate it as a sharp clean high-resolution raster. White heavy condensed chunky uppercase game font atlas. EXACTLY52 glyphs, ONE horizontal line, matching reference order. Exact sequence with spaces used here only to distinguish glyphs: ! , - . / 0 1 2 3 4 5 6 7 8 9 : ; A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ą Ć Ę Ł Ń Ó Ś Ź Ż . The final period in this instruction is sentence punctuation NOT an additional glyph; last glyph is Ż. Preserve Polish ogoneks/acute accents/Ł slash/Ż dot. All letters uppercase, source bold blocky slightly irregular style. Same baseline/cap height with diacritics legible, glyphs separated without touching. Keep all52 in exact source order, no omissions, repetitions, changed punctuation or rows. Preserve palette, orientation, proportions, silhouette, aspect ratio and original relative margins. Replace jagged pixels and fuzzy fringes with smooth crisp contours. No redesign, extra text or objects, new colors, shading, glow or background. Keep genuine transparent background and holes. The literal atlas content is !,-./0123456789:;ABCDEFGHIJKLMNOPQRSTUVWXYZĄĆĘŁŃÓŚŹŻ . Do NOT include trailing spaces/period added by prose. One single line, can use tiny glyph scale on wide canvas and vertical transparent padding. No labels or decorative elements.",
+        "tool": "image_gen.imagegen",
+        "generation_source": "/Users/rtcoder/.codex/generated_images/01a17440-a130-70c0-9fe0-8add00d511e4/exec-084f427d-ca6b-4d18-a6ad-81316ad6ea6f.png",
+        "output": "assets-ai/images/FONT.png",
+        "qa": "Proper alpha composite inspected all52 positions. Glyph count/order correct except penultimate Ź incorrectly rendered with a dot as Ż. Targeted correction required.",
+        "status": "retry_required"
+      },
+      "expected_glyphs": "!,-./0123456789:;ABCDEFGHIJKLMNOPQRSTUVWXYZĄĆĘŁŃÓŚŹŻ",
+      "verified_glyph_count": 52,
+      "incorrect_glyphs": [
+        {
+          "position": 51,
+          "expected": "Ź",
+          "actual": "Ż"
+        }
+      ],
+      "dimensions": [
+        2172,
+        724
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "key": "fS",
+      "source": "assets-original/fS.png",
+      "source_artifacts": "Tiny pixel font has jagged edges and blurred thin strokes; Polish accents are especially low-resolution.",
+      "prompt": "Use case: precise-object-edit. Correct ONLY these four mistakes in this generated thin white single-line font atlas, preserving the rest exactly: (1) insert the missing standalone period glyph between the hyphen and forward slash, so sequence is + , - . / 0 ; (2) uppercase Ć near far right must have a short ACUTE stroke above C; (3) last lowercase Polish glyph ż needs ROUND DOT above z, not acute; (4) final uppercase glyph Ż needs ROUND DOT above Z, not acute. Neighboring ź and Ź must retain ACUTE stroke. Atlas must contain EXACTLY112 glyphs in this exact sequence (START/END not printed): START !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~ąćęłńóśźżĄĆĘŁŃÓŚŹŻ END. One horizontal row, all ASCII symbols and all26 uppercase/lowercase Latin letters, 9 lowercase+9 uppercase Polish glyphs. Keep thin white font style, transparency, spacing and canvas. No extra labels, no missing glyphs, no rearrangement.",
+      "tool": "image_gen.imagegen",
+      "generation_source": "/Users/rtcoder/.codex/generated_images/01a17440-a130-70c0-9fe0-8add00d511e4/exec-4569635b-9f05-4720-a676-385b874b4732.png",
+      "output": "assets-ai/images/fS.png",
+      "qa": "All glyphs compared against112-character manifest using four proper alpha-composite crops. Targeted retry still omits period between hyphen and slash (111 apparent positions), final uppercase Ż still has acute instead of dot, and lowercase q was changed to g. Uppercase Ć acute now corrected; lowercase ż dot appears corrected. NOT production-ready. Thin clean glyph strokes do not compensate for incorrect content; per-glyph metrics also need remapping.",
+      "status": "generated_rejected",
+      "previous_attempt": {
+        "key": "fS",
+        "source": "assets-original/fS.png",
+        "source_artifacts": "Tiny pixel font has jagged edges and blurred thin strokes; Polish accents are especially low-resolution.",
+        "prompt": "Use case: precise-object-edit. Asset: fS, 2D cartoon game asset. Input is the exact composition reference/edit target. Recreate it as a sharp clean high-resolution raster. White thin mixed-case game font atlas, EXACTLY112 glyphs in one horizontal line, original633x14. Preserve thin sans-serif narrow lettering style, uppercase and lowercase clearly distinguished. Exact glyph sequence is delimited by START and END (do not render these words): START !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~ąćęłńóśźżĄĆĘŁŃÓŚŹŻ END. All ASCII printable symbols except space first in their source order, then Polish lowercase ąćęłńóśźż, then uppercase ĄĆĘŁŃÓŚŹŻ. Preserve separate glyphs and exact sequence including quotation mark, apostrophe, backslash, grave accent, braces and vertical bar. Polish ź/Ź have ACUTE stroke; ż/Ż have DOT. All112 must be present, no repeats/omissions. Single baseline and one horizontal row. Preserve palette, orientation, proportions, silhouette, aspect ratio and original relative margins. Replace jagged pixels and fuzzy fringes with smooth crisp contours. No redesign, extra text or objects, new colors, shading, glow or background. Keep genuine transparent background and holes. This is a font atlas, no text labels. Transparent background/counters. Keep all112 glyphs in exactly one line using a wide canvas with vertical transparent padding if necessary. Do not change case or wrap rows.",
+        "tool": "image_gen.imagegen",
+        "generation_source": "/Users/rtcoder/.codex/generated_images/01a17440-a130-70c0-9fe0-8add00d511e4/exec-95c451af-9db5-450d-8c8e-c4f55a60d0e2.png",
+        "output": "assets-ai/images/fS.png",
+        "qa": "First generated atlas compared character by character against112 manifest glyphs. Missing period between hyphen and slash (111 apparent glyphs); uppercase Ć missing acute; final lowercase ż and uppercase Ż have acute instead of dot. One targeted retry scheduled.",
+        "status": "retry_required"
+      },
+      "expected_glyphs": "!\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~ąćęłńóśźżĄĆĘŁŃÓŚŹŻ",
+      "expected_glyph_count": 112,
+      "observed_glyph_count": 111,
+      "incorrect_glyphs": [
+        {
+          "expected": ".",
+          "actual": "omitted",
+          "location": "between hyphen and slash"
+        },
+        {
+          "expected": "q",
+          "actual": "g"
+        },
+        {
+          "expected": "Ż",
+          "actual": "Ź",
+          "location": "last glyph"
+        }
+      ],
+      "dimensions": [
+        2169,
+        725
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    }
+  ],
+  "transferred_items": [
+    "buttonEdge",
+    "buttonStripe",
+    "framecorner",
+    "menuButton",
+    "menuButtonSelected",
+    "miniboxik",
+    "pbarEmpty",
+    "pbarFull"
+  ],
+  "transferred_to": "ai_scenery",
+  "completed_count": 38,
+  "status": "generation_complete_with_qa_limitations",
+  "notes": "38 native AI outputs generated individually; 8 reserved/transferred to scenery. FONT and fS remain rejected for incorrect glyph content after one targeted retry each. No originals/runtime files modified. Native files preserved; dimensions/geometry require integration review."
+}

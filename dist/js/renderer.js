@@ -1,4 +1,4 @@
-import { ANIMALS } from './assets.js';
+import { ANIMALS, ASSET_META } from './assets.js';
 import { trajectory, clamp } from './mechanics.js';
 import { materialColors } from './rules.js';
 
@@ -69,12 +69,13 @@ export class Renderer {
   }
   image(name,x,y,w,h) {
     const img=this.images[name];if(!img)return;
-    if(w!==undefined)this.ctx.drawImage(img,x,y,w,h);else this.ctx.drawImage(img,x,y);
+    const meta=ASSET_META[name];
+    this.ctx.drawImage(img,x,y,w??meta.width,h??meta.height);
   }
   draw(game,seconds=0) {
     this.updateCamera(game);const c=this.ctx,w=this.width,h=this.height;
-    c.setTransform(this.dpr,0,0,this.dpr,0,0);c.imageSmoothingEnabled=false;
-    c.imageSmoothingEnabled=true;this.background(game);c.imageSmoothingEnabled=false;
+    c.setTransform(this.dpr,0,0,this.dpr,0,0);
+    c.imageSmoothingEnabled=true;c.imageSmoothingQuality='high';this.background(game);
     c.save();c.translate(w/2,h/2);c.scale(this.camera.scale,this.camera.scale);c.translate(-this.camera.x,-this.camera.y);
     this.scenery(game);
     this.path(game.lastTrail,.16,false);
@@ -103,13 +104,13 @@ export class Renderer {
     const left=this.camera.x-this.width/this.camera.scale/2-400;
     const right=this.camera.x+this.width/this.camera.scale/2+400;
     for(let x=Math.floor(left/280)*280;x<right;x+=280) {
-      const tree=this.images[`tree_${theme}${Math.abs(Math.round(x/280))%2?'a':'b'}`];
-      if(tree){c.globalAlpha=.45;c.drawImage(tree,x,-tree.height+3);c.globalAlpha=1;}
+      const treeName=`tree_${theme}${Math.abs(Math.round(x/280))%2?'a':'b'}`;
+      if(this.images[treeName]){c.globalAlpha=.45;this.image(treeName,x,-ASSET_META[treeName].height+3);c.globalAlpha=1;}
     }
     c.fillStyle=['#8fac55','#a993b5','#88b4b5','#9eb16a','#a2aaa2'][theme-1];
     c.fillRect(left,3,right-left,1500);
     const grass=this.grasses[theme-1];
-    if(grass)for(let x=Math.floor(left/320)*320;x<right;x+=320)c.drawImage(grass,x,-8);
+    if(grass)for(let x=Math.floor(left/320)*320;x<right;x+=320)c.drawImage(grass,x,-8,ASSET_META.grass.width,ASSET_META.grass.height);
     c.fillStyle='#ffffff30';c.fillRect(left,1,right-left,2);
     // Small ground shadows keep tiny original sprites readable at desktop scale.
     c.fillStyle='#1d39231a';
@@ -167,7 +168,8 @@ export class Renderer {
     if(e.type==='target'||e.type==='explosion') {
       const img=this.images[e.type==='explosion'?'explosion':'sparkles'];
       const size=e.type==='explosion'?30:34,frames=e.type==='explosion'?6:5;
-      c.drawImage(img,Math.min(frames-1,Math.floor(t*frames))*size,0,size,size,-size,-size,size*2,size*2);
+      const sourceScale=img.width/(size*frames);
+      c.drawImage(img,Math.min(frames-1,Math.floor(t*frames))*size*sourceScale,0,size*sourceScale,size*sourceScale,-size,-size,size*2,size*2);
     } else {
       const color=materialColors(e.material??0,Math.ceil(game.level.id/10))[0];c.fillStyle=color;
       for(let i=0;i<7;i++){const angle=i*2.4,speed=18+(i%3)*12,x=Math.cos(angle)*speed*t,y=Math.sin(angle)*speed*t+35*t*t;c.save();c.translate(x,y);c.rotate(i+t*3);c.fillRect(-3,-3,6,6);c.restore();}

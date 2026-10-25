@@ -2,3 +2,5 @@ node_modules/
 .DS_Store
 artifacts/
 *.log
+.venv-assets/
+__pycache__/

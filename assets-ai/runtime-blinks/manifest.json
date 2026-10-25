@@ -1,0 +1,182 @@
+[
+  {
+    "key": "targetBIG_dmg0_eyes",
+    "derivativeFile": "assets-ai/runtime-blinks/targetBIG_dmg0_eyes.png",
+    "derivativeSha256": "5998bbb92435cdc7bed80aa29ea0225e821fc4215667bdd059ca72e13cc9aa04",
+    "baseKey": "targetBIG_dmg0",
+    "baseSha256": "2aeadfdad8b373aa026ff42de809bab60557c6349a47fc9f507f9e51b3d07f61",
+    "blinkRect": {
+      "x": 11,
+      "y": 12,
+      "width": 20,
+      "height": 8
+    },
+    "dimensions": [
+      80,
+      32
+    ],
+    "origin": "ai_repaired",
+    "processing": "Exact opaque crop of normalized AI base; local harmonic fur fill and supersampled closed eyelid strokes. Existing closed right eye retained in damage2.",
+    "qa": {
+      "opaque": true,
+      "perimeterRgbMatchesBase": true,
+      "editedEyeCount": 2,
+      "sourceCropAlphaRange": [
+        250,
+        254
+      ],
+      "opacityCorrection": "Opaque overlay as required by renderer; base crop RGB preserved at perimeter.",
+      "visualReview": "All six open/blink pairs inspected at logical size and enlarged: closed lids, no white pupils remain, no differently colored rectangles; damage2 right eyelid preserved."
+    }
+  },
+  {
+    "key": "targetBIG_dmg1_eyes",
+    "derivativeFile": "assets-ai/runtime-blinks/targetBIG_dmg1_eyes.png",
+    "derivativeSha256": "beb4c48e90837fd0569de6694e5d98218b64521800aad99a12ecc444112fb2d0",
+    "baseKey": "targetBIG_dmg1",
+    "baseSha256": "66579608c02cc372b957c7001b23c3cfe6ce7ca805887d226c9bcb2e07d99cec",
+    "blinkRect": {
+      "x": 11,
+      "y": 12,
+      "width": 20,
+      "height": 8
+    },
+    "dimensions": [
+      80,
+      32
+    ],
+    "origin": "ai_repaired",
+    "processing": "Exact opaque crop of normalized AI base; local harmonic fur fill and supersampled closed eyelid strokes. Existing closed right eye retained in damage2.",
+    "qa": {
+      "opaque": true,
+      "perimeterRgbMatchesBase": true,
+      "editedEyeCount": 2,
+      "sourceCropAlphaRange": [
+        251,
+        254
+      ],
+      "opacityCorrection": "Opaque overlay as required by renderer; base crop RGB preserved at perimeter.",
+      "visualReview": "All six open/blink pairs inspected at logical size and enlarged: closed lids, no white pupils remain, no differently colored rectangles; damage2 right eyelid preserved."
+    }
+  },
+  {
+    "key": "targetBIG_dmg2_eyes",
+    "derivativeFile": "assets-ai/runtime-blinks/targetBIG_dmg2_eyes.png",
+    "derivativeSha256": "e748f6613af689bbb8b3810b4659bc17f4eb78d65fc4c3f97739d1408cf96e4e",
+    "baseKey": "targetBIG_dmg2",
+    "baseSha256": "7e5d1cde02fc4c3003fc6eb1bbaf0f60022f1c5983e8df4ff5e2edb4b7917fb4",
+    "blinkRect": {
+      "x": 11,
+      "y": 12,
+      "width": 20,
+      "height": 8
+    },
+    "dimensions": [
+      80,
+      32
+    ],
+    "origin": "ai_repaired",
+    "processing": "Exact opaque crop of normalized AI base; local harmonic fur fill and supersampled closed eyelid strokes. Existing closed right eye retained in damage2.",
+    "qa": {
+      "opaque": true,
+      "perimeterRgbMatchesBase": true,
+      "editedEyeCount": 1,
+      "sourceCropAlphaRange": [
+        251,
+        254
+      ],
+      "opacityCorrection": "Opaque overlay as required by renderer; base crop RGB preserved at perimeter.",
+      "visualReview": "All six open/blink pairs inspected at logical size and enlarged: closed lids, no white pupils remain, no differently colored rectangles; damage2 right eyelid preserved."
+    }
+  },
+  {
+    "key": "targetSMALL_dmg0_eyes",
+    "derivativeFile": "assets-ai/runtime-blinks/targetSMALL_dmg0_eyes.png",
+    "derivativeSha256": "c1cedf4dbbbe5b79d21ae88042d2a5352b2eecfc9ef324818edfa2a8059d3088",
+    "baseKey": "targetSMALL_dmg0",
+    "baseSha256": "1efe9b2d10fb97acf7c7fcdcd1731543ddc111f331a777c56685c330929d33b0",
+    "blinkRect": {
+      "x": 6,
+      "y": 7,
+      "width": 14,
+      "height": 6
+    },
+    "dimensions": [
+      56,
+      24
+    ],
+    "origin": "ai_repaired",
+    "processing": "Exact opaque crop of normalized AI base; local harmonic fur fill and supersampled closed eyelid strokes. Existing closed right eye retained in damage2.",
+    "qa": {
+      "opaque": true,
+      "perimeterRgbMatchesBase": true,
+      "editedEyeCount": 2,
+      "sourceCropAlphaRange": [
+        249,
+        254
+      ],
+      "opacityCorrection": "Opaque overlay as required by renderer; base crop RGB preserved at perimeter.",
+      "visualReview": "All six open/blink pairs inspected at logical size and enlarged: closed lids, no white pupils remain, no differently colored rectangles; damage2 right eyelid preserved."
+    }
+  },
+  {
+    "key": "targetSMALL_dmg1_eyes",
+    "derivativeFile": "assets-ai/runtime-blinks/targetSMALL_dmg1_eyes.png",
+    "derivativeSha256": "c131c4692c36a8003df396c9d908bedbdda437d119d6b98b306b0633d2616123",
+    "baseKey": "targetSMALL_dmg1",
+    "baseSha256": "44d810942f6ae43f94f92a3609683a965a15431ac907970c9cb97f07befef30e",
+    "blinkRect": {
+      "x": 6,
+      "y": 7,
+      "width": 14,
+      "height": 6
+    },
+    "dimensions": [
+      56,
+      24
+    ],
+    "origin": "ai_repaired",
+    "processing": "Exact opaque crop of normalized AI base; local harmonic fur fill and supersampled closed eyelid strokes. Existing closed right eye retained in damage2.",
+    "qa": {
+      "opaque": true,
+      "perimeterRgbMatchesBase": true,
+      "editedEyeCount": 2,
+      "sourceCropAlphaRange": [
+        251,
+        254
+      ],
+      "opacityCorrection": "Opaque overlay as required by renderer; base crop RGB preserved at perimeter.",
+      "visualReview": "All six open/blink pairs inspected at logical size and enlarged: closed lids, no white pupils remain, no differently colored rectangles; damage2 right eyelid preserved."
+    }
+  },
+  {
+    "key": "targetSMALL_dmg2_eyes",
+    "derivativeFile": "assets-ai/runtime-blinks/targetSMALL_dmg2_eyes.png",
+    "derivativeSha256": "95a11a4605065d062cc1324d3f816155816223f91ba39fd3e6d8db3595f5c3b9",
+    "baseKey": "targetSMALL_dmg2",
+    "baseSha256": "27dbd51c6c5d275e568d7339ba0a0bf69bc3edde1b83d28f1103a2f48bc40022",
+    "blinkRect": {
+      "x": 6,
+      "y": 7,
+      "width": 14,
+      "height": 6
+    },
+    "dimensions": [
+      56,
+      24
+    ],
+    "origin": "ai_repaired",
+    "processing": "Exact opaque crop of normalized AI base; local harmonic fur fill and supersampled closed eyelid strokes. Existing closed right eye retained in damage2.",
+    "qa": {
+      "opaque": true,
+      "perimeterRgbMatchesBase": true,
+      "editedEyeCount": 1,
+      "sourceCropAlphaRange": [
+        252,
+        254
+      ],
+      "opacityCorrection": "Opaque overlay as required by renderer; base crop RGB preserved at perimeter.",
+      "visualReview": "All six open/blink pairs inspected at logical size and enlarged: closed lids, no white pupils remain, no differently colored rectangles; damage2 right eyelid preserved."
+    }
+  }
+]
