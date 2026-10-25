@@ -45,6 +45,12 @@ export class Renderer {
     const after=this.worldPoint(px,py);this.camera.x+=before.x-after.x;this.camera.y+=before.y-after.y;
   }
   updateCamera(game) {
+    // Game.load creates a new level object, including when restarting a stage.
+    if(this.level!==game.level) {
+      this.level=game.level;
+      if(this.mode==='free')this.mode=this.width<=580?'follow':'overview';
+      this.ready=false;
+    }
     if(this.mode==='free')return;
     const bounds=game.bounds();let x,y,scale;
     if(this.mode==='overview') {
