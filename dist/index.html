@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#243d2e">
+  <meta name="description" content="Zwierzaki Atakują wracają do przeglądarki. Oryginalne grafiki, 50 odzyskanych plansz i rozgrywka w HTML oraz JavaScript.">
+  <title>Zwierzaki Atakują — znowu w grze</title>
+  <link rel="icon" href="assets/i.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+    <header class="site-header">
+      <a class="brand" href="./" aria-label="Zwierzaki Atakują — strona główna">
+        <img src="assets/char_squirrel1.png" alt="" width="54" height="54">
+        <span>ZWIERZAKI <strong>ATAKUJĄ!</strong></span>
+      </a>
+      <span class="edition"><span></span> ZNOWU W GRZE</span>
+      <nav class="header-actions" aria-label="Ustawienia gry">
+        <button class="icon-button" id="help-button" title="Jak grać" aria-label="Jak grać">?</button>
+        <button class="icon-button" id="fullscreen-button" title="Pełny ekran" aria-label="Pełny ekran">⛶</button>
+      </nav>
+    </header>
+
+    <main>
+      <div class="game-heading">
+        <div class="stage-label"><span class="eyebrow">LEŚNA MISJA</span><h1>Mała wyrzutnia.<br class="mobile-break"> Wielka rozróba.</h1></div>
+        <button class="level-button" id="levels-button"><span class="grid-symbol" aria-hidden="true">▦</span> Plansza <b id="stage-number">01</b><span class="level-total">/ 50</span><span aria-hidden="true">⌄</span></button>
+      </div>
+
+      <section class="game-shell" aria-label="Gra Zwierzaki Atakują">
+        <div class="game-topbar">
+          <div class="ammo-group"><span class="tiny-label">TWOJA EKIPA</span><div id="ammo" class="ammo" aria-label="Pozostałe zwierzaki"></div></div>
+          <div class="mission-stats">
+            <div class="stat"><img src="assets/targetBIG_dmg0.png" alt="" width="27" height="27"><span><b id="targets-value">2</b><small>DO STRĄCENIA</small></span></div>
+            <span class="stat-divider"></span>
+            <div class="stat"><span class="score-icon" aria-hidden="true">✦</span><span><b id="score-value">0</b><small>PUNKTY</small></span></div>
+            <div class="lives" id="lives" hidden aria-label="Życia wyrzutni"></div>
+          </div>
+        </div>
+
+        <div class="playfield" id="playfield">
+          <canvas id="game-canvas" tabindex="0" aria-label="Plansza gry. Strzałki zmieniają kąt i moc, spacja strzela. Klawisz E uruchamia zdolność w locie."></canvas>
+          <div class="canvas-label"><span class="live-dot"></span><span id="state-label">PRZYGOTUJ ATAK</span></div>
+          <div class="view-tools" aria-label="Widok planszy">
+            <button id="overview-button" class="view-button active" title="Cała plansza" aria-label="Pokaż całą planszę">⊞</button>
+            <button id="follow-button" class="view-button" title="Zbliżenie" aria-label="Przybliż i śledź zwierzaka">⌕</button>
+          </div>
+          <div class="field-hint" id="field-hint">Ustaw kąt i moc. Resztę zrobi grawitacja.</div>
+          <button class="pause-cover" id="pause-cover" hidden><span>Ⅱ</span>Chwila oddechu<small>Kliknij, żeby wrócić do gry</small></button>
+          <div class="result-overlay" id="result-overlay" hidden>
+            <div class="result-card">
+              <img id="result-character" src="assets/char_squirrel1.png" alt="" width="80" height="80">
+              <span class="eyebrow" id="result-kicker">ŚWIETNY STRZAŁ</span>
+              <h2 id="result-title">Las odzyskany!</h2>
+              <div class="result-stars" id="result-stars" aria-label="Ocena"></div>
+              <p id="result-description"></p>
+              <div class="result-actions"><button class="primary-button" id="next-button">Następna plansza <span>→</span></button><button class="text-button" id="retry-result">Jeszcze raz</button></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="control-deck">
+          <div class="animal-card"><div class="animal-portrait"><img id="animal-image" src="assets/char_skunk1.png" alt="" width="54" height="54"></div><div><span class="tiny-label">NA WYRZUTNI</span><strong id="animal-name">Skunks</strong><small id="animal-ability">Klasyczny strzał</small></div></div>
+          <div class="aim-control"><label for="angle"><span>KĄT</span><output id="angle-value" for="angle">27°</output></label><input id="angle" type="range" min="-13" max="15" value="6" step="1" aria-label="Kąt strzału"><div class="range-marks"><span>NISKO</span><span>WYSOKO</span></div></div>
+          <div class="aim-control"><label for="power"><span>MOC</span><output id="power-value" for="power">95%</output></label><input id="power" type="range" min="1" max="20" value="19" step="1" aria-label="Moc strzału"><div class="range-marks"><span>DELIKATNIE</span><span>NA CAŁEGO</span></div></div>
+          <button class="fire-button" id="fire-button"><span id="fire-label">ATAKUJ!</span><span class="fire-arrow" aria-hidden="true">↗</span><small id="fire-shortcut">SPACJA</small></button>
+        </div>
+      </section>
+
+      <div class="game-footer"><p id="status-text" role="status" aria-live="polite">Strąć wszystkie niedźwiadki, zanim skończą się zwierzaki.</p><div><button class="text-button" id="restart-button"><span aria-hidden="true">↻</span> Od nowa</button><button class="text-button" id="pause-button"><span aria-hidden="true">Ⅱ</span> Pauza</button></div></div>
+      <footer class="credits"><span>MAŁY EKRAN. WIELKIE WSPOMNIENIA.</span><button class="text-button" id="about-button">O tym porcie <span>↗</span></button></footer>
+    </main>
+  </div>
+
+  <dialog id="welcome-dialog" class="welcome-dialog" aria-labelledby="welcome-title">
+    <div class="welcome-art"><img src="assets/menu_bg.jpg" alt="Oryginalny ekran tytułowy gry Zwierzaki Atakują"><span>PROSTO Z ERY J2ME</span></div>
+    <div class="welcome-content"><span class="eyebrow">DOBRZE CIĘ ZNOWU WIDZIEĆ</span><h2 id="welcome-title">Wciąż mają<br> pazur.</h2><p>Pięć zwierzaków, jedna wyrzutnia i niedźwiadki do strącenia. Stara dobra gra wraca do przeglądarki.</p><div class="welcome-facts"><span><b>50</b> plansz</span><span><b>5</b> zwierzaków</span><span><b>∞</b> prób</span></div><button class="primary-button" id="start-button" disabled>Wczytywanie…</button><small class="welcome-note">Mysz, dotyk lub klawiatura. Postęp zapisuje się tutaj.</small></div>
+  </dialog>
+
+  <dialog id="levels-dialog" class="content-dialog" aria-labelledby="levels-title"><div class="dialog-heading"><div><span class="eyebrow">KAŻDA KONSTRUKCJA MA SŁABY PUNKT</span><h2 id="levels-title">Wybierz planszę</h2></div><button class="icon-button close-dialog" aria-label="Zamknij">×</button></div><p class="dialog-intro">Przechodź kolejne etapy albo zajrzyj do dowolnej odzyskanej planszy. Najlepsze wyniki zapisują się w tej przeglądarce.</p><div id="level-grid" class="level-grid"></div><div class="map-legend"><span><i class="completed-dot"></i> Ukończona</span><span>⚑ Starcie z armatą</span></div></dialog>
+
+  <dialog id="help-dialog" class="content-dialog" aria-labelledby="help-title"><div class="dialog-heading"><div><span class="eyebrow">SZYBKIE PRZYPOMNIENIE</span><h2 id="help-title">Cel. Moc. Rozróba.</h2></div><button class="icon-button close-dialog" aria-label="Zamknij">×</button></div><div class="instructions"><div><b>01</b><h3>Wyceluj</h3><p>Suwakami ustaw kąt i moc. Możesz też odciągnąć zwierzaka na wyrzutni. Kropki pokazują przewidywany lot.</p></div><div><b>02</b><h3>Wystrzel</h3><p>Naciśnij „Atakuj!” lub spację. W locie użyj zdolności przyciskiem lub klawiszem E. Skunks leci bez dodatkowej zdolności.</p></div><div><b>03</b><h3>Strąć niedźwiadki</h3><p>Uderzaj bezpośrednio lub przewracaj konstrukcje. Ocalałe zwierzaki dają bonus. Na planszach z armatą chroń trzy życia wyrzutni.</p></div></div><div id="animal-guide" class="animal-guide"></div><div class="keyboard-guide"><span><kbd>←</kbd><kbd>→</kbd> moc</span><span><kbd>↑</kbd><kbd>↓</kbd> kąt</span><span><kbd>R</kbd> od nowa</span><span><kbd>P</kbd> pauza</span><span><kbd>V</kbd> widok</span></div></dialog>
+
+  <dialog id="about-dialog" class="content-dialog compact-dialog" aria-labelledby="about-title"><div class="dialog-heading"><div><span class="eyebrow">ZWIERZAKI ATAKUJĄ · WEB 0.1</span><h2 id="about-title">Powrót z małego ekranu</h2></div><button class="icon-button close-dialog" aria-label="Zamknij">×</button></div><p>Port w HTML i JavaScript, przygotowany na podstawie analizy wersji J2ME 1.5. Korzysta ze 105 oryginalnych grafik i danych 50 plansz.</p><p>To grywalna wersja rozwojowa. Reguły strzału, obrażeń i punktacji pochodzą z oryginału. Kontakty fizyczne, rozpad połączonych konstrukcji, kamera i sterowanie są odtworzone na potrzeby przeglądarki; zachowanie nie jest jeszcze potwierdzone porównaniem z działającą wersją Java.</p><p class="about-credit">Oryginał: CT Creative Team / PTGame.eu. Grafiki i nazwa pochodzą z oryginalnej gry. Port nie uruchamia usług SMS ani dawnego sklepu.</p></dialog>
+  <div id="loading-error" class="loading-error" hidden role="alert"></div>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

@@ -1,1 +1,102 @@
-# zwierzaki-atakuja-web-port
+# Zwierzaki Atakują — port do przeglądarki
+
+Grywalny port rozwojowy w czystym **HTML, CSS i JavaScript**, z Canvas 2D.
+Nie wymaga Javy, emulatora, frameworka, bundlera ani usług zewnętrznych w czasie gry.
+
+## Zawartość
+
+- 50 układów plansz odzyskanych z fabryk poziomów w oryginalnym MIDlecie 1.5.
+- 105 oryginalnych obrazów skopiowanych bez zmiany bajtów.
+- Pięć typów zwierzaków, ich strzały i zdolności, konstrukcje z materiałami,
+  niedźwiadki, punktacja, bonusy i starcia z armatą.
+- Sterowanie myszą, wskaźnikiem dotykowym i klawiaturą, widok całej planszy,
+  śledzenie lotu, przesuwanie i przybliżanie kamery.
+- Pauza, ponawianie planszy, wybór wszystkich etapów i lokalny zapis rekordów.
+
+## Uruchomienie
+
+Serwuj katalog `dist` przez dowolny serwer HTTP. Przykład lokalny:
+
+```sh
+python3 -m http.server 8080 --directory dist
+```
+
+Otwórz `http://localhost:8080`. Moduły ES wymagają HTTP; otwieranie `index.html`
+bezpośrednio przez `file://` nie jest obsługiwane.
+
+```sh
+npm test
+npm run check
+node tools/smoke-campaign.mjs
+```
+
+Projekt nie ma zależności npm do instalacji. Testy korzystają z wbudowanego
+runnera Node. W zarządzanym środowisku Sites podgląd obsługuje `sites-preview`.
+
+## Sterowanie
+
+| Działanie | Sterowanie |
+| --- | --- |
+| Kąt | Suwak lub strzałki góra/dół |
+| Moc | Suwak lub strzałki lewo/prawo |
+| Strzał | „Atakuj!”, spacja albo odciągnięcie zwierzaka na wyrzutni |
+| Zdolność w locie | Przycisk, E lub spacja |
+| Od nowa | R |
+| Pauza | P lub Escape |
+| Zmiana widoku | V lub przyciski nad planszą |
+| Przesuwanie / przybliżanie | Przeciąganie tła / kółko myszy |
+
+## Pochodzenie i zgodność
+
+Źródłem jest `ZwierzakiAtakuja`, wersja 1.5, wariant Nokia 6300, CLDC 1.1 /
+MIDP 2.0. Oryginał: CT Creative Team / PTGame.eu. Analiza statyczna korzystała
+z CFR 0.152 i sprawdzeń kodu bajtowego w miejscach niejednoznacznych.
+
+SHA-256 analizowanego JAR:
+
+```
+e4e8d6daaefa0d690822b3188b7c974c8a93142c826953caf9b2010607c08b0c
+```
+
+Zachowano dane poziomów, kolejność amunicji, skalę świata, grawitację, krok
+symulacji, wzór strzału, progi obrażeń, punktację i kluczowe równania solvera.
+To nie jest jeszcze port potwierdzony porównaniem klatka po klatce z uruchomioną
+grą Java. Testy sprawdzają reguły, geometrię i grywalność portu, a nie taką parytetową
+weryfikację.
+
+### Świadome różnice i granice wersji 0.1
+
+- Kontakty wielokątów są odtworzone przez SAT i przycinanie krawędzi. Ich
+  kolejność może się różnić od oryginalnych klas kolizji.
+- Float32 jest stosowany przy zapisie stanu, nie przy każdej operacji JVM.
+  Nie odtworzono osobno alternatywnej gałęzi integracji półkrokowej.
+- Łączenie i rozpad konstrukcji zachowują spójne sekcje; nie gwarantują
+  identycznego grafu pęknięć ani oryginalnej animacji każdego odłamka.
+- Sterowanie, kamera, przewidywany tor i interfejs są przystosowane do WWW.
+  Początkowe celowanie to 27° i 95% mocy, dla wygodnego pierwszego strzału.
+- Krok 0,05 sekundy jest wykonywany co 50 ms rzeczywistego czasu. Oryginalny
+  wątek miał osobny rytm odświeżania; prędkość zegara portu to jawna decyzja.
+- Oceny medali są prezentowane jako 1–3 gwiazdki. Bonus niewykorzystanej
+  kolejki dodaje się automatycznie; nie ma dawnego pytania o dalsze niszczenie.
+- Wybór plansz umożliwia zwiedzanie wszystkich 50 etapów. Postęp i rekordy
+  są zapisywane osobno. Brak usług SMS, kupowania dodatków i starego rankingu.
+- Telefoniczne samouczki i warianty premium nie są częścią tej wersji.
+  Standardowe zdolności pięciu zwierzaków są obecne.
+- Układ mobilny obsługuje Pointer Events, ale test w oknie o rozmiarze telefonu
+  nie zastępuje testów na fizycznym Androidzie i iPhonie.
+
+## Pliki
+
+- `dist/js/physics.js` — ciała sztywne, kontakty, solver, podział konstrukcji.
+- `dist/js/levels.js` — odzyskane dane plansz.
+- `dist/js/mechanics.js`, `rules.js` — strzały, zdolności, obrażenia i punktacja.
+- `dist/js/game.js` — stan i przebieg rozgrywki.
+- `dist/js/renderer.js`, `main.js` — Canvas, DOM i sterowanie.
+- `dist/js/storage.js` — wersjonowany zapis w localStorage.
+- `tools/extract-assets.py`, `extract-levels.py` — odtwarzalne ekstraktory.
+- `docs/ASSETS.md`, `RULES.md`, `physics.md`, `level-extraction.md` — dowody
+  źródłowe, poprawki dekompilacji i szczegóły zgodności.
+
+Oryginalne nazwy i obrazy zachowują swoich właścicieli praw. Repozytorium nie
+nadaje im nowej licencji. Dane i kod telefonu analizowano statycznie; jego usługi
+sieciowe nie są uruchamiane przez aplikację WWW.
