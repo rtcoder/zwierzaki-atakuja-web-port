@@ -27,8 +27,18 @@ $('help-button').addEventListener('click',()=>openDialog('help-dialog'));
 $('about-button').addEventListener('click',()=>openDialog('about-dialog'));
 $('levels-button').addEventListener('click',()=>openDialog('levels-dialog'));
 $('fullscreen-button').addEventListener('click',async()=>{
-  try{if(document.fullscreenElement)await document.exitFullscreen();else await document.documentElement.requestFullscreen();}
+  try {
+    if(document.fullscreenElement)await document.exitFullscreen();
+    else await $('game-shell').requestFullscreen();
+    $('game-canvas').focus({preventScroll:true});
+  }
   catch{$('status-text').textContent='Pełny ekran jest niedostępny w tej przeglądarce.';}
+});
+document.addEventListener('fullscreenchange',()=>{
+  const active=document.fullscreenElement===$('game-shell'),button=$('fullscreen-button');
+  button.title=active?'Wyjdź z pełnego ekranu':'Pełny ekran gry';
+  button.setAttribute('aria-label',button.title);
+  button.setAttribute('aria-pressed',String(active));
 });
 
 function loadLevel(id) {
@@ -74,7 +84,7 @@ function renderHUD() {
   $('stage-number').textContent=String(game.level.id).padStart(2,'0');
   $('targets-value').textContent=game.targets.length;$('score-value').textContent=game.score;
   $('lives').hidden=!game.level.boss;
-  [...$('lives').children].forEach((heart,index)=>heart.classList.toggle('empty',index>=game.launcherLives));
+  $('lives').querySelectorAll('path').forEach((heart,index)=>heart.setAttribute('fill',index<game.launcherLives?'#ed7550':'none'));
   $('lives').setAttribute('aria-label',`Życia wyrzutni: ${game.launcherLives} z 3`);
   const ammo=$('ammo');ammo.replaceChildren();
   game.level.ammo.forEach((id,index)=>{
@@ -130,6 +140,9 @@ function showResult() {
 
 document.addEventListener('keydown',event=>{
   if(!started||document.querySelector('dialog[open]'))return;
+  if(event.code==='Escape'&&document.fullscreenElement) {
+    event.preventDefault();$('fullscreen-button').click();return;
+  }
   if(['INPUT','BUTTON','A'].includes(event.target.tagName)&&event.code!=='Escape')return;
   const keys=['Space','ArrowUp','ArrowDown','ArrowLeft','ArrowRight','KeyE','KeyR','KeyP','KeyV','Escape'];
   if(!keys.includes(event.code))return;event.preventDefault();

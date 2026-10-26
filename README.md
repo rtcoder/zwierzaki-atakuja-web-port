@@ -82,7 +82,8 @@ kandydatów i runtime oraz fizyczne i logiczne wymiary. Szczegóły: `docs/ASSET
 | Strzał | „Atakuj!”, spacja albo odciągnięcie zwierzaka na wyrzutni |
 | Zdolność w locie | Przycisk, E lub spacja |
 | Od nowa | R |
-| Pauza | P lub Escape |
+| Pauza | P lub Escape (poza pełnym ekranem) |
+| Pełny ekran gry | ⛶ przy planszy; wyjście tym samym przyciskiem lub Escape |
 | Zmiana widoku | V lub przyciski nad planszą |
 | Przesuwanie / przybliżanie | Przeciąganie tła / kółko myszy |
 

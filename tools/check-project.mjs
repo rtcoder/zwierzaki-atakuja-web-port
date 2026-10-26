@@ -44,9 +44,10 @@ for(const level of LEVELS) {
   if(score!==level.sourceMaxPoints)throw Error(`Level ${level.id} score mismatch: ${score}/${level.sourceMaxPoints}`);
 }
 const html=await readFile(new URL('../dist/index.html',import.meta.url),'utf8');
-for(const match of html.matchAll(/(?:src|href)="([^"#]+)"/g)) {
-  if(match[1]==='./')continue;
-  if(/^https?:/.test(match[1]))throw Error('Unexpected external runtime dependency');
-  await stat(new URL(`../dist/${match[1]}`,import.meta.url));
+for(const match of html.matchAll(/<([a-z][\w-]*)\b[^>]*?\s(src|href)="([^"#]+)"/gi)) {
+  const [,tag,attribute,url]=match;
+  if(url==='./'||tag.toLowerCase()==='a'&&attribute.toLowerCase()==='href'&&/^https:/.test(url))continue;
+  if(/^https?:/.test(url))throw Error('Unexpected external runtime dependency');
+  await stat(new URL(`../dist/${url}`,import.meta.url));
 }
 console.log(`Verified: ${count} unchanged originals (${originalBytes} bytes), ${count} AI-remastered runtime PNGs with candidate provenance (${bytes} bytes), ${LEVELS.length} source-scored stages, JavaScript syntax and HTML references.`);
