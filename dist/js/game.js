@@ -29,7 +29,7 @@ export class Game {
 
   aim(step,power) {
     if(this.state!=='aiming'||this.paused)return;
-    this.aimStep=clamp(Math.round(step),-15,13);this.powerIndex=clamp(Math.round(power),-20,0);
+    this.aimStep=clamp(step,-15,13);this.powerIndex=clamp(power,-20,0);
   }
 
   fire() {
@@ -103,10 +103,12 @@ export class Game {
   }
 
   update(dt=FIXED_DT) {
-    if(this.paused||['won','lost','aiming'].includes(this.state))return;
-    this.time+=dt;
+    if(this.paused)return;
+    // Finish visual effects even after the turn or game has ended.
     for(const effect of this.effects)effect.age+=dt;
     this.effects=this.effects.filter(e=>e.age<e.duration);
+    if(['won','lost','aiming'].includes(this.state))return;
+    this.time+=dt;
     if(this.state==='boss') {
       const p=this.bossProjectile;
       if(p) {

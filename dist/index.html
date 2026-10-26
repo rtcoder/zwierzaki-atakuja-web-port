@@ -36,7 +36,11 @@
             <div class="stat"><img src="assets/targetBIG_dmg0.png" alt="" width="27" height="27"><span><b id="targets-value">2</b><small>DO STRĄCENIA</small></span></div>
             <span class="stat-divider"></span>
             <div class="stat"><span class="score-icon" aria-hidden="true">✦</span><span><b id="score-value">0</b><small>PUNKTY</small></span></div>
-            <div class="lives" id="lives" hidden aria-label="Życia wyrzutni"></div>
+            <div class="lives" id="lives" hidden role="img" aria-label="Życia wyrzutni">
+              <svg class="life" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21 3.4 12.4C-2 7 5.6-.6 12 6c6.4-6.6 14 1 8.6 6.4Z"/></svg>
+              <svg class="life" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21 3.4 12.4C-2 7 5.6-.6 12 6c6.4-6.6 14 1 8.6 6.4Z"/></svg>
+              <svg class="life" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21 3.4 12.4C-2 7 5.6-.6 12 6c6.4-6.6 14 1 8.6 6.4Z"/></svg>
+            </div>
           </div>
         </div>
 
@@ -63,8 +67,8 @@
 
         <div class="control-deck">
           <div class="animal-card"><div class="animal-portrait"><img id="animal-image" src="assets/char_skunk1.png" alt="" width="54" height="54"></div><div><span class="tiny-label">NA WYRZUTNI</span><strong id="animal-name">Skunks</strong><small id="animal-ability">Klasyczny strzał</small></div></div>
-          <div class="aim-control"><label for="angle"><span>KĄT</span><output id="angle-value" for="angle">27°</output></label><input id="angle" type="range" min="-13" max="15" value="6" step="1" aria-label="Kąt strzału"><div class="range-marks"><span>NISKO</span><span>WYSOKO</span></div></div>
-          <div class="aim-control"><label for="power"><span>MOC</span><output id="power-value" for="power">95%</output></label><input id="power" type="range" min="1" max="20" value="19" step="1" aria-label="Moc strzału"><div class="range-marks"><span>DELIKATNIE</span><span>NA CAŁEGO</span></div></div>
+          <div class="aim-control"><label for="angle"><span>KĄT</span><output id="angle-value" for="angle">27°</output></label><input id="angle" type="range" min="-58.5" max="67.5" value="27" step="0.1" aria-label="Kąt strzału"><div class="range-marks"><span>NISKO</span><span>WYSOKO</span></div></div>
+          <div class="aim-control"><label for="power"><span>MOC</span><output id="power-value" for="power">95%</output></label><input id="power" type="range" min="5" max="100" value="95" step="0.1" aria-label="Moc strzału"><div class="range-marks"><span>DELIKATNIE</span><span>NA CAŁEGO</span></div></div>
           <button class="fire-button" id="fire-button"><span id="fire-label">ATAKUJ!</span><span class="fire-arrow" aria-hidden="true">↗</span><small id="fire-shortcut">SPACJA</small></button>
         </div>
       </section>

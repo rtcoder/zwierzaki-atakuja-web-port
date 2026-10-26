@@ -6,8 +6,9 @@ export const GRAVITY = 200;
 export const clamp = (value, min, max) => Math.max(min, Math.min(max, value));
 
 export function launchState(pivot, aimStep, powerIndex, multiplier=11) {
-  const angle=clamp(Math.round(aimStep),-15,13)*AIM_STEP;
-  const pull=clamp(Math.round(powerIndex),-20,0)*2;
+  // Keep the source units and bounds, but allow continuous browser input.
+  const angle=clamp(aimStep,-15,13)*AIM_STEP;
+  const pull=clamp(powerIndex,-20,0)*2;
   const speed=-pull*multiplier;
   const cos=Math.cos(angle), sin=Math.sin(angle);
   return {x:pivot.x+cos*(20+pull)+sin*8,

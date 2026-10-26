@@ -60,7 +60,11 @@ function togglePause(){if(!started||['won','lost'].includes(game.state))return;g
 $('pause-button').addEventListener('click',togglePause);$('pause-cover').addEventListener('click',togglePause);
 $('overview-button').addEventListener('click',()=>{renderer.setMode('overview');lastHUD='';renderHUD();});
 $('follow-button').addEventListener('click',()=>{renderer.setMode('follow');lastHUD='';renderHUD();});
-for(const id of ['angle','power'])$(id).addEventListener('input',()=>{game.aim(-Number($('angle').value),-Number($('power').value));renderHUD();});
+function aimFromControls() {
+  game.aim(-Number($('angle').value)/4.5,-Number($('power').value)/5);
+  renderHUD();
+}
+for(const id of ['angle','power'])$(id).addEventListener('input',aimFromControls);
 
 function renderHUD() {
   if(!game)return;
@@ -69,7 +73,8 @@ function renderHUD() {
   if(signature===lastHUD)return;lastHUD=signature;
   $('stage-number').textContent=String(game.level.id).padStart(2,'0');
   $('targets-value').textContent=game.targets.length;$('score-value').textContent=game.score;
-  $('lives').hidden=!game.level.boss;$('lives').textContent='♥'.repeat(game.launcherLives)+'♡'.repeat(3-game.launcherLives);
+  $('lives').hidden=!game.level.boss;
+  [...$('lives').children].forEach((heart,index)=>heart.classList.toggle('empty',index>=game.launcherLives));
   $('lives').setAttribute('aria-label',`Życia wyrzutni: ${game.launcherLives} z 3`);
   const ammo=$('ammo');ammo.replaceChildren();
   game.level.ammo.forEach((id,index)=>{
@@ -79,9 +84,9 @@ function renderHUD() {
   if(ammo.scrollWidth>ammo.clientWidth)ammo.scrollLeft=Math.max(0,game.ammoIndex*(window.innerWidth<=580?26:37)-26);
   const animal=game.currentAnimal??game.level.ammo.at(-1);
   $('animal-image').src=assetURL(ANIMALS[animal].frames[0]);$('animal-name').textContent=ANIMALS[animal].label;$('animal-ability').textContent=descriptions[animal];
-  $('angle').value=-game.aimStep;$('power').value=-game.powerIndex;
-  $('angle-value').textContent=`${(-game.aimStep*4.5).toLocaleString('pl-PL')}°`;
-  $('power-value').textContent=`${-game.powerIndex*5}%`;
+  $('angle').value=-game.aimStep*4.5;$('power').value=-game.powerIndex*5;
+  $('angle-value').textContent=`${(-game.aimStep*4.5).toLocaleString('pl-PL',{maximumFractionDigits:1})}°`;
+  $('power-value').textContent=`${(-game.powerIndex*5).toLocaleString('pl-PL',{maximumFractionDigits:1})}%`;
   for(const id of ['angle','power']){const input=$(id);input.disabled=game.state!=='aiming'||game.paused;input.style.setProperty('--fill',`${(Number(input.value)-Number(input.min))/(Number(input.max)-Number(input.min))*100}%`);}
   $('fire-button').disabled=game.paused||!(game.state==='aiming'||game.canUseAbility);
   $('fire-label').textContent=game.state==='aiming'?'ATAKUJ!':game.canUseAbility?'ZDOLNOŚĆ':game.state==='boss'?'OSTRZAŁ':game.state==='won'?'SUKCES!':game.state==='lost'?'KONIEC':'W LOCIE…';
@@ -132,10 +137,13 @@ document.addEventListener('keydown',event=>{
   else if(event.code==='KeyR'&&!event.repeat)loadLevel(game.level.id);
   else if(['KeyP','Escape'].includes(event.code)&&!event.repeat)togglePause();
   else if(event.code==='KeyV'&&!event.repeat){renderer.setMode(renderer.mode==='overview'?'follow':'overview');lastHUD='';}
-  else if(event.code==='ArrowUp')game.aim(game.aimStep-1,game.powerIndex);
-  else if(event.code==='ArrowDown')game.aim(game.aimStep+1,game.powerIndex);
-  else if(event.code==='ArrowRight')game.aim(game.aimStep,game.powerIndex-1);
-  else if(event.code==='ArrowLeft')game.aim(game.aimStep,game.powerIndex+1);
+  else if(event.code.startsWith('Arrow')) {
+    const input=$(['ArrowUp','ArrowDown'].includes(event.code)?'angle':'power');
+    if(!input.disabled) {
+      if(['ArrowUp','ArrowRight'].includes(event.code))input.stepUp();else input.stepDown();
+      aimFromControls();
+    }
+  }
   renderHUD();
 });
 document.addEventListener('visibilitychange',()=>{if(document.hidden&&started&&game){game.paused=true;lastHUD='';renderHUD();}});

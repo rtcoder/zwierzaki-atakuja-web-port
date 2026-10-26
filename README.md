@@ -114,6 +114,8 @@ weryfikację.
   identycznego grafu pęknięć ani oryginalnej animacji każdego odłamka.
 - Sterowanie, kamera, przewidywany tor i interfejs są przystosowane do WWW.
   Początkowe celowanie to 27° i 95% mocy, dla wygodnego pierwszego strzału.
+  Suwaki i klawiatura regulują kąt co 0,1° i moc co 0,1%; przeciąganie na wyrzutni
+  zachowuje wartości ciągłe zamiast oryginalnych skoków 4,5° i 5%.
 - Krok 0,05 sekundy jest wykonywany co 50 ms rzeczywistego czasu. Oryginalny
   wątek miał osobny rytm odświeżania; prędkość zegara portu to jawna decyzja.
 - Oceny medali są prezentowane jako 1–3 gwiazdki. Bonus niewykorzystanej

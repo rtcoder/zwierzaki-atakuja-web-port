@@ -15,6 +15,15 @@ test('the two upgraded stages use multiplier 12, with bounded power and angle', 
   const t=launchState({x:0,y:0},-99,-99,12);
   near(t.angle,-15*.07853982); near(Math.hypot(t.vx,t.vy),480);
 });
+test('fractional aim and power produce distinct angles and launch speeds', () => {
+  const s=launchState({x:0,y:0},-6.25,-18.75);
+  near(s.angle,-.490873875);
+  near(s.pull,-37.5);
+  near(Math.hypot(s.vx,s.vy),412.5);
+  const finer=launchState({x:0,y:0},-6.26,-18.76);
+  assert.ok(finer.angle<s.angle);
+  assert.ok(Math.hypot(finer.vx,finer.vy)>Math.hypot(s.vx,s.vy));
+});
 test('turtle accelerates along its current heading; rabbit preserves speed toward a bear', () => {
   const a=specialAbility(2,{x:0,y:0,vx:3,vy:4},[]);
   near(a.velocity.vx,360); near(a.velocity.vy,480);
